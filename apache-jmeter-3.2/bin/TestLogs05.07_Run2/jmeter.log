@@ -1,0 +1,865 @@
+2017-07-05 10:49:26,467 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2017-07-05 10:49:26,489 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2017-07-05 10:49:26,551 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2017-07-05 10:49:26,552 INFO o.a.j.JMeter: Version 3.2 r1790748
+2017-07-05 10:49:26,552 INFO o.a.j.JMeter: java.version=1.8.0_131
+2017-07-05 10:49:26,553 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2017-07-05 10:49:26,553 INFO o.a.j.JMeter: os.name=Windows 10
+2017-07-05 10:49:26,553 INFO o.a.j.JMeter: os.arch=amd64
+2017-07-05 10:49:26,553 INFO o.a.j.JMeter: os.version=10.0
+2017-07-05 10:49:26,553 INFO o.a.j.JMeter: file.encoding=Cp1252
+2017-07-05 10:49:26,553 INFO o.a.j.JMeter: Max memory     =536870912
+2017-07-05 10:49:26,553 INFO o.a.j.JMeter: Available Processors =4
+2017-07-05 10:49:26,569 INFO o.a.j.JMeter: Default Locale=English (United States)
+2017-07-05 10:49:26,570 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2017-07-05 10:49:26,570 INFO o.a.j.JMeter: JMeterHome=D:\Endava\Testing\Projects\WorldRemit\apache-jmeter-3.2\apache-jmeter-3.2
+2017-07-05 10:49:26,570 INFO o.a.j.JMeter: user.dir  =D:\Endava\Testing\Projects\WorldRemit\apache-jmeter-3.2\apache-jmeter-3.2\bin
+2017-07-05 10:49:26,570 INFO o.a.j.JMeter: PWD       =D:\Endava\Testing\Projects\WorldRemit\apache-jmeter-3.2\apache-jmeter-3.2\bin
+2017-07-05 10:49:26,572 INFO o.a.j.JMeter: IP: 172.18.42.82 Name: EN769037 FullName: EN769037.endava.net
+2017-07-05 10:49:26,573 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'D:\Endava\Testing\Projects\WorldRemit\TestDocuments\PartnershipAPI\JmeterAPITests\PerformanceTests\Results-RecipientDetails100'
+2017-07-05 10:49:26,575 INFO o.a.j.s.FileServer: Default base='D:\Endava\Testing\Projects\WorldRemit\apache-jmeter-3.2\apache-jmeter-3.2\bin'
+2017-07-05 10:49:26,576 INFO o.a.j.s.FileServer: Set new base='D:\Endava\Testing\Projects\WorldRemit\TestDocuments\PartnershipAPI\JmeterAPITests\PerformanceTests'
+2017-07-05 10:49:26,827 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2017-07-05 10:49:26,839 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2017-07-05 10:49:26,845 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2017-07-05 10:49:26,877 INFO o.a.j.s.SaveService: Loading file: D:\Endava\Testing\Projects\WorldRemit\TestDocuments\PartnershipAPI\JmeterAPITests\PerformanceTests\RecipientDetails100.jmx
+2017-07-05 10:49:26,899 ERROR o.a.j.u.NameUpdater: Could not find upgrade file.
+java.io.FileNotFoundException: D:\Endava\Testing\Projects\WorldRemit\apache-jmeter-3.2\apache-jmeter-3.2\bin\upgrade.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_131]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:1.8.0_131]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:1.8.0_131]
+	at org.apache.jmeter.util.NameUpdater.<clinit>(NameUpdater.java:53) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.save.SaveService$XStreamWrapper$1.realClass(SaveService.java:95) [ApacheJMeter_core.jar:3.2 r1790748]
+	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:30) [xstream-1.4.9.jar:1.4.9]
+	at com.thoughtworks.xstream.mapper.CachingMapper.realClass(CachingMapper.java:47) [xstream-1.4.9.jar:1.4.9]
+	at com.thoughtworks.xstream.core.util.HierarchicalStreams.readClassType(HierarchicalStreams.java:29) [xstream-1.4.9.jar:1.4.9]
+	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:133) [xstream-1.4.9.jar:1.4.9]
+	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:32) [xstream-1.4.9.jar:1.4.9]
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1230) [xstream-1.4.9.jar:1.4.9]
+	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:1214) [xstream-1.4.9.jar:1.4.9]
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1085) [xstream-1.4.9.jar:1.4.9]
+	at org.apache.jmeter.save.SaveService.readTree(SaveService.java:442) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.save.SaveService.loadTree(SaveService.java:425) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:923) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.JMeter.startNonGui(JMeter.java:910) [ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.JMeter.start(JMeter.java:538) [ApacheJMeter_core.jar:3.2 r1790748]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_131]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_131]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_131]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_131]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:248) [ApacheJMeter.jar:3.2 r1790748]
+2017-07-05 10:49:26,952 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-07-05 10:49:26,953 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-07-05 10:49:26,953 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-07-05 10:49:26,953 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-07-05 10:49:26,953 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2017-07-05 10:49:26,953 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2017-07-05 10:49:27,066 INFO o.a.j.JMeter: Creating summariser <summary>
+2017-07-05 10:49:27,260 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2017-07-05 10:49:27,260 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: testlogRecipientDetails100.log
+2017-07-05 10:49:27,260 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: D:\Endava\Testing\Projects\WorldRemit\apache-jmeter-3.2\apache-jmeter-3.2\bin\reportgenerator.properties
+2017-07-05 10:49:27,266 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2017-07-05 10:49:27,276 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2017-07-05 10:49:27,279 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2017-07-05 10:49:27,279 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
+2017-07-05 10:49:27,279 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2017-07-05 10:49:27,279 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2017-07-05 10:49:27,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2017-07-05 10:49:27,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2017-07-05 10:49:27,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2017-07-05 10:49:27,280 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2017-07-05 10:49:27,288 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2017-07-05 10:49:27,288 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2017-07-05 10:49:27,288 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2017-07-05 10:49:27,288 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2017-07-05 10:49:27,310 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2017-07-05 10:49:27,310 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2017-07-05 10:49:27,310 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2017-07-05 10:49:27,310 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2017-07-05 10:49:27,310 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2017-07-05 10:49:27,311 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2017-07-05 10:49:27,312 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2017-07-05 10:49:27,312 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2017-07-05 10:49:27,890 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-07-05 10:49:27,893 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-07-05 10:49:27,894 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-07-05 10:49:28,024 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2017-07-05 10:49:28,024 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.g2017-02017-07-05 10:49:29,212 INFO o.a.j.JMeter: Running test (1499240969212)
+2017-07-05 10:49:29,300 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-07-05 10:49:29,301 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Thread Group.
+2017-07-05 10:49:29,301 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-07-05 10:49:29,301 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=1 perThread=10.0 delayedStart=false
+2017-07-05 12017-07-05 10:49:29,930 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-07-05 10:49:29,930 INFO o.a.j.e.StandardJMeterEngine: All thread groups have be2017-07-05 10:49:30,408 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2017-07-05 10:49:30,410 INFO o.a.j.s.FileServer: Stored: users-foundation.csv
+2017-07-05 10:49:30,459 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2017-07-05 10:49:30,467 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-07-05 10:49:30,477 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = EN769037
+2017-07-05 2017-07-05 10:49:30,508 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2017-07-05 10:49:30,513 INFO o.a.j.s.SampleResult: Note: Sample TimeStamp2017-07-05 10:49:30,645 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2017-07-05 10:49:30,646 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2017-07-05 10:49:30,647 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2017-07-05 10:49:30,655 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2017-07-05 10:49:30,656 INFO2017-07-05 10:49:31,131 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2017-07-05 10:49:31,132 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2017-07-05 10:49:31,149 INFO o.a.j.t.JMeterThread: Thread started: Thre2017-07-05 10:49:31,311 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-80
+2017-07-05 10:49:31,311 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-79
+2017-07-05 10:49:31,312 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-78
+2017-07-05 10:49:31,316 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-77
+2017-07-05 10:49:31,333 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-76
+2017-07-05 10:49:31,336 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-75
+2017-07-05 10:49:31,339 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-74
+2017-07-05 10:49:31,350 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-73
+2017-07-05 10:49:31,356 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-72
+2017-07-05 10:49:31,360 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-71
+2017-07-05 10:49:31,2017-07-05 10:49:31,601 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2017-07-05 10:49:31,604 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2017-07-05 10:49:31,604 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2017-07-05 10:49:31,795 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2017-07-05 10:49:31,808 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2017-07-05 10:49:31,814 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2017-07-05 10:49:31,894 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2017-07-05 10:49:31,931 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2017-07-05 10:49:31,933 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2017-07-05 10:49:31,954 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2017-07-05 10:49:31,965 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2017-07-05 10:49:31,972 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2017-07-05 10:49:32,075 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2017-07-05 10:49:32,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2017-07-05 10:49:32,113 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2017-07-05 10:49:32,124 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2017-07-05 10:49:32,134 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2017-07-05 10:49:32,148 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2017-07-05 10:49:32,234 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2017-07-05 10:49:32,293 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2017-07-05 10:49:32,308 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2017-07-05 10:49:32,330 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2017-07-05 10:49:32,339 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2017-07-05 10:49:32,363 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2017-07-05 10:49:32,375 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-41
+2017-07-05 10:49:32,388 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-42
+2017-07-05 10:49:32,432 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-43
+2017-07-05 10:49:32,459 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-44
+2017-07-05 10:49:32,474 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-45
+2017-07-05 10:49:32,492 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-46
+2017-07-05 10:49:32,511 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-47
+2017-07-05 10:49:32,550 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-48
+2017-07-05 10:49:32,555 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-49
+2017-07-05 10:49:32,582 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-50
+2017-07-05 10:49:32,597 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-51
+2017-07-05 10:49:32,611 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-52
+2017-07-05 10:49:32,627 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-07-05 10:49:32,627 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-07-05 10:49:32,639 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-53
+2017-07-05 10:49:32,661 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-54
+2017-07-05 10:49:32,692 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-55
+2017-07-05 10:49:32,696 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-56
+2017-07-05 10:49:32,721 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-57
+2017-07-05 10:49:32,745 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-58
+2017-07-05 10:49:32,785 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-59
+2017-07-05 10:49:32,807 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-60
+2017-07-05 10:49:32,856 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-61
+2017-07-05 10:49:32,872 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-62
+2017-07-05 10:49:32,884 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-63
+2017-07-05 10:49:32,909 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-64
+2017-07-05 10:49:32,914 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-65
+2017-07-05 10:49:32,916 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-66
+2017-07-05 10:49:32,948 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-67
+2017-07-05 10:49:32,956 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-68
+2017-07-05 10:49:32,983 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-69
+2017-07-05 10:49:32,997 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-70
+2017-07-05 10:49:33,019 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-71
+2017-07-05 10:49:33,042 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-72
+2017-07-05 10:49:33,058 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-73
+2017-07-05 10:49:33,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-74
+2017-07-05 10:49:33,106 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-75
+2017-07-05 10:49:33,137 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-76
+2017-07-05 10:49:33,143 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-77
+2017-07-05 10:49:33,162 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-78
+2017-07-05 10:49:33,182 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-79
+2017-07-05 10:49:33,306 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-80
+2017-07-05 10:49:33,307 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-81
+2017-07-05 10:49:33,519 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-82
+2017-07-05 10:49:33,589 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-83
+2017-07-05 10:49:33,590 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-84
+2017-07-05 10:49:33,594 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-85
+2017-07-05 10:49:33,595 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-86
+2017-07-05 10:49:33,602 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-87
+2017-07-05 10:49:33,603 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-88
+2017-07-05 10:49:33,604 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-89
+2017-07-05 10:49:33,705 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-90
+2017-07-05 10:49:33,706 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-91
+2017-07-05 10:49:33,707 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-92
+2017-07-05 10:49:33,708 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-93
+2017-07-05 10:49:33,709 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-94
+2017-07-05 10:49:33,709 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-95
+2017-07-05 10:49:33,709 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-96
+2017-07-05 10:49:33,710 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-97
+2017-07-05 10:49:33,717 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-98
+2017-07-05 10:49:33,728 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-99
+2017-07-05 10:49:33,734 INFO o.a.j.t.JMeterThread: Thread started: Thread Gr2017-02017-07-05 10:49:35,892 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2017-07-05 10:49:35,894 INFO o.a.j.u.SSLManager: KeyStore created OK
+2017-07-05 10:49:35,894 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keys2017-02017-07-05 10:50:31,194 INFO o.a.j.r.Summariser: summary +     95 in 00:01:02 =    1.5/s Avg: 49306 Min: 21258 Max: 57750 Err:     1 (1.05%) Active: 100 Started: 100 Finishe2017-02017-07-05 10:51:00,528 INFO o.a.j.r.Summariser: summary +     91 in 00:00:29 =    3.1/s Avg: 29163 Min: 13320 Max: 66561 Err:     1 (1.10%) Active: 100 Started: 100 Finished: 0
+2017-07-05 10:51:00,528 INFO o.a.j.r.Summariser: summary =    186 in 00:01:31 =    2.0/s Avg: 39451 Min: 13320 Max: 66561 Err:     2 (1.08%)
+2017-07-05 10:51:30,420 INFO o.a.j.r.Summariser: summary +     70 in 00:00:30 =    2.3/s Avg: 34564 Min: 19127 Max: 48088 Err:     1 (1.43%) Active: 100 Started: 100 Finished: 0
+2017-07-05 10:51:30,420 INFO o.a.j.r.Summariser: summary =    256 in 00:02:01 =    2.1/s Avg: 38115 Min: 13320 Max: 66561 Err:     3 (1.2017-02017-07-05 10:52:01,982 INFO o.a.j.r.Summariser: summary +     78 in 00:00:32 =    2.5/s Avg: 37880 Min: 18858 Max: 55719 Err:     1 (1.28%) Active: 100 Started: 100 Finished: 0
+2017-07-05 10:52:01,997 INFO o.a.j.r.Summariser: summary =    334 in 00:02:33 =    2.2/s Avg: 38060 Min: 13320 Max: 66561 Err:     4 (1.20%)
+2017-07-05 10:52:31,410 INFO o.a.j.r.Summariser: summary +     85 in 00:00:29 =    2.9/s Avg: 35223 Min: 21713 Max: 109999 Err:     2 (2.35%) Active: 100 Started: 100 Finished: 0
+2017-07-05 10:52:31,433 INFO o.a.j.r.Summariser: summary =    419 in 00:03:02 =    2.3/s Avg: 37484 Min: 13320 Max: 109999 Err:     6 (1.43%)
+2017-07-05 10:52:38,910 INFO o.a.j.p.h.s.HTTPJavaImpl: Maximum connection retries = 0
+2017-07-05 10:52:41,187 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-56
+2017-07-05 10:52:41,187 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-56
+2017-07-05 10:52:50,473 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2017-07-05 10:52:50,473 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2017-07-05 10:52:50,576 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-83
+2017-07-05 10:52:50,576 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-83
+2017-07-05 10:52:53,932 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-29
+2017-07-05 10:52:53,932 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2017-07-05 10:52:54,502 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-51
+2017-07-05 10:52:54,502 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-51
+2017-07-05 10:52:56,198 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-81
+2017-07-05 10:52:56,198 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-81
+2017-07-05 10:53:00,018 INFO o.a.j.r.Summariser: summary +    207 in 00:00:29 =    7.2/s Avg: 14270 Min:   381 Max: 106020 Err:    11 (5.31%) Active: 94 Started: 100 Finished: 6
+2017-07-05 10:53:00,018 INFO o.a.j.r.Summariser: summary =    626 in 00:03:31 =    3.0/s Avg: 29808 Min:   381 Max: 109999 Err:    17 (2.72%)
+2017-07-05 10:53:00,034 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-60
+2017-07-05 10:53:00,034 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-60
+2017-07-05 10:53:01,086 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-69
+2017-07-05 10:53:01,086 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-69
+2017-07-05 10:53:01,967 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-57
+2017-07-05 10:53:01,967 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-57
+2017-07-05 10:53:01,967 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2017-07-05 10:53:01,967 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2017-07-05 10:53:03,138 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-93
+2017-07-05 10:53:03,138 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-93
+2017-07-05 10:53:03,185 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-87
+2017-07-05 10:53:03,185 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-87
+2017-07-05 10:53:07,953 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2017-07-05 10:53:07,953 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2017-07-05 10:53:10,326 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2017-07-05 10:53:10,326 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2017-07-05 10:53:11,406 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-59
+2017-07-05 10:53:11,406 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-59
+2017-07-05 10:53:12,129 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-75
+2017-07-05 10:53:12,129 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-75
+2017-07-05 10:53:14,079 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-77
+2017-07-05 10:53:14,079 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-77
+2017-07-05 10:53:14,583 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2017-07-05 10:53:14,583 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2017-07-05 10:53:18,816 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-45
+2017-07-05 10:53:18,816 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-45
+2017-07-05 10:53:19,265 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-07-05 10:53:19,265 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-07-05 10:53:19,648 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2017-07-05 10:53:19,648 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2017-07-05 10:53:20,096 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-41
+2017-07-05 10:53:20,096 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-41
+2017-07-05 10:53:20,433 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2017-07-05 10:53:20,433 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2017-07-05 10:53:20,433 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-64
+2017-07-05 10:53:20,433 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-64
+2017-07-05 10:53:21,364 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-46
+2017-07-05 10:53:21,364 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-46
+2017-07-05 10:53:21,981 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-43
+2017-07-05 10:53:21,981 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-43
+2017-07-05 10:53:22,619 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-32
+2017-07-05 10:53:22,619 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2017-07-05 10:53:22,619 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-35
+2017-07-05 10:53:22,619 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2017-07-05 10:53:24,189 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-92
+2017-07-05 10:53:24,189 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-92
+2017-07-05 10:53:24,874 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2017-07-05 10:53:24,874 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2017-07-05 10:53:25,877 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-72
+2017-07-05 10:53:25,877 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-72
+2017-07-05 10:53:25,877 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2017-07-05 10:53:25,877 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2017-07-05 10:53:26,410 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-67
+2017-07-05 10:53:26,410 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-67
+2017-07-05 10:53:28,872 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-27
+2017-07-05 10:53:28,872 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2017-07-05 10:53:28,872 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-63
+2017-07-05 10:53:28,872 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-63
+2017-07-05 10:53:29,019 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-73
+2017-07-05 10:53:29,019 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-26
+2017-07-05 10:53:29,019 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-73
+2017-07-05 10:53:29,019 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2017-07-05 10:53:29,805 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2017-07-05 10:53:29,805 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2017-07-05 10:53:30,011 INFO o.a.j.r.Summariser: summary +    321 in 00:00:30 =   10.7/s Avg: 11565 Min:   455 Max: 56244 Err:    11 (3.43%) Active: 62 Started: 100 Finished: 38
+2017-07-05 10:53:30,011 INFO o.a.j.r.Summariser: summary =    947 in 00:04:01 =    3.9/s Avg: 23624 Min:   381 Max: 109999 Err:    28 (2.96%)
+2017-07-05 10:53:30,597 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-84
+2017-07-05 10:53:30,597 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-66
+2017-07-05 10:53:30,597 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-66
+2017-07-05 10:53:30,597 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-84
+2017-07-05 10:53:30,913 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-53
+2017-07-05 10:53:30,913 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-53
+2017-07-05 10:53:31,329 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-40
+2017-07-05 10:53:31,329 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2017-07-05 10:53:31,567 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:31,567 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:31,567 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:31,567 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-95
+2017-07-05 10:53:31,567 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-95
+2017-07-05 10:53:31,567 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:31,567 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:31,567 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:31,567 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-28
+2017-07-05 10:53:31,567 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2017-07-05 10:53:33,560 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:33,560 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:33,560 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:33,560 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-48
+2017-07-05 10:53:33,560 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-48
+2017-07-05 10:53:35,429 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:35,429 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:35,429 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:35,429 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2017-07-05 10:53:35,429 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2017-07-05 10:53:37,052 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:37,052 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:37,052 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:37,052 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2017-07-05 10:53:37,052 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2017-07-05 10:53:37,121 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:37,121 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:37,121 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:37,121 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-94
+2017-07-05 10:53:37,121 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-94
+2017-07-05 10:53:37,553 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:37,553 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:37,553 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:37,553 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-70
+2017-07-05 10:53:37,553 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-70
+2017-07-05 10:53:38,312 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:38,312 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:38,312 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:38,328 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-47
+2017-07-05 10:53:38,328 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-47
+2017-07-05 10:53:38,629 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2017-07-05 10:53:38,629 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2017-07-05 10:53:39,029 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:39,029 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:39,029 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:39,029 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2017-07-05 10:53:39,029 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2017-07-05 10:53:39,445 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:39,445 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:39,445 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:39,445 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-97
+2017-07-05 10:53:39,445 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-97
+2017-07-05 10:53:39,661 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:39,661 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:39,661 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:39,661 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:39,661 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:39,661 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:39,661 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2017-07-05 10:53:39,661 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2017-07-05 10:53:39,661 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2017-07-05 10:53:39,661 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2017-07-05 10:53:39,761 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:39,761 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:39,761 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:39,761 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-34
+2017-07-05 10:53:39,761 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2017-07-05 10:53:39,761 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:39,761 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:39,761 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:39,761 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-38
+2017-07-05 10:53:39,761 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-38
+2017-07-05 10:53:40,631 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:40,631 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:40,631 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:40,646 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2017-07-05 10:53:40,646 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2017-07-05 10:53:42,735 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:42,735 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:42,735 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:42,735 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2017-07-05 10:53:42,735 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2017-07-05 10:53:42,897 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:42,897 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:42,897 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:42,897 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2017-07-05 10:53:42,897 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2017-07-05 10:53:43,398 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-30
+2017-07-05 10:53:43,398 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2017-07-05 10:53:43,953 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-54
+2017-07-05 10:53:43,953 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-54
+2017-07-05 10:53:44,902 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:44,902 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:44,902 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:44,902 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-74
+2017-07-05 10:53:44,902 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-74
+2017-07-05 10:53:45,702 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:45,702 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:45,702 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:45,702 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-65
+2017-07-05 10:53:45,702 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-65
+2017-07-05 10:53:45,855 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:45,855 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:45,855 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:45,855 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-88
+2017-07-05 10:53:45,855 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-88
+2017-07-05 10:53:46,525 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:46,525 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:46,525 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:46,541 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-98
+2017-07-05 10:53:46,541 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-98
+2017-07-05 10:53:46,687 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:46,687 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:46,687 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:46,687 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-37
+2017-07-05 10:53:46,687 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2017-07-05 10:53:46,703 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:46,703 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:46,703 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:46,703 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-58
+2017-07-05 10:53:46,703 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-58
+2017-07-05 10:53:47,205 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:47,205 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:47,205 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:47,205 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-99
+2017-07-05 10:53:47,205 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-99
+2017-07-05 10:53:47,325 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:47,325 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:47,326 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:47,326 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:47,326 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:47,326 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:47,326 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2017-07-05 10:53:47,326 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2017-07-05 10:53:47,326 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-80
+2017-07-05 10:53:47,326 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-80
+2017-07-05 10:53:49,128 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,128 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,128 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:49,128 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-36
+2017-07-05 10:53:49,128 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2017-07-05 10:53:49,131 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,131 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,131 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:49,131 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-50
+2017-07-05 10:53:49,131 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-50
+2017-07-05 10:53:49,131 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,131 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,131 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:49,146 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-79
+2017-07-05 10:53:49,146 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-79
+2017-07-05 10:53:49,178 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,178 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,178 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:49,178 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-100
+2017-07-05 10:53:49,178 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-100
+2017-07-05 10:53:49,193 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,193 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,193 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:49,193 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-39
+2017-07-05 10:53:49,193 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2017-07-05 10:53:49,428 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,428 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,428 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:49,429 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-78
+2017-07-05 10:53:49,429 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-78
+2017-07-05 10:53:51,250 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:51,250 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:51,250 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:51,250 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-86
+2017-07-05 10:53:51,250 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-86
+2017-07-05 10:53:53,702 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-31
+2017-07-05 10:53:53,702 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2017-07-05 10:53:53,702 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-49
+2017-07-05 10:53:53,702 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-49
+2017-07-05 10:53:53,771 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-71
+2017-07-05 10:53:53,771 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-71
+2017-07-05 10:53:53,918 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:53,918 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:53,918 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:53,918 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2017-07-05 10:53:53,918 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2017-07-05 10:53:53,955 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-62
+2017-07-05 10:53:53,955 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-62
+2017-07-05 10:53:53,955 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2017-07-05 10:53:53,955 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2017-07-05 10:53:53,971 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:53,971 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:53,971 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:53,971 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-91
+2017-07-05 10:53:53,971 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-91
+2017-07-05 10:53:54,391 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:54,391 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:54,391 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:54,391 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-42
+2017-07-05 10:53:54,391 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-42
+2017-07-05 10:53:54,876 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-82
+2017-07-05 10:53:54,876 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-82
+2017-07-05 10:53:55,793 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-44
+2017-07-05 10:53:55,793 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-44
+2017-07-05 10:53:56,347 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2017-07-05 10:53:56,347 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2017-07-05 10:53:56,997 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-55
+2017-07-05 10:53:56,997 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-55
+2017-07-05 10:53:57,251 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-89
+2017-07-05 10:53:57,251 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-85
+2017-07-05 10:53:57,251 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-89
+2017-07-05 10:53:57,251 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-85
+2017-07-05 10:53:57,267 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-61
+2017-07-05 10:53:57,267 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-61
+2017-07-05 10:53:57,398 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-68
+2017-07-05 10:53:57,398 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-68
+2017-07-05 10:53:57,414 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-90
+2017-07-05 10:53:57,414 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-90
+2017-07-05 10:53:57,751 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:57,751 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:57,751 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:57,767 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-96
+2017-07-05 10:53:57,767 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-96
+2017-07-05 10:53:57,898 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-52
+2017-07-05 10:53:57,898 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-52
+2017-07-05 10:53:57,898 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2017-07-05 10:53:57,898 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2017-07-05 10:53:58,270 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-33
+2017-07-05 10:53:58,270 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-33
+2017-07-05 10:54:00,417 INFO o.a.j.r.Summariser: summary +    353 in 00:00:30 =   11.6/s Avg:  5357 Min:   422 Max: 52788 Err:   101 (28.61%) Active: 1 Started: 100 Finished: 99
+2017-07-05 10:54:00,432 INFO o.a.j.r.Summariser: summary =   1300 in 00:04:31 =    4.8/s Avg: 18664 Min:   381 Max: 109999 Err:   129 (9.92%)
+2017-07-05 10:54:00,432 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-76
+2017-07-05 10:54:00,432 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-76
+2017-07-05 10:54:00,432 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-07-05 10:54:00,432 INFO o.a.j.s.FileServer: Close: users-foundation.csv
+2017-07-05 10:54:00,432 INFO o.a.j.r.Summariser: summary =   1300 in 00:04:31 =    4.8/s Avg: 18664 Min:   381 Max: 109999 Err:   129 (9.92%)
+2017-07-05 10:54:00,432 INFO o.a.j.JMeter: Generating Dashboard
+2017-07-05 10:54:00,432 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2017-07-05 10:54:00,454 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2017-07-05 10:54:00,687 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2017-07-05 10:54:00,687 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2017-07-05 10:54:00,687 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2017-07-05 10:54:00,687 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2017-07-05 10:54:00,687 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2017-07-05 10:54:00,687 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2017-07-05 10:54:00,687 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2017-07-05 10:54:00,687 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2017-07-05 10:54:00,718 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2017-07-05 10:54:00,718 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2017-07-05 10:54:00,718 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2017-07-05 10:54:00,718 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2017-07-05 10:54:00,734 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2017-07-05 10:54:00,734 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 9100 samples
+2017-07-05 10:54:00,734 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2017-07-05 10:54:00,734 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2017-07-05 10:54:00,734 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2017-07-05 10:54:00,734 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2017-07-05 10:54:00,734 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2017-07-05 10:54:00,752 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2017-07-05 10:54:00,754 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2017-07-05 10:54:00,754 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2017-07-05 10:54:00,754 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2017-07-05 10:54:00,755 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 18200 samples
+2017-07-05 10:54:00,755 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 3900 samples
+2017-07-05 10:54:00,755 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 1300 samples
+2017-07-05 10:54:00,755 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 1300 samples produced in 285ms on channel 0
+2017-07-05 10:54:00,755 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2017-07-05 10:54:00,756 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: D:\Endava\Testing\Projects\WorldRemit\TestDocuments\PartnershipAPI\JmeterAPITests\PerformanceTests\Results-RecipientDetails100
+2017-07-05 10:54:00,818 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: D:\Endava\Testing\Projects\WorldRemit\TestDocuments\PartnershipAPI\JmeterAPITests\PerformanceTests\Results-RecipientDetails100, creating folder structure
+2017-07-05 10:54:01,457 INFO o.a.j.JMeter: Dashboard generated
+rver returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:42,866 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:42,866 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:42,866 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:42,866 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:42,866 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:42,950 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:42,950 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:42,950 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:45,887 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:45,887 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:45,887 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:46,672 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:46,672 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:46,672 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:46,687 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:46,687 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:46,687 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:46,703 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:46,703 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:46,703 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:46,804 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:46,804 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:46,804 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:47,189 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:47,189 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:47,189 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:47,389 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:47,389 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:47,389 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:49,030 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,030 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,030 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:49,130 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,130 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,130 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:49,378 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:49,378 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:49,378 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:49,378 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,378 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:49,378 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:49,779 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:49,779 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:49,779 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:51,667 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:51,667 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:51,667 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:51,667 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:51,667 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:51,667 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:52,136 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:52,136 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:52,136 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:52,136 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:52,136 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:52,136 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:52,499 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:52,499 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:52,499 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:53,971 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:53,971 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:53,971 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:54,422 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:54,422 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/recipients?correspondentId=255&productCode=BNK
+2017-07-05 10:53:54,422 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:55,461 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:55,461 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:55,461 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:55,724 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:55,724 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:55,724 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:56,163 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:56,163 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:56,163 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:56,725 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:56,725 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:56,725 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:56,997 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:56,997 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:56,997 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:57,213 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:57,213 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:57,213 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:57,814 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:57,814 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:57,814 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:58,049 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-63
+2017-07-05 10:53:58,050 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-63
+2017-07-05 10:53:58,916 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2017-07-05 10:53:58,916 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2017-07-05 10:53:58,931 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2017-07-05 10:53:58,931 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2017-07-05 10:53:59,569 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:59,569 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:59,569 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:59,569 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:59,569 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:59,569 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:59,569 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-30
+2017-07-05 10:53:59,569 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2017-07-05 10:53:59,669 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:59,669 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:53:59,669 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:53:59,885 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-88
+2017-07-05 10:53:59,885 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-88
+2017-07-05 10:54:00,116 ERROR o.a.j.p.h.s.HTTPJavaImpl: readResponse: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:54:00,116 ERROR o.a.j.p.h.s.HTTPJavaImpl: Cause: java.io.IOException: Server returned HTTP response code: 429 for URL: https://api.foundation.worldremit.com/api/transactions
+2017-07-05 10:54:00,116 INFO o.a.j.p.h.s.HTTPJavaImpl: Error Response Code: 429
+2017-07-05 10:54:00,116 INFO o.a.j.r.Summariser: summary +    261 in 00:00:30 =    8.7/s Avg:  4986 Min:     0 Max: 52596 Err:   118 (45.21%) Active: 73 Started: 100 Finished: 27
+2017-07-05 10:54:00,116 INFO o.a.j.r.Summariser: summary =   1582 in 00:04:32 =    5.8/s Avg: 14466 Min:     0 Max: 96154 Err:   242 (15.30%)
+2017-07-05 10:54:00,834 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-67
+2017-07-05 10:54:00,834 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-67
+2017-07-05 10:54:01,119 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-39
+2017-07-05 10:54:01,119 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2017-07-05 10:54:01,388 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-37
+2017-07-05 10:54:01,388 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2017-07-05 10:54:01,404 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-43
+2017-07-05 10:54:01,404 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-43
+2017-07-05 10:54:03,308 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-31
+2017-07-05 10:54:03,308 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2017-07-05 10:54:11,318 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-80
+2017-07-05 10:54:11,318 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-80
+2017-07-05 10:54:13,453 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-100
+2017-07-05 10:54:13,453 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-100
+2017-07-05 10:54:19,096 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2017-07-05 10:54:19,096 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2017-07-05 10:54:20,446 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-72
+2017-07-05 10:54:20,446 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-72
+2017-07-05 10:54:23,533 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-52
+2017-07-05 10:54:23,533 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-52
+2017-07-05 10:54:29,204 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-68
+2017-07-05 10:54:29,204 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-68
+2017-07-05 10:54:29,806 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2017-07-05 10:54:29,806 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2017-07-05 10:54:30,245 INFO o.a.j.r.Summariser: summary +     38 in 00:00:30 =    1.3/s Avg: 13477 Min:     0 Max: 47374 Err:     3 (7.89%) Active: 61 Started: 100 Finished: 39
+2017-07-05 10:54:30,245 INFO o.a.j.r.Summariser: summary =   1620 in 00:05:02 =    5.4/s Avg: 14443 Min:     0 Max: 96154 Err:   245 (15.12%)
+2017-07-05 10:54:30,293 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-45
+2017-07-05 10:54:30,293 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-45
+2017-07-05 10:54:30,528 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-60
+2017-07-05 10:54:30,528 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-60
+2017-07-05 10:54:30,796 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-77
+2017-07-05 10:54:30,796 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-77
+2017-07-05 10:54:31,486 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-71
+2017-07-05 10:54:31,486 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-71
+2017-07-05 10:54:32,118 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-91
+2017-07-05 10:54:32,118 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-91
+2017-07-05 10:54:32,472 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-58
+2017-07-05 10:54:32,472 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-58
+2017-07-05 10:54:34,140 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-97
+2017-07-05 10:54:34,141 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-97
+2017-07-05 10:54:34,342 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-54
+2017-07-05 10:54:34,342 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-54
+2017-07-05 10:54:34,405 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-40
+2017-07-05 10:54:34,405 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2017-07-05 10:54:34,436 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-41
+2017-07-05 10:54:34,437 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-41
+2017-07-05 10:54:35,045 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-50
+2017-07-05 10:54:35,045 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-50
+2017-07-05 10:54:35,045 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2017-07-05 10:54:35,045 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2017-07-05 10:54:35,145 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-84
+2017-07-05 10:54:35,145 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-84
+2017-07-05 10:54:35,145 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-95
+2017-07-05 10:54:35,145 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-95
+2017-07-05 10:54:45,985 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2017-07-05 10:54:45,985 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2017-07-05 10:54:45,985 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-36
+2017-07-05 10:54:45,985 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2017-07-05 10:54:46,348 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2017-07-05 10:54:46,348 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2017-07-05 10:54:47,249 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-93
+2017-07-05 10:54:47,249 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-93
+2017-07-05 10:54:47,403 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2017-07-05 10:54:47,403 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2017-07-05 10:54:47,550 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-79
+2017-07-05 10:54:47,550 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-79
+2017-07-05 10:54:47,603 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-85
+2017-07-05 10:54:47,603 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-85
+2017-07-05 10:54:47,785 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2017-07-05 10:54:47,785 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2017-07-05 10:54:47,851 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2017-07-05 10:54:47,851 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2017-07-05 10:54:47,919 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2017-07-05 10:54:47,919 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2017-07-05 10:54:48,348 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-32
+2017-07-05 10:54:48,348 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2017-07-05 10:54:48,388 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-92
+2017-07-05 10:54:48,388 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-92
+2017-07-05 10:54:48,588 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-29
+2017-07-05 10:54:48,588 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2017-07-05 10:54:50,490 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2017-07-05 10:54:50,490 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2017-07-05 10:54:50,494 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-78
+2017-07-05 10:54:50,494 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-78
+2017-07-05 10:54:50,494 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-47
+2017-07-05 10:54:50,494 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-47
+2017-07-05 10:54:50,726 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-48
+2017-07-05 10:54:50,726 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-48
+2017-07-05 10:54:50,973 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-34
+2017-07-05 10:54:50,973 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2017-07-05 10:54:51,227 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-89
+2017-07-05 10:54:51,227 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-89
+2017-07-05 10:54:51,320 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-99
+2017-07-05 10:54:51,320 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-99
+2017-07-05 10:54:51,559 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2017-07-05 10:54:51,559 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2017-07-05 10:54:51,628 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-28
+2017-07-05 10:54:51,628 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2017-07-05 10:54:51,643 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2017-07-05 10:54:51,643 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2017-07-05 10:54:51,743 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-57
+2017-07-05 10:54:51,743 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-57
+2017-07-05 10:54:51,797 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-64
+2017-07-05 10:54:51,797 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-64
+2017-07-05 10:54:52,143 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-65
+2017-07-05 10:54:52,143 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-65
+2017-07-05 10:54:52,228 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-76
+2017-07-05 10:54:52,228 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-76
+2017-07-05 10:54:52,297 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-74
+2017-07-05 10:54:52,297 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-74
+2017-07-05 10:54:52,359 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-49
+2017-07-05 10:54:52,359 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-49
+2017-07-05 10:54:52,929 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-66
+2017-07-05 10:54:52,929 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-66
+2017-07-05 10:54:54,664 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2017-07-05 10:54:54,664 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2017-07-05 10:54:54,679 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-35
+2017-07-05 10:54:54,679 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2017-07-05 10:54:55,751 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-56
+2017-07-05 10:54:55,751 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-56
+2017-07-05 10:54:55,767 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-94
+2017-07-05 10:54:55,767 INFO o.a.j.t.JMeterThread: Thread finished: Thread Grou2017-07-2017-07-05 10:54:55,804 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-62
+2017-07-05 10:54:55,804 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-62
+2017-07-05 10:54:56,152 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2017-07-05 10:54:56,152 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2017-07-05 10:54:56,205 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2017-07-05 10:54:56,205 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2017-07-05 10:54:56,237 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2017-07-05 10:54:56,237 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2017-07-05 10:54:56,745 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-59
+2017-07-05 10:54:56,745 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-59
+2017-07-05 10:54:57,147 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2017-07-05 10:54:57,147 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2017-07-05 10:54:57,432 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2017-07-05 10:54:57,432 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2017-07-05 10:54:57,448 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-75
+2017-07-05 10:54:57,448 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-75
+2017-07-05 10:54:58,248 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-26
+2017-07-05 10:54:58,248 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2017-07-05 10:54:58,248 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-98
+2017-07-05 10:54:58,248 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-98
+2017-07-05 10:54:58,564 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-07-05 10:54:58,564 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-07-05 10:54:59,065 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-83
+2017-07-05 10:54:59,065 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-83
+2017-07-05 10:54:59,218 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-27
+2017-07-05 10:54:59,218 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2017-07-05 10:54:59,218 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-07-05 10:54:59,218 INFO o.a.j.s.FileServer: Close: users-foundation.csv
+2017-07-05 10:54:59,218 INFO o.a.j.r.Summariser: summary +    180 in 00:00:29 =    6.2/s Avg: 27860 Min:     0 Max: 125159 Err:     0 (0.00%) Active: 0 Started: 100 Finished: 100
+2017-07-05 10:54:59,218 INFO o.a.j.r.Summariser: summary =   1800 in 00:05:31 =    5.4/s Avg: 15784 Min:     0 Max: 125159 Err:   245 (13.61%)
+2017-07-05 10:54:59,234 INFO o.a.j.JMeter: Generating Dashboard
+2017-07-05 10:54:59,234 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2017-07-05 10:54:59,250 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2017-07-05 10:54:59,845 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2017-07-05 10:54:59,845 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2017-07-05 10:54:59,877 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2017-07-05 10:54:59,877 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2017-07-05 10:54:59,887 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2017-07-05 10:54:59,888 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2017-07-05 10:54:59,889 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2017-07-05 10:54:59,900 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2017-07-05 10:55:00,001 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2017-07-05 10:55:00,002 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2017-07-05 10:55:00,009 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2017-07-05 10:55:00,011 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2017-07-05 10:55:00,028 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2017-07-05 10:55:00,031 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 12600 samples
+2017-07-05 10:55:00,031 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2017-07-05 10:55:00,037 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2017-07-05 10:55:00,039 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2017-07-05 10:55:00,040 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2017-07-05 10:55:00,040 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2017-07-05 10:55:00,050 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2017-07-05 10:55:00,062 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2017-07-05 10:55:00,062 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2017-07-05 10:55:00,062 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2017-07-05 10:55:00,062 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 25200 samples
+2017-07-05 10:55:00,062 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 5400 samples
+2017-07-05 10:55:00,063 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 1800 samples
+2017-07-05 10:55:00,063 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 1800 samples produced in 798ms on channel 0
+2017-07-05 10:55:00,063 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2017-07-05 10:55:00,066 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: D:\Endava\Testing\Projects\WorldRemit\TestDocuments\PartnershipAPI\JmeterAPITests\PerformanceTests\Results-FullScenarioTestPlan100
+2017-07-05 10:55:00,301 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: D:\Endava\Testing\Projects\WorldRemit\TestDocuments\PartnershipAPI\JmeterAPITests\PerformanceTests\Results-FullScenarioTestPlan100, creating folder structure
+2017-07-05 10:55:01,045 INFO o.a.j.JMeter: Dashboard generated
+ormalizer produced 1600 samples
+2017-07-05 10:55:00,004 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 1600 samples produced in 722ms on channel 0
+2017-07-05 10:55:00,004 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2017-07-05 10:55:00,007 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: D:\Endava\Testing\Projects\WorldRemit\TestDocuments\PartnershipAPI\JmeterAPITests\PerformanceTests\Results-CreateTransaction100
+2017-07-05 10:55:00,302 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: D:\Endava\Testing\Projects\WorldRemit\TestDocuments\PartnershipAPI\JmeterAPITests\PerformanceTests\Results-CreateTransaction100, creating folder structure
+2017-07-05 10:55:01,061 INFO o.a.j.JMeter: Dashboard generated

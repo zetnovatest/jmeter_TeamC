@@ -1,0 +1,31 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1500370173730,886,/api/profile,200,OK,Thread Group 1-2,text,true,,876,573,5,5,886,0,446
+1500370173942,675,/api/profile,200,OK,Thread Group 1-3,text,true,,876,573,5,5,675,0,221
+1500370174140,683,/api/profile,200,OK,Thread Group 1-4,text,true,,876,573,5,5,682,0,192
+1500370173572,1389,/api/profile,200,OK,Thread Group 1-1,text,true,,876,573,5,5,1388,0,767
+1500370174318,697,/api/profile,200,OK,Thread Group 1-5,text,true,,876,573,5,5,697,0,179
+1500370174620,1128,/api/transactions/byrecipient/mostrecent,200,OK,Thread Group 1-3,text,true,,12885,601,5,5,1128,0,71
+1500370174626,1172,/api/transactions/byrecipient/mostrecent,200,OK,Thread Group 1-2,text,true,,12885,601,5,5,1171,0,68
+1500370174823,1211,/api/transactions/byrecipient/mostrecent,200,OK,Thread Group 1-4,text,true,,12885,601,5,5,1211,0,77
+1500370175016,1148,/api/transactions/byrecipient/mostrecent,200,OK,Thread Group 1-5,text,true,,12885,601,5,5,1148,0,69
+1500370174961,1264,/api/transactions/byrecipient/mostrecent,200,OK,Thread Group 1-1,text,true,,24085,601,5,5,1262,0,68
+1500370175749,572,/api/account,400,Bad Request,Thread Group 1-3,text,true,,994,1171,5,5,572,0,70
+1500370175798,611,/api/account,400,Bad Request,Thread Group 1-2,text,true,,994,1171,5,5,611,0,68
+1500370176035,628,/api/account,400,Bad Request,Thread Group 1-4,text,true,,994,1171,5,5,628,0,81
+1500370176226,576,/api/account,400,Bad Request,Thread Group 1-1,text,true,,994,1171,5,5,576,0,70
+1500370176165,687,/api/account,400,Bad Request,Thread Group 1-5,text,true,,994,1171,5,5,687,0,79
+1500370176324,1113,/api/transactions,200,OK,Thread Group 1-3,text,true,,12885,578,5,5,1113,0,69
+1500370176410,1065,/api/transactions,200,OK,Thread Group 1-2,text,true,,12885,578,5,5,1065,0,73
+1500370176664,928,/api/transactions,200,OK,Thread Group 1-4,text,true,,12885,578,5,5,928,0,69
+1500370176852,889,/api/transactions,200,OK,Thread Group 1-5,text,true,,12885,578,5,5,888,0,69
+1500370177438,607,/api/recipients,200,OK,Thread Group 1-3,text,true,,30083,576,5,5,573,0,71
+1500370177475,708,/api/recipients,200,OK,Thread Group 1-2,text,true,,30083,576,5,5,674,0,69
+1500370177593,710,/api/recipients,200,OK,Thread Group 1-4,text,true,,30083,576,5,5,674,0,68
+1500370177741,710,/api/recipients,200,OK,Thread Group 1-5,text,true,,30083,576,5,5,676,0,70
+1500370176803,1935,/api/transactions,200,OK,Thread Group 1-1,text,true,,24085,578,5,5,1934,0,71
+1500370178045,747,/api/country/BE,200,OK,Thread Group 1-3,text,true,,29474,576,5,5,714,0,75
+1500370178452,516,/api/country/BE,200,OK,Thread Group 1-5,text,true,,29474,576,4,4,482,0,70
+1500370178184,814,/api/country/BE,200,OK,Thread Group 1-2,text,true,,29474,576,3,3,780,0,72
+1500370178304,841,/api/country/BE,200,OK,Thread Group 1-4,text,true,,29474,576,2,2,808,0,68
+1500370178739,526,/api/recipients,200,OK,Thread Group 1-1,text,true,,56963,576,1,1,457,0,68
+1500370179266,530,/api/country/BE,200,OK,Thread Group 1-1,text,true,,29474,576,1,1,496,0,69

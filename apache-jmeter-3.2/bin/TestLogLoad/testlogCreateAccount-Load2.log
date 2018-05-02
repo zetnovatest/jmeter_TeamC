@@ -1,0 +1,28 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1500374872869,1003,/api/countries,200,OK,Thread Group 1-1,text,true,,8009,211,3,3,1003,0,613
+1500374873124,750,/api/countries,200,OK,Thread Group 1-2,text,true,,8009,211,3,3,750,0,358
+1500374873494,466,/api/countries,200,OK,Thread Group 1-3,text,true,,8009,211,3,3,466,0,186
+1500374873874,210,/api/my-country,200,OK,Thread Group 1-1,text,true,,489,212,3,3,210,0,0
+1500374873874,212,/api/my-country,200,OK,Thread Group 1-2,text,true,,489,212,3,3,212,0,0
+1500374873961,484,/api/my-country,200,OK,Thread Group 1-3,text,true,,489,212,3,3,484,0,0
+1500374874097,6802,/api/account,201,Created,Thread Group 1-2,,true,,381,766,3,3,6802,0,0
+1500374874447,6500,/api/account,201,Created,Thread Group 1-3,,true,,381,766,3,3,6500,0,0
+1500374874096,6856,/api/account,201,Created,Thread Group 1-1,,true,,381,766,3,3,6856,0,0
+1500374880908,57,OS Process Sampler,0,OK,Thread Group 1-2,text,true,,234,0,3,3,0,0,0
+1500374880952,58,OS Process Sampler,0,OK,Thread Group 1-1,text,true,,234,0,3,3,0,0,0
+1500374880948,64,OS Process Sampler,0,OK,Thread Group 1-3,text,true,,234,0,3,3,0,0,0
+1500374881011,627,/api/profile,200,OK,Thread Group 1-1,text,true,,874,573,3,3,627,0,72
+1500374880967,663,/api/profile,200,OK,Thread Group 1-2,text,true,,875,573,3,3,663,0,79
+1500374881012,682,/api/profile,200,OK,Thread Group 1-3,text,true,,875,573,3,3,681,0,71
+1500374881685,508,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-1,,true,,351,601,3,3,0,0,69
+1500374881686,508,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-2,,true,,351,601,3,3,0,0,69
+1500374881703,512,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-3,,true,,351,601,3,3,0,0,69
+1500374882194,495,/api/transactions,204,No Content,Thread Group 1-2,,true,,351,578,3,3,0,0,70
+1500374882194,522,/api/transactions,204,No Content,Thread Group 1-1,,true,,351,578,3,3,0,0,69
+1500374882215,555,/api/transactions,204,No Content,Thread Group 1-3,,true,,351,578,3,3,0,0,70
+1500374882717,398,/api/recipients,204,No Content,Thread Group 1-1,,true,,355,557,3,3,0,0,68
+1500374882771,456,/api/recipients,204,No Content,Thread Group 1-3,,true,,355,557,3,3,0,0,68
+1500374882690,578,/api/recipients,204,No Content,Thread Group 1-2,,true,,355,557,3,3,0,0,282
+1500374883116,3255,/api/country/BE,200,OK,Thread Group 1-1,text,true,,29311,569,3,3,3221,0,68
+1500374883268,3177,/api/country/BE,200,OK,Thread Group 1-2,text,true,,29311,569,2,2,3140,0,70
+1500374883227,3234,/api/country/BE,200,OK,Thread Group 1-3,text,true,,29311,569,1,1,3201,0,70

@@ -1,0 +1,181 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1499242971261,7493,/api/countries,200,OK,Thread Group 1-12,text,true,,8009,211,20,20,7493,0,1482
+1499242970942,7812,/api/countries,200,OK,Thread Group 1-7,text,true,,8009,211,20,20,7812,0,1815
+1499242971578,7196,/api/countries,200,OK,Thread Group 1-16,text,true,,8009,211,20,20,7196,0,1169
+1499242970918,8014,/api/countries,200,OK,Thread Group 1-6,text,true,,8009,211,20,20,8014,0,1824
+1499242970475,8478,/api/countries,200,OK,Thread Group 1-2,text,true,,8009,211,20,20,8478,0,2271
+1499242971637,7318,/api/countries,200,OK,Thread Group 1-17,text,true,,8009,211,20,20,7318,0,1111
+1499242971725,7230,/api/countries,200,OK,Thread Group 1-19,text,true,,8009,211,20,20,7230,0,1017
+1499242971548,7437,/api/countries,200,OK,Thread Group 1-15,text,true,,8009,211,20,20,7437,0,1201
+1499242970994,7998,/api/countries,200,OK,Thread Group 1-8,text,true,,8009,211,20,20,7998,0,1749
+1499242978756,574,/api/my-country,200,OK,Thread Group 1-7,text,true,,489,212,20,20,574,0,84
+1499242978756,582,/api/my-country,200,OK,Thread Group 1-12,text,true,,489,212,20,20,582,0,85
+1499242971084,8326,/api/countries,200,OK,Thread Group 1-10,text,true,,8009,211,20,20,8326,0,1668
+1499242970482,8933,/api/countries,200,OK,Thread Group 1-3,text,true,,8009,211,20,20,8933,0,2668
+1499242971795,7621,/api/countries,200,OK,Thread Group 1-20,text,true,,8009,211,20,20,7621,0,966
+1499242978775,666,/api/my-country,200,OK,Thread Group 1-16,text,true,,489,212,20,20,666,0,80
+1499242978932,530,/api/my-country,200,OK,Thread Group 1-6,text,true,,489,212,20,20,530,0,76
+1499242978986,476,/api/my-country,200,OK,Thread Group 1-15,text,true,,489,212,20,20,476,0,76
+1499242978955,511,/api/my-country,200,OK,Thread Group 1-17,text,true,,489,212,20,20,511,0,73
+1499242978992,481,/api/my-country,200,OK,Thread Group 1-8,text,true,,489,212,20,20,481,0,91
+1499242971036,8474,/api/countries,200,OK,Thread Group 1-9,text,true,,8009,211,20,20,8474,0,1713
+1499242970449,9095,/api/countries,200,OK,Thread Group 1-1,text,true,,8009,211,20,20,9095,0,2300
+1499242970500,9046,/api/countries,200,OK,Thread Group 1-4,text,true,,8009,211,20,20,9046,0,2263
+1499242971389,8166,/api/countries,200,OK,Thread Group 1-13,text,true,,8009,211,20,20,8166,0,1353
+1499242978955,713,/api/my-country,200,OK,Thread Group 1-2,text,true,,489,212,20,20,713,0,75
+1499242978955,713,/api/my-country,200,OK,Thread Group 1-19,text,true,,489,212,20,20,713,0,73
+1499242970843,8831,/api/countries,200,OK,Thread Group 1-5,text,true,,8009,211,20,20,8831,0,1900
+1499242971476,8261,/api/countries,200,OK,Thread Group 1-14,text,true,,8009,211,20,20,8261,0,1274
+1499242971722,8241,/api/countries,200,OK,Thread Group 1-18,text,true,,8009,211,20,20,8241,0,1039
+1499242979416,647,/api/my-country,200,OK,Thread Group 1-3,text,true,,489,212,20,20,647,0,68
+1499242979416,988,/api/my-country,200,OK,Thread Group 1-20,text,true,,489,212,20,20,988,0,81
+1499242979410,1157,/api/my-country,200,OK,Thread Group 1-10,text,true,,489,212,20,20,1157,0,81
+1499242971134,9691,/api/countries,200,OK,Thread Group 1-11,text,true,,8009,211,20,20,9690,0,1618
+1499242979547,1305,/api/my-country,200,OK,Thread Group 1-4,text,true,,489,212,20,20,1305,0,78
+1499242979738,1116,/api/my-country,200,OK,Thread Group 1-14,text,true,,489,212,20,20,1116,0,83
+1499242979555,1300,/api/my-country,200,OK,Thread Group 1-13,text,true,,489,212,20,20,1300,0,78
+1499242979546,1327,/api/my-country,200,OK,Thread Group 1-1,text,true,,489,212,20,20,1327,0,77
+1499242979963,963,/api/my-country,200,OK,Thread Group 1-18,text,true,,489,212,20,20,963,0,69
+1499242979511,1614,/api/my-country,200,OK,Thread Group 1-9,text,true,,489,212,20,20,1614,0,292
+1499242979674,1482,/api/my-country,200,OK,Thread Group 1-5,text,true,,489,212,20,20,1482,0,129
+1499242979462,2501,/api/account,400,Bad Request,Thread Group 1-6,text,true,,994,1171,20,20,2501,0,0
+1499242981966,49,OS Process Sampler,0,OK,Thread Group 1-6,text,true,,234,0,20,20,0,0,0
+1499242979442,2585,/api/account,400,Bad Request,Thread Group 1-16,text,true,,994,1171,20,20,2585,0,0
+1499242982026,48,OS Process Sampler,0,OK,Thread Group 1-16,text,true,,234,0,20,20,0,0,0
+1499242980824,5175,/api/my-country,200,OK,Thread Group 1-11,text,true,,489,212,20,20,5175,0,72
+1499242982075,5069,/api/profile,200,OK,Thread Group 1-16,text,true,,877,573,20,20,5069,0,67
+1499242982018,5127,/api/profile,200,OK,Thread Group 1-6,text,true,,877,573,20,20,5127,0,69
+1499242980067,7580,/api/account,400,Bad Request,Thread Group 1-3,text,true,,994,1171,20,20,7580,0,0
+1499242979668,7980,/api/account,400,Bad Request,Thread Group 1-19,text,true,,994,1171,20,20,7980,0,0
+1499242987649,48,OS Process Sampler,0,OK,Thread Group 1-19,text,true,,234,0,20,20,0,0,0
+1499242987648,49,OS Process Sampler,0,OK,Thread Group 1-3,text,true,,234,0,20,20,0,0,0
+1499242980852,8099,/api/account,400,Bad Request,Thread Group 1-4,text,true,,994,1171,20,20,8099,0,0
+1499242988953,48,OS Process Sampler,0,OK,Thread Group 1-4,text,true,,234,0,20,20,0,0,0
+1499242981156,7897,/api/account,400,Bad Request,Thread Group 1-5,text,true,,994,1171,20,20,7897,0,0
+1499242980873,8186,/api/account,400,Bad Request,Thread Group 1-1,text,true,,994,1171,20,20,8186,0,0
+1499242981125,7935,/api/account,400,Bad Request,Thread Group 1-9,text,true,,994,1171,20,20,7935,0,0
+1499242980926,8156,/api/account,400,Bad Request,Thread Group 1-18,text,true,,994,1171,20,20,8155,0,0
+1499242989054,52,OS Process Sampler,0,OK,Thread Group 1-5,text,true,,234,0,20,20,0,0,0
+1499242989062,53,OS Process Sampler,0,OK,Thread Group 1-9,text,true,,234,0,20,20,0,0,0
+1499242989061,56,OS Process Sampler,0,OK,Thread Group 1-1,text,true,,234,0,20,20,0,0,0
+1499242989083,67,OS Process Sampler,0,OK,Thread Group 1-18,text,true,,234,0,20,20,0,0,0
+1499242980404,9205,/api/account,400,Bad Request,Thread Group 1-20,text,true,,994,1171,20,20,9205,0,0
+1499242989609,47,OS Process Sampler,0,OK,Thread Group 1-20,text,true,,234,0,20,20,0,0,0
+1499242980568,9665,/api/account,400,Bad Request,Thread Group 1-10,text,true,,994,1170,20,20,9664,0,0
+1499242990233,47,OS Process Sampler,0,OK,Thread Group 1-10,text,true,,234,0,20,20,0,0,0
+1499242987698,2648,/api/profile,200,OK,Thread Group 1-19,text,true,,877,573,20,20,2648,0,68
+1499242987698,2688,/api/profile,200,OK,Thread Group 1-3,text,true,,877,573,20,20,2688,0,68
+1499242980853,9727,/api/account,400,Bad Request,Thread Group 1-14,text,true,,994,1171,20,20,9727,0,0
+1499242990581,49,OS Process Sampler,0,OK,Thread Group 1-14,text,true,,234,0,20,20,0,0,0
+1499242986001,5278,/api/account,400,Bad Request,Thread Group 1-11,text,true,,994,1170,20,20,5277,0,69
+1499242991279,47,OS Process Sampler,0,OK,Thread Group 1-11,text,true,,234,0,20,20,0,0,0
+1499242989150,2739,/api/profile,200,OK,Thread Group 1-18,text,true,,877,573,20,20,2739,0,83
+1499242989107,3917,/api/profile,200,OK,Thread Group 1-5,text,true,,877,573,20,20,3917,0,82
+1499242989002,4022,/api/profile,200,OK,Thread Group 1-4,text,true,,877,573,20,20,4021,0,71
+1499242989116,4074,/api/profile,200,OK,Thread Group 1-9,text,true,,877,573,20,20,4073,0,76
+1499242989118,4078,/api/profile,200,OK,Thread Group 1-1,text,true,,877,573,20,20,4078,0,75
+1499242979333,14137,/api/account,400,Bad Request,Thread Group 1-7,text,true,,994,1171,20,20,14137,0,0
+1499242993470,46,OS Process Sampler,0,OK,Thread Group 1-7,text,true,,234,0,20,20,0,0,0
+1499242979338,14642,/api/account,400,Bad Request,Thread Group 1-12,text,true,,994,1171,20,20,14642,0,0
+1499242993980,50,OS Process Sampler,0,OK,Thread Group 1-12,text,true,,234,0,20,20,0,0,0
+1499242979473,14563,/api/account,400,Bad Request,Thread Group 1-8,text,true,,994,1171,20,20,14563,0,0
+1499242991901,2151,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-18,,true,,351,601,20,20,0,0,101
+1499242979467,14590,/api/account,400,Bad Request,Thread Group 1-17,text,true,,994,1171,20,20,14590,0,0
+1499242994036,51,OS Process Sampler,0,OK,Thread Group 1-8,text,true,,234,0,20,20,0,0,0
+1499242994057,52,OS Process Sampler,0,OK,Thread Group 1-17,text,true,,234,0,20,20,0,0,0
+1499242994031,2029,/api/profile,200,OK,Thread Group 1-12,text,true,,877,573,20,20,2029,0,70
+1499242994110,1951,/api/profile,200,OK,Thread Group 1-17,text,true,,877,573,20,20,1951,0,68
+1499242993517,3010,/api/profile,200,OK,Thread Group 1-7,text,true,,877,573,20,20,3009,0,69
+1499242994088,2858,/api/profile,200,OK,Thread Group 1-8,text,true,,877,573,20,20,2858,0,68
+1499242991327,5619,/api/profile,200,OK,Thread Group 1-11,text,true,,876,573,20,20,5619,0,70
+1499242996067,1013,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-12,,true,,351,601,20,20,0,0,105
+1499242996068,1398,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-17,,true,,351,601,20,20,0,0,277
+1499242980855,16762,/api/account,403,Forbidden,Thread Group 1-13,text,false,Test failed: code expected to contain /400/,1011,1171,20,20,16762,0,0
+1499242997618,57,OS Process Sampler,0,OK,Thread Group 1-13,text,true,,234,0,20,20,0,0,0
+1499242996538,1225,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-7,,true,,351,601,20,20,0,0,82
+1499242979462,18388,/api/account,400,Bad Request,Thread Group 1-15,text,true,,994,1171,20,20,18388,0,0
+1499242997851,48,OS Process Sampler,0,OK,Thread Group 1-15,text,true,,234,0,20,20,0,0,0
+1499242994052,5107,/api/transactions,204,No Content,Thread Group 1-18,,true,,351,578,20,20,0,0,80
+1499242987205,12014,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-6,,true,,351,601,20,20,0,0,69
+1499242993203,6016,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-1,,true,,351,601,20,20,0,0,88
+1499242987205,12154,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-16,,true,,351,601,20,20,0,0,68
+1499242997900,2236,/api/profile,200,OK,Thread Group 1-15,text,true,,877,573,20,20,2236,0,67
+1499242990281,10997,/api/profile,200,OK,Thread Group 1-10,text,true,,876,573,20,20,10996,0,69
+1499242989657,11900,/api/profile,200,OK,Thread Group 1-20,text,true,,877,573,20,20,11900,0,84
+1499242990631,10993,/api/profile,200,OK,Thread Group 1-14,text,true,,877,573,20,20,10993,0,71
+1499242997676,5250,/api/profile,401,Unauthorized,Thread Group 1-13,text,false,,486,573,20,20,5249,0,67
+1499242993036,9918,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-5,,true,,351,601,20,20,0,0,76
+1499242996957,5997,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-8,,true,,351,601,20,20,0,0,74
+1499242993200,9755,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-9,,true,,351,601,20,20,0,0,69
+1499242993036,9920,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-4,,true,,351,601,20,20,0,0,100
+1499242997081,5875,/api/transactions,204,No Content,Thread Group 1-12,,true,,351,578,20,20,0,0,67
+1499242996972,6324,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-11,,true,,351,601,20,20,0,0,87
+1499242990356,13166,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-19,,true,,351,601,20,20,0,0,69
+1499242990397,13126,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-3,,true,,351,601,20,20,0,0,68
+1499242999220,4492,/api/transactions,204,No Content,Thread Group 1-1,,true,,351,578,20,20,0,0,70
+1499242999360,4352,/api/transactions,204,No Content,Thread Group 1-16,,true,,351,578,20,20,0,0,69
+1499242999220,4497,/api/transactions,204,No Content,Thread Group 1-6,,true,,351,578,20,20,0,0,86
+1499242999160,4579,/api/recipients,204,No Content,Thread Group 1-18,,true,,355,576,20,20,0,0,95
+1499243001635,4035,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-14,,true,,351,601,20,20,0,0,69
+1499243002935,2738,/api/transactions/byrecipient/mostrecent,401,Unauthorized,Thread Group 1-13,text,false,,486,601,20,20,2738,0,68
+1499243002956,2799,/api/transactions,204,No Content,Thread Group 1-9,,true,,351,578,20,20,0,0,67
+1499243002954,2843,/api/transactions,204,No Content,Thread Group 1-8,,true,,351,578,20,20,0,0,69
+1499243002956,3013,/api/transactions,204,No Content,Thread Group 1-4,,true,,351,578,20,20,0,0,67
+1499243002954,3208,/api/transactions,204,No Content,Thread Group 1-5,,true,,351,578,20,20,0,0,68
+1499243003717,2636,/api/recipients,204,No Content,Thread Group 1-6,,true,,355,576,20,20,0,0,68
+1499243003296,3290,/api/transactions,204,No Content,Thread Group 1-11,,true,,351,578,20,20,0,0,68
+1499243002956,3630,/api/recipients,204,No Content,Thread Group 1-12,,true,,355,576,20,20,0,0,68
+1499243005755,1331,/api/recipients,204,No Content,Thread Group 1-9,,true,,355,576,20,20,0,0,73
+1499243005672,1411,/api/transactions,204,No Content,Thread Group 1-14,,true,,351,578,20,20,0,0,71
+1499243005674,1454,/api/transactions,403,Forbidden,Thread Group 1-13,text,false,,537,578,20,20,1454,0,80
+1499243003523,4775,/api/transactions,204,No Content,Thread Group 1-3,,true,,351,578,20,20,0,0,67
+1499242997466,10832,/api/transactions,204,No Content,Thread Group 1-17,,true,,351,578,20,20,0,0,67
+1499243001567,6733,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-20,,true,,351,601,20,20,0,0,67
+1499242997764,10541,/api/transactions,204,No Content,Thread Group 1-7,,true,,351,578,20,20,0,0,67
+1499243003713,4592,/api/recipients,204,No Content,Thread Group 1-16,,true,,355,576,20,20,0,0,72
+1499243008299,1026,/api/recipients,204,No Content,Thread Group 1-3,,true,,355,576,20,20,0,0,68
+1499243008299,1027,/api/recipients,204,No Content,Thread Group 1-17,,true,,355,576,20,20,0,0,68
+1499243008300,1026,/api/transactions,204,No Content,Thread Group 1-20,,true,,351,578,20,20,0,0,70
+1499243008306,1248,/api/recipients,204,No Content,Thread Group 1-7,,true,,355,576,20,20,0,0,70
+1499243008306,1760,/api/country/BG,200,OK,Thread Group 1-16,text,true,,3694,569,20,20,1760,0,69
+1499243007128,3296,/api/recipients,403,Forbidden,Thread Group 1-13,text,false,,537,576,19,19,3296,0,73
+1499243007086,4203,/api/country/BG,200,OK,Thread Group 1-9,text,true,,3712,569,19,19,4202,0,69
+1499243006353,5630,/api/country/BG,200,OK,Thread Group 1-6,text,true,,3712,569,18,18,5630,0,68
+1499243003713,8666,/api/recipients,204,No Content,Thread Group 1-1,,true,,355,576,17,17,0,0,72
+1499243005797,6583,/api/recipients,204,No Content,Thread Group 1-8,,true,,355,576,17,17,0,0,76
+1499243001289,11096,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-10,,true,,351,601,17,17,0,0,68
+1499243000144,12243,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-15,,true,,351,601,17,17,0,0,118
+1499243003522,9258,/api/transactions,204,No Content,Thread Group 1-19,,true,,351,578,17,17,0,0,67
+1499243007087,5810,/api/recipients,204,No Content,Thread Group 1-14,,true,,355,576,17,17,0,0,69
+1499243006586,6318,/api/recipients,204,No Content,Thread Group 1-11,,true,,355,576,17,17,0,0,69
+1499243005970,6934,/api/recipients,204,No Content,Thread Group 1-4,,true,,355,576,17,17,0,0,67
+1499243006162,6743,/api/recipients,204,No Content,Thread Group 1-5,,true,,355,576,17,17,0,0,479
+1499243009327,4514,/api/country/BG,200,OK,Thread Group 1-17,text,true,,3712,569,17,17,4514,0,67
+1499243009325,4520,/api/country/BG,200,OK,Thread Group 1-3,text,true,,3712,569,16,16,4520,0,67
+1499243003740,10109,/api/country/BG,200,OK,Thread Group 1-18,text,true,,3694,569,15,15,10109,0,79
+1499243010425,3426,/api/country/BG,401,Unauthorized,Thread Group 1-13,text,false,,486,569,14,14,3426,0,67
+1499243009327,4532,/api/recipients,204,No Content,Thread Group 1-20,,true,,355,576,13,13,0,0,68
+1499243009554,4324,/api/country/BG,200,OK,Thread Group 1-7,text,true,,3712,569,13,13,4324,0,80
+1499243006586,7404,/api/country/BG,200,OK,Thread Group 1-12,text,true,,3712,569,12,12,7404,0,69
+1499242979668,35266,/api/account,400,Bad Request,Thread Group 1-2,text,true,,994,1171,11,11,35265,0,0
+1499243012380,2554,/api/country/BG,200,OK,Thread Group 1-8,text,true,,3712,569,11,11,2554,0,70
+1499243014933,48,OS Process Sampler,0,OK,Thread Group 1-2,text,true,,234,0,10,10,0,0,0
+1499243012378,2703,/api/country/BG,200,OK,Thread Group 1-1,text,true,,3712,569,10,10,2703,0,70
+1499243013859,1288,/api/country/BG,200,OK,Thread Group 1-20,text,true,,3712,569,9,9,1288,0,67
+1499243012387,3192,/api/transactions,204,No Content,Thread Group 1-15,,true,,351,578,8,8,0,0,73
+1499243012384,3211,/api/transactions,204,No Content,Thread Group 1-10,,true,,351,578,8,8,0,0,75
+1499243012779,2817,/api/recipients,204,No Content,Thread Group 1-19,,true,,355,576,8,8,0,0,68
+1499243012903,2761,/api/country/BG,200,OK,Thread Group 1-4,text,true,,3712,569,8,8,2761,0,67
+1499243012905,2773,/api/country/BG,200,OK,Thread Group 1-5,text,true,,3712,569,7,7,2773,0,67
+1499243012897,2782,/api/country/BG,200,OK,Thread Group 1-14,text,true,,3712,569,6,6,2782,0,69
+1499243012903,3319,/api/country/BG,200,OK,Thread Group 1-11,text,true,,3712,569,5,5,3319,0,250
+1499243014982,2213,/api/profile,200,OK,Thread Group 1-2,text,true,,877,573,4,4,2213,0,81
+1499243015580,1714,/api/recipients,204,No Content,Thread Group 1-15,,true,,355,576,4,4,0,0,71
+1499243015597,1842,/api/country/BG,200,OK,Thread Group 1-19,text,true,,3712,569,4,4,1842,0,69
+1499243017202,385,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-2,,true,,351,601,3,3,0,0,80
+1499243017296,427,/api/country/BG,200,OK,Thread Group 1-15,text,true,,3712,569,3,3,426,0,68
+1499243015595,2176,/api/recipients,204,No Content,Thread Group 1-10,,true,,355,576,2,2,0,0,69
+1499243017588,341,/api/transactions,204,No Content,Thread Group 1-2,,true,,351,578,2,2,0,0,81
+1499243017773,432,/api/country/BG,200,OK,Thread Group 1-10,text,true,,3712,569,2,2,432,0,68
+1499243017930,381,/api/recipients,204,No Content,Thread Group 1-2,,true,,355,576,1,1,0,0,81
+1499243018311,381,/api/country/BG,200,OK,Thread Group 1-2,text,true,,3712,569,1,1,381,0,81

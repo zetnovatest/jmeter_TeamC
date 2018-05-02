@@ -1,0 +1,46 @@
+import java.text.*;
+import java.io.*;
+import java.util.*;
+
+String filename = "env.csv";
+
+ArrayList strList = new ArrayList();     
+
+try {
+    File file = new File(filename);
+
+    if (!file.exists()) {
+        throw new Exception ("ERROR: file " + filename + " not found");
+    }
+
+    BufferedReader bufRdr = new BufferedReader(new InputStreamReader(new FileInputStream(file), "UTF8"));
+    String line = null;
+    Integer i = 0;
+    Integer j = 0;
+
+    while((line = bufRdr.readLine()) != null) {
+        strList.add(line);
+        i++;
+        //log.info(line);
+        // log.info(Integer.toString(i));
+    }
+
+    bufRdr.close(); 
+    for (j=0; j<i; j++) {
+         //log.info(Integer.toString(j));           
+         String[] variables = strList.get(j).split(",");
+	    vars.put(variables[0],variables[1]);
+    }
+
+	    //log.info(vars.get("api-address"));
+	    //log.info(vars.get("api-port"));
+
+}
+catch (Exception ex) {
+    IsSuccess = false; 
+    log.error(ex.getMessage());
+    System.err.println(ex.getMessage());
+}
+catch (Throwable thex) {
+    System.err.println(thex.getMessage());
+}

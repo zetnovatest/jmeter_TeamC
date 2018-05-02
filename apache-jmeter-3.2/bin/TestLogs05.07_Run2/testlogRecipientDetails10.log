@@ -1,0 +1,131 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1499240556014,5790,/api/profile,200,OK,Thread Group 1-5,text,true,,877,573,10,10,5790,0,1545
+1499240555504,7672,/api/profile,200,OK,Thread Group 1-1,text,true,,877,573,10,10,7672,0,2054
+1499240556093,7098,/api/profile,200,OK,Thread Group 1-7,text,true,,877,573,10,10,7097,0,1465
+1499240555504,7689,/api/profile,200,OK,Thread Group 1-2,text,true,,877,573,10,10,7689,0,2054
+1499240555671,7688,/api/profile,200,OK,Thread Group 1-3,text,true,,877,573,10,10,7688,0,1889
+1499240556323,7045,/api/profile,200,OK,Thread Group 1-10,text,true,,876,573,10,10,7044,0,1233
+1499240555746,8427,/api/profile,200,OK,Thread Group 1-4,text,true,,877,573,10,10,8427,0,1808
+1499240556222,8407,/api/profile,200,OK,Thread Group 1-9,text,true,,877,573,10,10,8407,0,1335
+1499240563361,1407,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-3,,true,,351,601,10,10,0,0,69
+1499240563369,1400,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-10,,true,,351,601,10,10,0,0,68
+1499240556133,8739,/api/profile,200,OK,Thread Group 1-8,text,true,,877,573,10,10,8738,0,1427
+1499240556074,9065,/api/profile,200,OK,Thread Group 1-6,text,true,,877,573,10,10,9065,0,1480
+1499240561810,3646,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-5,,true,,351,601,10,10,0,0,71
+1499240563177,3006,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-1,,true,,351,601,10,10,0,0,70
+1499240564768,1629,/api/account,400,Bad Request,Thread Group 1-3,text,true,,994,1171,10,10,1629,0,105
+1499240564175,2612,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-4,,true,,351,601,10,10,0,0,70
+1499240563192,3991,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-7,,true,,351,601,10,10,0,0,69
+1499240564631,2631,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-9,,true,,351,601,10,10,0,0,69
+1499240564873,2392,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-8,,true,,351,601,10,10,0,0,71
+1499240564770,2706,/api/account,400,Bad Request,Thread Group 1-10,text,true,,994,1170,10,10,2705,0,105
+1499240567184,834,/api/account,400,Bad Request,Thread Group 1-7,text,true,,994,1171,10,10,834,0,68
+1499240565456,2914,/api/account,400,Bad Request,Thread Group 1-5,text,true,,994,1171,10,10,2914,0,83
+1499240563193,5233,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-2,,true,,351,601,10,10,0,0,71
+1499240565140,3293,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-6,,true,,351,601,10,10,0,0,72
+1499240567265,1196,/api/account,400,Bad Request,Thread Group 1-8,text,true,,994,1171,10,10,1196,0,68
+1499240567263,1451,/api/account,400,Bad Request,Thread Group 1-9,text,true,,994,1171,10,10,1451,0,71
+1499240566183,3427,/api/account,400,Bad Request,Thread Group 1-1,text,true,,994,1171,10,10,3427,0,69
+1499240568019,1783,/api/transactions,204,No Content,Thread Group 1-7,,true,,351,578,10,10,0,0,67
+1499240567476,2331,/api/transactions,204,No Content,Thread Group 1-10,,true,,351,578,10,10,0,0,73
+1499240566789,3313,/api/account,400,Bad Request,Thread Group 1-4,text,true,,994,1171,10,10,3313,0,84
+1499240566399,3718,/api/transactions,204,No Content,Thread Group 1-3,,true,,351,578,10,10,0,0,69
+1499240570103,1757,/api/transactions,204,No Content,Thread Group 1-4,,true,,351,578,10,10,0,0,72
+1499240568461,3696,/api/transactions,204,No Content,Thread Group 1-8,,true,,351,578,10,10,0,0,76
+1499240568714,3444,/api/transactions,204,No Content,Thread Group 1-9,,true,,351,578,10,10,0,0,69
+1499240570117,2360,/api/recipients,204,No Content,Thread Group 1-3,,true,,355,576,10,10,0,0,69
+1499240569611,2875,/api/transactions,204,No Content,Thread Group 1-1,,true,,351,578,10,10,0,0,84
+1499240569808,2708,/api/recipients,204,No Content,Thread Group 1-10,,true,,355,576,10,10,0,0,79
+1499240569803,3218,/api/recipients,204,No Content,Thread Group 1-7,,true,,355,576,10,10,0,0,94
+1499240568433,5358,/api/account,400,Bad Request,Thread Group 1-6,text,true,,994,1171,10,10,5357,0,78
+1499240568427,6200,/api/account,400,Bad Request,Thread Group 1-2,text,true,,994,1171,10,10,6200,0,78
+1499240573791,1159,/api/transactions,204,No Content,Thread Group 1-6,,true,,351,578,10,10,0,0,69
+1499240572478,3235,/api/country/BE,200,OK,Thread Group 1-3,text,true,,29329,576,10,10,3234,0,76
+1499240572516,3446,/api/country/BE,200,OK,Thread Group 1-10,text,true,,29329,576,10,10,3445,0,67
+1499240574628,1556,/api/transactions,204,No Content,Thread Group 1-2,,true,,351,578,10,10,0,0,71
+1499240574950,1419,/api/recipients,204,No Content,Thread Group 1-6,,true,,355,576,10,10,0,0,71
+1499240572486,3902,/api/recipients,204,No Content,Thread Group 1-1,,true,,355,576,10,10,0,0,75
+1499240568371,8023,/api/transactions,204,No Content,Thread Group 1-5,,true,,351,578,10,10,0,0,77
+1499240572159,4237,/api/recipients,204,No Content,Thread Group 1-9,,true,,355,576,10,10,0,0,68
+1499240572157,4243,/api/recipients,204,No Content,Thread Group 1-8,,true,,355,576,10,10,0,0,68
+1499240571860,4543,/api/recipients,204,No Content,Thread Group 1-4,,true,,355,576,10,10,0,0,70
+1499240575713,924,/api/recipients,200,OK,Thread Group 1-3,text,true,,18279,553,10,10,924,0,68
+1499240576638,565,/api/country/BE/correspondents/PH,200,OK,Thread Group 1-3,text,true,,3800,571,10,10,565,0,75
+1499240575962,1287,/api/recipients,200,OK,Thread Group 1-10,text,true,,18279,553,10,10,1286,0,80
+1499240577249,292,/api/country/BE/correspondents/PH,200,OK,Thread Group 1-10,text,true,,3800,571,10,10,292,0,68
+1499240577204,416,/api/country/PH,200,OK,Thread Group 1-3,text,true,,10087,553,10,10,416,0,67
+1499240577542,462,/api/country/PH,200,OK,Thread Group 1-10,text,true,,10088,553,10,10,461,0,67
+1499240577620,474,/api/calculate/BE/BNK?receivecountry=PH&receiveCurrency=PHP&amount=2.0&correspondentid=255&issendamount=true,201,Created,Thread Group 1-3,text,true,,1438,646,10,10,474,0,70
+1499240578005,368,/api/calculate/BE/BNK?receivecountry=PH&receiveCurrency=PHP&amount=2.0&correspondentid=255&issendamount=true,201,Created,Thread Group 1-10,text,true,,1439,646,10,10,367,0,69
+1499240578095,328,/api/country/PH/banks?correspondentId=255,200,OK,Thread Group 1-3,text,true,,724,579,10,10,328,0,68
+1499240578424,434,/api/country/PH/banks/DDM01/branches,200,OK,Thread Group 1-3,text,true,,715,574,10,10,434,0,72
+1499240578374,597,/api/country/PH/banks?correspondentId=255,200,OK,Thread Group 1-10,text,true,,725,579,10,10,597,0,69
+1499240576389,3032,/api/country/BE,200,OK,Thread Group 1-1,text,true,,29329,576,10,10,3031,0,72
+1499240576397,3053,/api/country/BE,200,OK,Thread Group 1-9,text,true,,29329,576,10,10,3053,0,71
+1499240573022,6431,/api/country/BE,200,OK,Thread Group 1-7,text,true,,29329,576,10,10,6430,0,70
+1499240578972,1221,/api/country/PH/banks/DDM01/branches,200,OK,Thread Group 1-10,text,true,,714,574,10,10,1221,0,74
+1499240578861,1348,/api/recipients?correspondentId=255&productCode=BNK,302,Found,Thread Group 1-3,text,true,,675,0,10,10,1348,0,0
+1499240576403,3857,/api/country/BE,200,OK,Thread Group 1-4,text,true,,29329,576,9,9,3855,0,115
+1499240579451,877,/api/recipients,200,OK,Thread Group 1-9,text,true,,18279,553,9,9,877,0,73
+1499240579453,1326,/api/recipients,200,OK,Thread Group 1-7,text,true,,18279,553,9,9,1325,0,75
+1499240580328,477,/api/country/BE/correspondents/PH,200,OK,Thread Group 1-9,text,true,,3800,571,9,9,477,0,68
+1499240579422,1467,/api/recipients,200,OK,Thread Group 1-1,text,true,,18279,553,9,9,1466,0,73
+1499240580261,1024,/api/recipients,200,OK,Thread Group 1-4,text,true,,18279,553,9,9,1024,0,85
+1499240576395,4924,/api/recipients,204,No Content,Thread Group 1-5,,true,,355,576,9,9,0,0,74
+1499240576400,4937,/api/country/BE,200,OK,Thread Group 1-8,text,true,,29329,576,9,9,4936,0,71
+1499240576369,5033,/api/country/BE,200,OK,Thread Group 1-6,text,true,,29329,576,9,9,5032,0,93
+1499240580198,1316,/api/recipients?correspondentId=255&productCode=BNK,302,Found,Thread Group 1-10,text,true,,675,0,9,9,1316,0,0
+1499240580889,710,/api/country/BE/correspondents/PH,200,OK,Thread Group 1-1,text,true,,3800,571,8,8,709,0,71
+1499240580779,1018,/api/country/BE/correspondents/PH,200,OK,Thread Group 1-7,text,true,,3800,571,8,8,1018,0,73
+1499240580805,1014,/api/country/PH,200,OK,Thread Group 1-9,text,true,,10088,553,8,8,1014,0,74
+1499240576185,5708,/api/recipients,204,No Content,Thread Group 1-2,,true,,355,576,8,8,0,0,70
+1499240581286,816,/api/country/BE/correspondents/PH,200,OK,Thread Group 1-4,text,true,,3800,571,8,8,816,0,74
+1499240581338,1071,/api/recipients,200,OK,Thread Group 1-8,text,true,,18279,553,8,8,1071,0,123
+1499240581402,1069,/api/recipients,200,OK,Thread Group 1-6,text,true,,18279,553,8,8,1068,0,81
+1499240581797,742,/api/country/PH,200,OK,Thread Group 1-7,text,true,,10088,553,8,8,742,0,68
+1499240581819,808,/api/calculate/BE/BNK?receivecountry=PH&receiveCurrency=PHP&amount=2.0&correspondentid=255&issendamount=true,201,Created,Thread Group 1-9,text,true,,1440,646,8,8,807,0,69
+1499240582409,381,/api/country/BE/correspondents/PH,200,OK,Thread Group 1-8,text,true,,3800,571,8,8,381,0,68
+1499240581599,1195,/api/country/PH,200,OK,Thread Group 1-1,text,true,,10088,553,8,8,1195,0,68
+1499240581320,1598,/api/country/BE,200,OK,Thread Group 1-5,text,true,,29329,576,8,8,1595,0,97
+1499240582471,569,/api/country/BE/correspondents/PH,200,OK,Thread Group 1-6,text,true,,3800,571,8,8,569,0,68
+1499240582627,415,/api/country/PH/banks?correspondentId=255,200,OK,Thread Group 1-9,text,true,,725,579,8,8,415,0,70
+1499240582102,941,/api/country/PH,200,OK,Thread Group 1-4,text,true,,10087,553,8,8,941,0,68
+1499240582539,675,/api/calculate/BE/BNK?receivecountry=PH&receiveCurrency=PHP&amount=2.0&correspondentid=255&issendamount=true,201,Created,Thread Group 1-7,text,true,,1440,646,8,8,675,0,74
+1499240581893,1668,/api/country/BE,200,OK,Thread Group 1-2,text,true,,29329,576,8,8,1665,0,68
+1499240582794,919,/api/calculate/BE/BNK?receivecountry=PH&receiveCurrency=PHP&amount=2.0&correspondentid=255&issendamount=true,201,Created,Thread Group 1-1,text,true,,1439,646,8,8,919,0,71
+1499240582791,927,/api/country/PH,200,OK,Thread Group 1-8,text,true,,10084,553,8,8,926,0,72
+1499240583044,974,/api/calculate/BE/BNK?receivecountry=PH&receiveCurrency=PHP&amount=2.0&correspondentid=255&issendamount=true,201,Created,Thread Group 1-4,text,true,,1440,646,8,8,974,0,69
+1499240583215,805,/api/country/PH/banks?correspondentId=255,200,OK,Thread Group 1-7,text,true,,725,579,8,8,805,0,67
+1499240582918,1133,/api/recipients,200,OK,Thread Group 1-5,text,true,,18279,553,8,8,1133,0,71
+1499240583042,1105,/api/country/PH/banks/DDM01/branches,200,OK,Thread Group 1-9,text,true,,715,574,8,8,1105,0,71
+1499240583714,908,/api/country/PH/banks?correspondentId=255,200,OK,Thread Group 1-1,text,true,,725,579,8,8,907,0,69
+1499240583041,1716,/api/country/PH,200,OK,Thread Group 1-6,text,true,,10088,553,8,8,1716,0,70
+1499240583718,1252,/api/calculate/BE/BNK?receivecountry=PH&receiveCurrency=PHP&amount=2.0&correspondentid=255&issendamount=true,201,Created,Thread Group 1-8,text,true,,1439,646,8,8,1252,0,69
+1499240584020,970,/api/country/PH/banks/DDM01/branches,200,OK,Thread Group 1-7,text,true,,714,574,8,8,970,0,69
+1499240583561,1466,/api/recipients,200,OK,Thread Group 1-2,text,true,,18279,553,8,8,1465,0,69
+1499240584052,1039,/api/country/BE/correspondents/PH,200,OK,Thread Group 1-5,text,true,,3800,571,8,8,1039,0,69
+1499240584018,1157,/api/country/PH/banks?correspondentId=255,200,OK,Thread Group 1-4,text,true,,724,579,8,8,1157,0,70
+1499240584757,419,/api/calculate/BE/BNK?receivecountry=PH&receiveCurrency=PHP&amount=2.0&correspondentid=255&issendamount=true,201,Created,Thread Group 1-6,text,true,,1440,646,8,8,419,0,69
+1499240584622,686,/api/country/PH/banks/DDM01/branches,200,OK,Thread Group 1-1,text,true,,715,574,8,8,686,0,68
+1499240584147,1306,/api/recipients?correspondentId=255&productCode=BNK,302,Found,Thread Group 1-9,text,true,,674,0,8,8,1306,0,0
+1499240584970,510,/api/country/PH/banks?correspondentId=255,200,OK,Thread Group 1-8,text,true,,724,579,7,7,510,0,69
+1499240585027,818,/api/country/BE/correspondents/PH,200,OK,Thread Group 1-2,text,true,,3799,571,7,7,818,0,73
+1499240585177,736,/api/country/PH/banks?correspondentId=255,200,OK,Thread Group 1-6,text,true,,725,579,7,7,735,0,72
+1499240585176,955,/api/country/PH/banks/DDM01/branches,200,OK,Thread Group 1-4,text,true,,715,574,7,7,955,0,73
+1499240585092,1249,/api/country/PH,200,OK,Thread Group 1-5,text,true,,10088,553,7,7,1248,0,68
+1499240584991,1365,/api/recipients?correspondentId=255&productCode=BNK,302,Found,Thread Group 1-7,text,true,,675,0,7,7,1365,0,0
+1499240585481,1297,/api/country/PH/banks/DDM01/branches,200,OK,Thread Group 1-8,text,true,,715,574,6,6,1297,0,67
+1499240586341,547,/api/calculate/BE/BNK?receivecountry=PH&receiveCurrency=PHP&amount=2.0&correspondentid=255&issendamount=true,429,,Thread Group 1-5,text,false,,720,646,6,6,547,0,69
+1499240585913,1072,/api/country/PH/banks/DDM01/branches,200,OK,Thread Group 1-6,text,true,,715,574,6,6,1072,0,68
+1499240585846,1281,/api/country/PH,200,OK,Thread Group 1-2,text,true,,10088,553,6,6,1281,0,68
+1499240586131,998,/api/recipients?correspondentId=255&productCode=BNK,302,Found,Thread Group 1-4,text,true,,675,0,6,6,998,0,0
+1499240585309,1936,/api/recipients?correspondentId=255&productCode=BNK,302,Found,Thread Group 1-1,text,true,,675,0,5,5,1936,0,0
+1499240586888,1100,/api/country/PH/banks?correspondentId=255,200,OK,Thread Group 1-5,text,true,,725,579,4,4,1100,0,70
+1499240587127,867,/api/calculate/BE/BNK?receivecountry=PH&receiveCurrency=PHP&amount=2.0&correspondentid=255&issendamount=true,429,,Thread Group 1-2,text,false,,720,646,4,4,866,0,75
+1499240586778,1411,/api/recipients?correspondentId=255&productCode=BNK,302,Found,Thread Group 1-8,text,true,,675,0,4,4,1411,0,0
+1499240586985,1267,/api/recipients?correspondentId=255&productCode=BNK,302,Found,Thread Group 1-6,text,true,,675,0,3,3,1267,0,0
+1499240587994,1179,/api/country/PH/banks?correspondentId=255,200,OK,Thread Group 1-2,text,true,,723,579,2,2,1179,0,67
+1499240587988,1188,/api/country/PH/banks/DDM01/branches,200,OK,Thread Group 1-5,text,true,,715,574,2,2,1188,0,70
+1499240589174,797,/api/country/PH/banks/DDM01/branches,200,OK,Thread Group 1-2,text,true,,715,574,2,2,796,0,72
+1499240589176,1667,/api/recipients?correspondentId=255&productCode=BNK,302,Found,Thread Group 1-5,text,true,,675,0,2,2,1666,0,0
+1499240589971,1359,/api/recipients?correspondentId=255&productCode=BNK,302,Found,Thread Group 1-2,text,true,,674,0,1,1,1359,0,0

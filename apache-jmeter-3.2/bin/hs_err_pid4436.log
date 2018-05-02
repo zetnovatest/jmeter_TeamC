@@ -1,0 +1,114 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 4294967296 bytes for Failed to commit area from 0x00000006c0000000 to 0x00000007c0000000 of length 4294967296.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_windows.cpp:3331), pid=4436, tid=0x0000000000001ad0
+#
+# JRE version:  (8.0_131-b11) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.131-b11 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000000199d800):  JavaThread "Unknown thread" [_thread_in_vm, id=6864, stack(0x00000000019a0000,0x0000000001aa0000)]
+
+Stack: [0x00000000019a0000,0x0000000001aa0000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000000000199d800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=6864, stack(0x00000000019a0000,0x0000000001aa0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x0000000001aa1e50] Heap_lock - owner thread: 0x000000000199d800
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff62c690000 - 0x00007ff62c6c7000 	C:\ProgramData\Oracle\Java\javapath\java.exe
+0x00007fff69a30000 - 0x00007fff69bf1000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007fff66e30000 - 0x00007fff66edd000 	C:\Windows\system32\KERNEL32.DLL
+0x00007fff663f0000 - 0x00007fff665d8000 	C:\Windows\system32\KERNELBASE.dll
+0x00007fff679a0000 - 0x00007fff67a47000 	C:\Windows\system32\ADVAPI32.dll
+0x00007fff67030000 - 0x00007fff670cd000 	C:\Windows\system32\msvcrt.dll
+0x00007fff67170000 - 0x00007fff671cb000 	C:\Windows\system32\sechost.dll
+0x00007fff671f0000 - 0x00007fff6730c000 	C:\Windows\system32\RPCRT4.dll
+0x00007fff68180000 - 0x00007fff682d6000 	C:\Windows\system32\USER32.dll
+0x00007fff67d10000 - 0x00007fff67e97000 	C:\Windows\system32\GDI32.dll
+0x00007fff5b860000 - 0x00007fff5bad4000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.10586.839_none_a2ddba30a539a2ae\COMCTL32.dll
+0x00007fff67ea0000 - 0x00007fff6811e000 	C:\Windows\system32\combase.dll
+0x00007fff661b0000 - 0x00007fff6621a000 	C:\Windows\system32\bcryptPrimitives.dll
+0x000000005c180000 - 0x000000005c252000 	C:\Program Files\Java\jre1.8.0_131\bin\msvcr100.dll
+0x000000005b8e0000 - 0x000000005c17c000 	C:\Program Files\Java\jre1.8.0_131\bin\server\jvm.dll
+0x00007fff67ba0000 - 0x00007fff67ba8000 	C:\Windows\system32\PSAPI.DLL
+0x00007fff5d080000 - 0x00007fff5d089000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007fff64800000 - 0x00007fff64823000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007fff5c4c0000 - 0x00007fff5c4ca000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007fff67b20000 - 0x00007fff67b8b000 	C:\Windows\system32\WS2_32.dll
+0x00007fff647a0000 - 0x00007fff647cc000 	C:\Windows\SYSTEM32\WINMMBASE.dll
+0x00007fff66160000 - 0x00007fff661a3000 	C:\Windows\system32\cfgmgr32.dll
+0x000000005cf20000 - 0x000000005cf2f000 	C:\Program Files\Java\jre1.8.0_131\bin\verify.dll
+0x000000005b8b0000 - 0x000000005b8d9000 	C:\Program Files\Java\jre1.8.0_131\bin\java.dll
+0x000000005b890000 - 0x000000005b8a6000 	C:\Program Files\Java\jre1.8.0_131\bin\zip.dll
+
+VM Arguments:
+jvm_args: -XX:+HeapDumpOnOutOfMemoryError -Xms4096m -Xmx4096m -XX:+UseG1GC -XX:MaxGCPauseMillis=250 -XX:G1ReservePercent=10 -Djava.security.egd=file:/dev/urandom 
+java_command: ApacheJMeter.jar -n -t D:\Endava\Testing\Projects\WorldRemit\TestDocuments\PartnershipAPI\JmeterAPITests\PerformanceTests\Sprint2\Results-CapacityTest\Capacity1\CreateAccount\CreateAccount-Capacity1.jmx -l testlogCreateAccount-Capacity1.log -e -o D:\Endava\Testing\Projects\WorldRemit\TestDocuments\PartnershipAPI\JmeterAPITests\PerformanceTests\Sprint2\Results-CapacityTest\Capacity1\CreateAccount\CreateAccount-Capacity1Results
+java_class_path (initial): ApacheJMeter.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\;C:\Program Files (x86)\Microsoft Team Foundation Server 2013 Power Tools\Best Practices Analyzer\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Users\miroslav.nikolov\AppData\Roaming\npm
+USERNAME=mnikolov
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 10586 (10.0.10586.589)
+
+CPU:total 4 (initial active 4) (4 cores per cpu, 1 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, clmul, erms, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 25053912k(10892776k free), swap 33446616k(2555800k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.131-b11) for windows-amd64 JRE (1.8.0_131-b11), built on Mar 15 2017 01:23:53 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Tue Jul 25 01:00:07 2017
+elapsed time: 5 seconds (0d 0h 0m 5s)
+

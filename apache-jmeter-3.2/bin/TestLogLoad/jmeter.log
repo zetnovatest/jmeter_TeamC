@@ -1,0 +1,423 @@
+2017-07-18 13:57:23,796 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2017-07-18 13:57:23,808 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2017-07-18 13:57:23,813 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2017-07-18 13:57:23,813 INFO o.a.j.JMeter: Version 3.2 r1790748
+2017-07-18 13:57:23,813 INFO o.a.j.JMeter: java.version=1.8.0_131
+2017-07-18 13:57:23,813 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2017-07-18 13:57:23,813 INFO o.a.j.JMeter: os.name=Windows 10
+2017-07-18 13:57:23,813 INFO o.a.j.JMeter: os.arch=amd64
+2017-07-18 13:57:23,813 INFO o.a.j.JMeter: os.version=10.0
+2017-07-18 13:57:23,813 INFO o.a.j.JMeter: file.encoding=Cp1252
+2017-07-18 13:57:23,813 INFO o.a.j.JMeter: Max memory     =536870912
+2017-07-18 13:57:23,813 INFO o.a.j.JMeter: Available Processors =4
+2017-07-18 13:57:23,817 INFO o.a.j.JMeter: Default Locale=English (United States)
+2017-07-18 13:57:23,817 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2017-07-18 13:57:23,817 INFO o.a.j.JMeter: JMeterHome=D:\Endava\Testing\Projects\WorldRemit\apache-jmeter-3.2\apache-jmeter-3.2
+2017-07-18 13:57:23,817 INFO o.a.j.JMeter: user.dir  =D:\Endava\Testing\Projects\WorldRemit\apache-jmeter-3.2\apache-jmeter-3.2\bin
+2017-07-18 13:57:23,818 INFO o.a.j.JMeter: PWD       =D:\Endava\Testing\Projects\WorldRemit\apache-jmeter-3.2\apache-jmeter-3.2\bin
+2017-07-18 13:57:23,819 INFO o.a.j.JMeter: IP: 172.18.42.82 Name: EN769037 FullName: EN769037.endava.net
+2017-07-18 13:57:23,820 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'D:\Endava\Testing\Projects\WorldRemit\TestDocuments\PartnershipAPI\JmeterAPITests\PerformanceTests\Sprint2\Results-LoadTest\Load5\SenderDetails\SenderDetails-Load5Results'
+2017-07-18 13:57:23,822 INFO o.a.j.s.FileServer: Default base='D:\Endava\Testing\Projects\WorldRemit\apache-jmeter-3.2\apache-jmeter-3.2\bin'
+2017-07-18 13:57:23,823 INFO o.a.j.s.FileServer: Set new base='D:\Endava\Testing\Projects\WorldRemit\TestDocuments\PartnershipAPI\JmeterAPITests\PerformanceTests\Sprint2\Results-LoadTest\Load5\SenderDetails'
+2017-07-18 13:57:23,914 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2017-07-18 13:57:23,927 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2017-07-18 13:57:23,932 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2017-07-18 13:57:23,941 INFO o.a.j.s.SaveService: Loading file: D:\Endava\Testing\Projects\WorldRemit\TestDocuments\PartnershipAPI\JmeterAPITests\PerformanceTests\Sprint2\Results-LoadTest\Load5\SenderDetails\SenderDetails-Load5.jmx
+2017-07-18 13:57:24,001 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-07-18 13:57:24,001 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-07-18 13:57:24,001 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-07-18 13:57:24,001 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2017-07-18 13:57:24,001 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2017-07-18 13:57:24,002 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2017-07-18 13:57:24,043 INFO o.a.j.JMeter: Creating summariser <summary>
+2017-07-18 13:57:24,049 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2017-07-18 13:57:24,049 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: testlogSenderDetails-Load5.log
+2017-07-18 13:57:24,049 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: D:\Endava\Testing\Projects\WorldRemit\apache-jmeter-3.2\apache-jmeter-3.2\bin\reportgenerator.properties
+2017-07-18 13:57:24,050 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2017-07-18 13:57:24,055 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2017-07-18 13:57:24,060 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2017-07-18 13:57:24,060 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction : {} is empty, not APDEX per transaction customization
+2017-07-18 13:57:24,060 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2017-07-18 13:57:24,060 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2017-07-18 13:57:24,060 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2017-07-18 13:57:24,061 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2017-07-18 13:57:24,061 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2017-07-18 13:57:24,061 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2017-07-18 13:57:24,066 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2017-07-18 13:57:24,066 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2017-07-18 13:57:24,066 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2017-07-18 13:57:24,066 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2017-07-18 13:57:24,066 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2017-07-18 13:57:24,067 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2017-07-18 13:57:24,067 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2017-07-18 13:57:24,067 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2017-07-18 13:57:24,067 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2017-07-18 13:57:24,068 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2017-07-18 13:57:24,068 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2017-07-18 13:57:24,068 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2017-07-18 13:57:24,090 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2017-07-18 13:57:24,091 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-07-18 13:57:24,091 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2017-07-18 13:57:24,095 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2017-07-18 13:57:24,095 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2017-07-18 13:57:24,492 INFO o.a.j.JMeter: Running test (1500375444492)
+2017-07-18 13:57:24,539 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2017-07-18 13:57:24,539 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Thread Group.
+2017-07-18 13:57:24,539 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2017-07-18 13:57:24,540 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=15 perThread=150.0 delayedStart=false
+2017-07-18 13:57:24,618 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2017-07-18 13:57:24,618 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2017-07-18 13:57:24,664 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2017-07-18 13:57:24,669 INFO o.a.j.s.FileServer: Stored: users-foundation.csv
+2017-07-18 13:57:24,692 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = EN769037
+2017-07-18 13:57:24,701 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2017-07-18 13:57:24,714 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2017-07-18 13:57:24,714 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2017-07-18 13:57:24,714 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2017-07-18 13:57:24,714 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2017-07-18 13:57:24,841 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2017-07-18 13:57:24,843 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2017-07-18 13:57:24,850 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2017-07-18 13:57:24,850 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2017-07-18 13:57:24,963 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2017-07-18 13:57:25,100 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2017-07-18 13:57:25,101 INFO o.a.j.u.SSLManager: KeyStore created OK
+2017-07-18 13:57:25,101 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2017-07-18 13:57:25,121 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2017-07-18 13:57:25,303 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2017-07-18 13:57:25,428 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2017-07-18 13:57:25,580 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2017-07-18 13:57:25,730 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2017-07-18 13:57:25,880 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2017-07-18 13:57:26,031 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2017-07-18 13:57:26,180 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2017-07-18 13:57:26,335 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2017-07-18 13:57:26,485 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2017-07-18 13:57:26,635 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2017-07-18 13:57:26,785 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2017-07-18 13:57:26,936 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2017-07-18 13:57:27,085 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2017-07-18 13:57:27,209 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2017-07-18 13:57:27,398 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2017-07-18 13:57:27,543 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2017-07-18 13:57:27,692 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2017-07-18 13:57:27,841 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2017-07-18 13:57:27,963 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2017-07-18 13:57:28,140 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2017-07-18 13:57:28,263 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2017-07-18 13:57:28,441 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2017-07-18 13:57:28,564 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2017-07-18 13:57:28,713 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2017-07-18 13:57:28,860 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2017-07-18 13:57:29,008 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2017-07-18 13:57:29,157 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2017-07-18 13:57:29,306 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2017-07-18 13:57:29,468 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2017-07-18 13:57:29,618 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2017-07-18 13:57:29,757 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2017-07-18 13:57:29,913 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2017-07-18 13:57:30,020 INFO o.a.j.r.Summariser: summary +     36 in 00:00:06 =    6.5/s Avg:  1761 Min:   496 Max:  3630 Err:     2 (5.56%) Active: 36 Started: 36 Finished: 0
+2017-07-18 13:57:30,056 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2017-07-18 13:57:30,209 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2017-07-18 13:57:30,386 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2017-07-18 13:57:30,543 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2017-07-18 13:57:30,691 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-41
+2017-07-18 13:57:30,841 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-42
+2017-07-18 13:57:30,992 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-43
+2017-07-18 13:57:31,142 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-44
+2017-07-18 13:57:31,263 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-45
+2017-07-18 13:57:31,439 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-46
+2017-07-18 13:57:31,556 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-47
+2017-07-18 13:57:31,748 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-48
+2017-07-18 13:57:31,892 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-49
+2017-07-18 13:57:32,012 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-50
+2017-07-18 13:57:32,193 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-51
+2017-07-18 13:57:32,323 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-52
+2017-07-18 13:57:32,487 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-53
+2017-07-18 13:57:32,630 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-54
+2017-07-18 13:57:32,777 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-55
+2017-07-18 13:57:32,927 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-56
+2017-07-18 13:57:33,077 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-57
+2017-07-18 13:57:33,225 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-58
+2017-07-18 13:57:33,376 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-59
+2017-07-18 13:57:33,526 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-60
+2017-07-18 13:57:33,675 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-61
+2017-07-18 13:57:33,825 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-62
+2017-07-18 13:57:33,976 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-63
+2017-07-18 13:57:34,124 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-64
+2017-07-18 13:57:34,275 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-65
+2017-07-18 13:57:34,424 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-66
+2017-07-18 13:57:34,575 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-67
+2017-07-18 13:57:34,725 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-68
+2017-07-18 13:57:34,875 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-69
+2017-07-18 13:57:35,025 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-70
+2017-07-18 13:57:35,174 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-71
+2017-07-18 13:57:35,324 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-72
+2017-07-18 13:57:35,474 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-73
+2017-07-18 13:57:35,630 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-74
+2017-07-18 13:57:35,780 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-75
+2017-07-18 13:57:35,929 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-76
+2017-07-18 13:57:36,078 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-77
+2017-07-18 13:57:36,223 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-78
+2017-07-18 13:57:36,373 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-79
+2017-07-18 13:57:36,523 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-80
+2017-07-18 13:57:36,673 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-81
+2017-07-18 13:57:36,822 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-82
+2017-07-18 13:57:36,972 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-83
+2017-07-18 13:57:37,122 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-84
+2017-07-18 13:57:37,272 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-85
+2017-07-18 13:57:37,422 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-86
+2017-07-18 13:57:37,572 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-87
+2017-07-18 13:57:37,722 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-88
+2017-07-18 13:57:37,873 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-89
+2017-07-18 13:57:38,035 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-90
+2017-07-18 13:57:38,180 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-91
+2017-07-18 13:57:38,321 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-92
+2017-07-18 13:57:38,470 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-93
+2017-07-18 13:57:38,621 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-94
+2017-07-18 13:57:38,771 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-95
+2017-07-18 13:57:38,919 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-96
+2017-07-18 13:57:39,071 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-97
+2017-07-18 13:57:39,220 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-98
+2017-07-18 13:57:39,370 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-99
+2017-07-18 13:57:39,520 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-100
+2017-07-18 13:57:44,770 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-5
+2017-07-18 13:57:44,770 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2017-07-18 13:57:45,073 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-12
+2017-07-18 13:57:45,073 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2017-07-18 13:57:46,700 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-7
+2017-07-18 13:57:46,700 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2017-07-18 13:57:48,020 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-10
+2017-07-18 13:57:48,020 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2017-07-18 13:57:48,201 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-14
+2017-07-18 13:57:48,201 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2017-07-18 13:57:48,614 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-2
+2017-07-18 13:57:48,614 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2017-07-18 13:57:48,743 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-3
+2017-07-18 13:57:48,743 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2017-07-18 13:57:48,820 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-4
+2017-07-18 13:57:48,820 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2017-07-18 13:57:49,414 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-21
+2017-07-18 13:57:49,414 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-21
+2017-07-18 13:57:50,961 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-13
+2017-07-18 13:57:50,961 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2017-07-18 13:57:51,456 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-6
+2017-07-18 13:57:51,456 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2017-07-18 13:57:51,457 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-8
+2017-07-18 13:57:51,457 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2017-07-18 13:57:53,858 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-40
+2017-07-18 13:57:53,858 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-40
+2017-07-18 13:57:54,954 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-58
+2017-07-18 13:57:54,954 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-58
+2017-07-18 13:57:55,769 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-11
+2017-07-18 13:57:55,769 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2017-07-18 13:57:56,225 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2017-07-18 13:57:56,225 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2017-07-18 13:57:56,225 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-24
+2017-07-18 13:57:56,226 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-24
+2017-07-18 13:57:56,227 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-32
+2017-07-18 13:57:56,227 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-32
+2017-07-18 13:57:56,228 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-27
+2017-07-18 13:57:56,228 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-27
+2017-07-18 13:57:56,389 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-36
+2017-07-18 13:57:56,389 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-36
+2017-07-18 13:57:56,426 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-16
+2017-07-18 13:57:56,426 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2017-07-18 13:57:56,475 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-15
+2017-07-18 13:57:56,475 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2017-07-18 13:57:56,478 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-60
+2017-07-18 13:57:56,478 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-60
+2017-07-18 13:57:56,616 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-37
+2017-07-18 13:57:56,617 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-37
+2017-07-18 13:57:56,623 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-18
+2017-07-18 13:57:56,624 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2017-07-18 13:57:56,628 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-41
+2017-07-18 13:57:56,628 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-41
+2017-07-18 13:57:56,629 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-45
+2017-07-18 13:57:56,629 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-45
+2017-07-18 13:57:56,821 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-48
+2017-07-18 13:57:56,821 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-48
+2017-07-18 13:57:56,824 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-17
+2017-07-18 13:57:56,824 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2017-07-18 13:57:57,416 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-25
+2017-07-18 13:57:57,416 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-25
+2017-07-18 13:57:57,611 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-9
+2017-07-18 13:57:57,611 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2017-07-18 13:57:59,027 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-28
+2017-07-18 13:57:59,027 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-28
+2017-07-18 13:57:59,125 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-23
+2017-07-18 13:57:59,125 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-23
+2017-07-18 13:57:59,155 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-26
+2017-07-18 13:57:59,155 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-26
+2017-07-18 13:57:59,163 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-55
+2017-07-18 13:57:59,163 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-55
+2017-07-18 13:57:59,212 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-44
+2017-07-18 13:57:59,212 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-44
+2017-07-18 13:57:59,542 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-78
+2017-07-18 13:57:59,542 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-78
+2017-07-18 13:58:00,165 INFO o.a.j.r.Summariser: summary +    424 in 00:00:30 =   14.1/s Avg:  5327 Min:   729 Max: 15438 Err:     4 (0.94%) Active: 63 Started: 100 Finished: 37
+2017-07-18 13:58:00,168 INFO o.a.j.r.Summariser: summary =    460 in 00:00:36 =   12.9/s Avg:  5048 Min:   496 Max: 15438 Err:     6 (1.30%)
+2017-07-18 13:58:02,238 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-50
+2017-07-18 13:58:02,238 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-50
+2017-07-18 13:58:02,485 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-22
+2017-07-18 13:58:02,485 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-22
+2017-07-18 13:58:02,593 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-20
+2017-07-18 13:58:02,593 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2017-07-18 13:58:02,695 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-31
+2017-07-18 13:58:02,695 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-31
+2017-07-18 13:58:02,726 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-42
+2017-07-18 13:58:02,726 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-42
+2017-07-18 13:58:03,139 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-30
+2017-07-18 13:58:03,140 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-30
+2017-07-18 13:58:03,146 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-35
+2017-07-18 13:58:03,146 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-35
+2017-07-18 13:58:03,151 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-29
+2017-07-18 13:58:03,151 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-29
+2017-07-18 13:58:03,594 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-65
+2017-07-18 13:58:03,594 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-65
+2017-07-18 13:58:04,359 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-39
+2017-07-18 13:58:04,359 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-39
+2017-07-18 13:58:04,463 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-38
+2017-07-18 13:58:04,463 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-38
+2017-07-18 13:58:04,465 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-51
+2017-07-18 13:58:04,465 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-51
+2017-07-18 13:58:04,466 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-82
+2017-07-18 13:58:04,466 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-82
+2017-07-18 13:58:04,564 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-72
+2017-07-18 13:58:04,564 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-72
+2017-07-18 13:58:04,566 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-67
+2017-07-18 13:58:04,566 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-67
+2017-07-18 13:58:04,654 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-91
+2017-07-18 13:58:04,654 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-91
+2017-07-18 13:58:04,689 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-79
+2017-07-18 13:58:04,689 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-79
+2017-07-18 13:58:04,691 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-52
+2017-07-18 13:58:04,691 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-52
+2017-07-18 13:58:04,792 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-87
+2017-07-18 13:58:04,792 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-87
+2017-07-18 13:58:04,866 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-34
+2017-07-18 13:58:04,866 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-34
+2017-07-18 13:58:04,867 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-47
+2017-07-18 13:58:04,867 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-47
+2017-07-18 13:58:04,978 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-19
+2017-07-18 13:58:04,978 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2017-07-18 13:58:04,981 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-46
+2017-07-18 13:58:04,981 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-46
+2017-07-18 13:58:05,071 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-61
+2017-07-18 13:58:05,071 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-61
+2017-07-18 13:58:05,152 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-74
+2017-07-18 13:58:05,152 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-74
+2017-07-18 13:58:05,174 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-62
+2017-07-18 13:58:05,175 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-62
+2017-07-18 13:58:05,193 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-71
+2017-07-18 13:58:05,193 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-71
+2017-07-18 13:58:05,195 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-56
+2017-07-18 13:58:05,195 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-56
+2017-07-18 13:58:05,196 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-54
+2017-07-18 13:58:05,196 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-54
+2017-07-18 13:58:05,211 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-59
+2017-07-18 13:58:05,211 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-59
+2017-07-18 13:58:05,225 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-33
+2017-07-18 13:58:05,225 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-33
+2017-07-18 13:58:05,273 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-88
+2017-07-18 13:58:05,273 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-88
+2017-07-18 13:58:05,453 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-53
+2017-07-18 13:58:05,454 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-53
+2017-07-18 13:58:05,496 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-86
+2017-07-18 13:58:05,496 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-86
+2017-07-18 13:58:05,583 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-96
+2017-07-18 13:58:05,583 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-96
+2017-07-18 13:58:05,585 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-75
+2017-07-18 13:58:05,585 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-75
+2017-07-18 13:58:05,682 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-49
+2017-07-18 13:58:05,682 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-49
+2017-07-18 13:58:05,690 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-76
+2017-07-18 13:58:05,690 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-76
+2017-07-18 13:58:05,691 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-66
+2017-07-18 13:58:05,691 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-66
+2017-07-18 13:58:05,862 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-63
+2017-07-18 13:58:05,862 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-63
+2017-07-18 13:58:06,940 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-81
+2017-07-18 13:58:06,941 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-81
+2017-07-18 13:58:06,950 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-73
+2017-07-18 13:58:06,950 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-73
+2017-07-18 13:58:06,960 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-57
+2017-07-18 13:58:06,960 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-57
+2017-07-18 13:58:07,035 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-70
+2017-07-18 13:58:07,035 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-70
+2017-07-18 13:58:07,435 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-80
+2017-07-18 13:58:07,435 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-80
+2017-07-18 13:58:07,774 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-43
+2017-07-18 13:58:07,774 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-43
+2017-07-18 13:58:08,892 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-89
+2017-07-18 13:58:08,892 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-89
+2017-07-18 13:58:09,012 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-97
+2017-07-18 13:58:09,012 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-97
+2017-07-18 13:58:09,015 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-92
+2017-07-18 13:58:09,015 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-92
+2017-07-18 13:58:09,016 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-77
+2017-07-18 13:58:09,016 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-77
+2017-07-18 13:58:09,100 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-84
+2017-07-18 13:58:09,100 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-84
+2017-07-18 13:58:09,106 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-95
+2017-07-18 13:58:09,106 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-95
+2017-07-18 13:58:09,111 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-100
+2017-07-18 13:58:09,111 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-100
+2017-07-18 13:58:09,126 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-90
+2017-07-18 13:58:09,126 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-90
+2017-07-18 13:58:09,436 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-94
+2017-07-18 13:58:09,436 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-94
+2017-07-18 13:58:09,438 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-68
+2017-07-18 13:58:09,438 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-68
+2017-07-18 13:58:09,463 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-83
+2017-07-18 13:58:09,463 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-83
+2017-07-18 13:58:09,464 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-85
+2017-07-18 13:58:09,464 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-85
+2017-07-18 13:58:09,466 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-69
+2017-07-18 13:58:09,466 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-69
+2017-07-18 13:58:09,467 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-93
+2017-07-18 13:58:09,467 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-93
+2017-07-18 13:58:09,476 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-99
+2017-07-18 13:58:09,476 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-99
+2017-07-18 13:58:09,484 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-98
+2017-07-18 13:58:09,484 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-98
+2017-07-18 13:58:09,489 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-64
+2017-07-18 13:58:09,489 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-64
+2017-07-18 13:58:09,489 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2017-07-18 13:58:09,489 INFO o.a.j.s.FileServer: Close: users-foundation.csv
+2017-07-18 13:58:09,490 INFO o.a.j.r.Summariser: summary +    140 in 00:00:09 =   15.0/s Avg:  4563 Min:   594 Max: 13063 Err:     0 (0.00%) Active: 0 Started: 100 Finished: 100
+2017-07-18 13:58:09,494 INFO o.a.j.r.Summariser: summary =    600 in 00:00:45 =   13.3/s Avg:  4934 Min:   496 Max: 15438 Err:     6 (1.00%)
+2017-07-18 13:58:09,502 INFO o.a.j.JMeter: Generating Dashboard
+2017-07-18 13:58:09,503 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2017-07-18 13:58:09,518 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2017-07-18 13:58:09,805 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2017-07-18 13:58:09,805 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2017-07-18 13:58:09,806 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2017-07-18 13:58:09,806 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2017-07-18 13:58:09,813 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2017-07-18 13:58:09,814 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2017-07-18 13:58:09,814 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2017-07-18 13:58:09,814 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2017-07-18 13:58:09,877 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2017-07-18 13:58:09,878 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2017-07-18 13:58:09,878 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2017-07-18 13:58:09,878 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2017-07-18 13:58:09,887 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2017-07-18 13:58:09,888 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 4200 samples
+2017-07-18 13:58:09,889 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2017-07-18 13:58:09,889 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2017-07-18 13:58:09,901 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2017-07-18 13:58:09,902 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2017-07-18 13:58:09,902 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2017-07-18 13:58:09,906 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2017-07-18 13:58:09,908 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2017-07-18 13:58:09,909 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2017-07-18 13:58:09,909 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2017-07-18 13:58:09,909 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 8400 samples
+2017-07-18 13:58:09,909 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 1800 samples
+2017-07-18 13:58:09,909 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 600 samples
+2017-07-18 13:58:09,910 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 600 samples produced in 366ms on channel 0
+2017-07-18 13:58:09,910 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2017-07-18 13:58:09,915 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: D:\Endava\Testing\Projects\WorldRemit\TestDocuments\PartnershipAPI\JmeterAPITests\PerformanceTests\Sprint2\Results-LoadTest\Load5\SenderDetails\SenderDetails-Load5Results
+2017-07-18 13:58:10,033 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: D:\Endava\Testing\Projects\WorldRemit\TestDocuments\PartnershipAPI\JmeterAPITests\PerformanceTests\Sprint2\Results-LoadTest\Load5\SenderDetails\SenderDetails-Load5Results, creating folder structure
+2017-07-18 13:58:10,762 INFO o.a.j.JMeter: Dashboard generated

@@ -1,0 +1,451 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1499240787602,4230,/api/countries,200,OK,Thread Group 1-21,text,true,,8009,211,50,50,4230,0,2065
+1499240786389,6862,/api/countries,200,OK,Thread Group 1-2,text,true,,8009,211,50,50,6862,0,3263
+1499240787893,5765,/api/countries,200,OK,Thread Group 1-31,text,true,,8009,211,50,50,5764,0,1775
+1499240787655,6005,/api/countries,200,OK,Thread Group 1-26,text,true,,8009,211,50,50,6004,0,1996
+1499240788086,6364,/api/countries,200,OK,Thread Group 1-37,text,true,,8009,211,50,50,6364,0,1482
+1499240787871,6591,/api/countries,200,OK,Thread Group 1-30,text,true,,8009,211,50,50,6591,0,1708
+1499240786388,8093,/api/countries,200,OK,Thread Group 1-4,text,true,,8009,211,50,50,8093,0,3200
+1499240787189,7294,/api/countries,200,OK,Thread Group 1-14,text,true,,8009,211,50,50,7294,0,2393
+1499240788163,6368,/api/countries,200,OK,Thread Group 1-40,text,true,,8009,211,50,50,6368,0,1415
+1499240786387,8150,/api/countries,200,OK,Thread Group 1-8,text,true,,8009,211,50,50,8150,0,3188
+1499240787227,7312,/api/countries,200,OK,Thread Group 1-15,text,true,,8009,211,50,50,7312,0,2346
+1499240786356,8185,/api/countries,200,OK,Thread Group 1-5,text,true,,8009,211,50,50,8185,0,3222
+1499240787617,6931,/api/countries,200,OK,Thread Group 1-22,text,true,,8009,211,50,50,6931,0,1971
+1499240787254,7295,/api/countries,200,OK,Thread Group 1-17,text,true,,8009,211,50,50,7295,0,2339
+1499240787994,6557,/api/countries,200,OK,Thread Group 1-35,text,true,,8009,211,50,50,6557,0,1588
+1499240787231,7370,/api/countries,200,OK,Thread Group 1-16,text,true,,8009,211,50,50,7370,0,2348
+1499240786388,8213,/api/countries,200,OK,Thread Group 1-11,text,true,,8009,211,50,50,8213,0,3199
+1499240787797,6845,/api/countries,200,OK,Thread Group 1-28,text,true,,8009,211,50,50,6845,0,1783
+1499240786388,10092,/api/countries,200,OK,Thread Group 1-6,text,true,,8009,211,50,50,10092,0,3446
+1499240787407,9074,/api/countries,200,OK,Thread Group 1-19,text,true,,8009,211,50,50,9074,0,2427
+1499240789651,10208,/api/countries,200,OK,Thread Group 1-46,text,true,,8009,211,50,50,10208,0,203
+1499240789647,10312,/api/countries,200,OK,Thread Group 1-44,text,true,,8009,211,50,50,10312,0,225
+1499240789653,10312,/api/countries,200,OK,Thread Group 1-47,text,true,,8009,211,50,50,10312,0,204
+1499240789653,10604,/api/countries,200,OK,Thread Group 1-45,text,true,,8009,211,50,50,10604,0,280
+1499240789658,10607,/api/countries,200,OK,Thread Group 1-48,text,true,,8009,211,50,50,10607,0,288
+1499240787173,13111,/api/countries,200,OK,Thread Group 1-13,text,true,,8009,211,50,50,13111,0,2685
+1499240789661,10633,/api/countries,200,OK,Thread Group 1-49,text,true,,8009,211,50,50,10633,0,235
+1499240787592,12704,/api/countries,200,OK,Thread Group 1-20,text,true,,8009,211,50,50,12704,0,2048
+1499240788214,13163,/api/countries,200,OK,Thread Group 1-41,text,true,,8009,211,50,50,13163,0,1369
+1499240786388,14989,/api/countries,200,OK,Thread Group 1-9,text,true,,8009,211,50,50,14989,0,3192
+1499240788024,13369,/api/countries,200,OK,Thread Group 1-36,text,true,,8009,211,50,50,13369,0,1577
+1499240794551,7456,/api/my-country,200,OK,Thread Group 1-35,text,true,,489,212,50,50,7456,0,70
+1499240794642,7365,/api/my-country,200,OK,Thread Group 1-28,text,true,,489,212,50,50,7365,0,67
+1499240794450,7559,/api/my-country,200,OK,Thread Group 1-37,text,true,,489,212,50,50,7559,0,69
+1499240794462,7547,/api/my-country,200,OK,Thread Group 1-30,text,true,,489,212,50,50,7547,0,69
+1499240794531,7479,/api/my-country,200,OK,Thread Group 1-40,text,true,,489,212,50,50,7479,0,73
+1499240794482,7529,/api/my-country,200,OK,Thread Group 1-4,text,true,,489,212,50,50,7529,0,69
+1499240794484,7534,/api/my-country,200,OK,Thread Group 1-14,text,true,,489,212,50,50,7534,0,69
+1499240794548,7592,/api/my-country,200,OK,Thread Group 1-22,text,true,,489,212,50,50,7592,0,68
+1499240794540,8289,/api/my-country,200,OK,Thread Group 1-15,text,true,,489,212,50,50,8289,0,68
+1499240787636,15195,/api/countries,200,OK,Thread Group 1-25,text,true,,8009,211,50,50,15195,0,1966
+1499240786382,16451,/api/countries,200,OK,Thread Group 1-10,text,true,,8009,211,50,50,16451,0,3213
+1499240786457,16377,/api/countries,200,OK,Thread Group 1-1,text,true,,8009,211,50,50,16377,0,3139
+1499240787628,15208,/api/countries,200,OK,Thread Group 1-24,text,true,,8009,211,50,50,15208,0,1962
+1499240787935,14903,/api/countries,200,OK,Thread Group 1-33,text,true,,8009,211,50,50,14903,0,1675
+1499240787993,14860,/api/countries,200,OK,Thread Group 1-34,text,true,,8009,211,50,50,14860,0,1601
+1499240788244,14609,/api/countries,200,OK,Thread Group 1-42,text,true,,8009,211,50,50,14609,0,1342
+1499240787397,15578,/api/countries,200,OK,Thread Group 1-18,text,true,,8009,211,50,50,15578,0,2209
+1499240794542,8434,/api/my-country,200,OK,Thread Group 1-5,text,true,,489,212,50,50,8434,0,68
+1499240787745,15235,/api/countries,200,OK,Thread Group 1-27,text,true,,8009,211,50,50,15235,0,1865
+1499240787837,15396,/api/countries,200,OK,Thread Group 1-29,text,true,,8009,211,50,50,15396,0,1758
+1499240794550,8689,/api/my-country,200,OK,Thread Group 1-17,text,true,,489,212,50,50,8689,0,68
+1499240787625,15785,/api/countries,200,OK,Thread Group 1-23,text,true,,8009,211,50,50,15785,0,1949
+1499240787917,15495,/api/countries,200,OK,Thread Group 1-32,text,true,,8009,211,50,50,15495,0,1685
+1499240794537,8876,/api/my-country,200,OK,Thread Group 1-8,text,true,,489,212,50,50,8876,0,69
+1499240788146,15267,/api/countries,200,OK,Thread Group 1-39,text,true,,8009,211,50,50,15267,0,1466
+1499240786720,16696,/api/countries,200,OK,Thread Group 1-12,text,true,,8009,211,50,50,16696,0,2875
+1499240788086,15333,/api/countries,200,OK,Thread Group 1-38,text,true,,8009,211,50,50,15333,0,1524
+1499240789661,14180,/api/countries,200,OK,Thread Group 1-50,text,true,,8009,211,50,50,14180,0,240
+1499240789637,14234,/api/countries,200,OK,Thread Group 1-43,text,true,,8009,211,50,50,14234,0,232
+1499240801382,2540,/api/my-country,200,OK,Thread Group 1-41,text,true,,489,212,50,50,2540,0,67
+1499240786385,17539,/api/countries,200,OK,Thread Group 1-7,text,true,,8009,211,50,50,17539,0,3212
+1499240793658,10270,/api/my-country,200,OK,Thread Group 1-31,text,true,,489,212,50,50,10270,0,68
+1499240786390,17542,/api/countries,200,OK,Thread Group 1-3,text,true,,8009,211,50,50,17542,0,3211
+1499240799966,3982,/api/my-country,200,OK,Thread Group 1-47,text,true,,489,212,50,50,3982,0,67
+1499240793660,10291,/api/my-country,200,OK,Thread Group 1-26,text,true,,489,212,50,50,10291,0,70
+1499240796480,7471,/api/my-country,200,OK,Thread Group 1-6,text,true,,489,212,50,50,7471,0,68
+1499240796482,7470,/api/my-country,200,OK,Thread Group 1-19,text,true,,489,212,50,50,7470,0,68
+1499240799959,4000,/api/my-country,200,OK,Thread Group 1-44,text,true,,489,212,50,50,4000,0,68
+1499240799860,4099,/api/my-country,200,OK,Thread Group 1-46,text,true,,489,212,50,50,4099,0,68
+1499240793251,10710,/api/my-country,200,OK,Thread Group 1-2,text,true,,489,212,50,50,10710,0,71
+1499240791838,12123,/api/my-country,200,OK,Thread Group 1-21,text,true,,489,212,50,50,12123,0,71
+1499240800257,3772,/api/my-country,200,OK,Thread Group 1-45,text,true,,489,212,50,50,3772,0,67
+1499240800265,3805,/api/my-country,200,OK,Thread Group 1-48,text,true,,489,212,50,50,3805,0,71
+1499240800294,3776,/api/my-country,200,OK,Thread Group 1-49,text,true,,489,212,50,50,3776,0,68
+1499240800296,3835,/api/my-country,200,OK,Thread Group 1-20,text,true,,489,212,50,50,3835,0,70
+1499240801393,2804,/api/my-country,200,OK,Thread Group 1-36,text,true,,489,212,50,50,2804,0,77
+1499240801382,2817,/api/my-country,200,OK,Thread Group 1-9,text,true,,489,212,50,50,2817,0,67
+1499240794601,10000,/api/my-country,200,OK,Thread Group 1-11,text,true,,489,212,50,50,10000,0,70
+1499240794601,10003,/api/my-country,200,OK,Thread Group 1-16,text,true,,489,212,50,50,10003,0,69
+1499240802023,6421,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-40,text,false,Test failed: code expected to contain /201/,795,0,50,50,6421,0,72
+1499240802024,6420,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-35,text,false,Test failed: code expected to contain /201/,795,0,50,50,6420,0,72
+1499240808450,57,OS Process Sampler,0,OK,Thread Group 1-40,text,true,,234,0,50,50,0,0,0
+1499240808450,61,OS Process Sampler,0,OK,Thread Group 1-35,text,true,,234,0,50,50,0,0,0
+1499240803925,7676,/api/my-country,200,OK,Thread Group 1-7,text,true,,489,212,50,50,7676,0,67
+1499240803416,8188,/api/my-country,200,OK,Thread Group 1-12,text,true,,489,212,50,50,8188,0,71
+1499240803413,8191,/api/my-country,200,OK,Thread Group 1-39,text,true,,489,212,50,50,8191,0,81
+1499240803932,7679,/api/my-country,200,OK,Thread Group 1-3,text,true,,489,212,50,50,7679,0,73
+1499240802975,8640,/api/my-country,200,OK,Thread Group 1-18,text,true,,489,212,50,50,8640,0,69
+1499240803842,7773,/api/my-country,200,OK,Thread Group 1-50,text,true,,489,212,50,50,7773,0,68
+1499240803410,8205,/api/my-country,200,OK,Thread Group 1-23,text,true,,489,212,50,50,8205,0,73
+1499240802977,8643,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-5,text,false,Test failed: code expected to contain /201/,795,0,50,50,8643,0,68
+1499240811620,88,OS Process Sampler,0,OK,Thread Group 1-5,text,true,,234,0,50,50,0,0,0
+1499240803233,10451,/api/my-country,200,OK,Thread Group 1-29,text,true,,489,212,50,50,10451,0,70
+1499240803412,10273,/api/my-country,200,OK,Thread Group 1-32,text,true,,489,212,50,50,10273,0,77
+1499240803419,10272,/api/my-country,200,OK,Thread Group 1-38,text,true,,489,212,50,50,10272,0,72
+1499240802980,10711,/api/my-country,200,OK,Thread Group 1-27,text,true,,489,212,50,50,10711,0,70
+1499240800284,13607,/api/my-country,200,OK,Thread Group 1-13,text,true,,489,212,50,50,13607,0,68
+1499240802833,11134,/api/my-country,200,OK,Thread Group 1-10,text,true,,489,212,50,50,11134,0,71
+1499240802853,11114,/api/my-country,200,OK,Thread Group 1-42,text,true,,489,212,50,50,11114,0,71
+1499240802831,11139,/api/my-country,200,OK,Thread Group 1-25,text,true,,489,212,50,50,11139,0,73
+1499240802836,11136,/api/my-country,200,OK,Thread Group 1-24,text,true,,489,212,50,50,11136,0,70
+1499240802838,11135,/api/my-country,200,OK,Thread Group 1-33,text,true,,489,212,50,50,11135,0,73
+1499240802853,11120,/api/my-country,200,OK,Thread Group 1-34,text,true,,489,212,50,50,11120,0,72
+1499240802834,11145,/api/my-country,200,OK,Thread Group 1-1,text,true,,489,212,50,50,11145,0,71
+1499240803871,10603,/api/my-country,200,OK,Thread Group 1-43,text,true,,489,212,50,50,10603,0,69
+1499240803414,15949,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-8,text,false,Test failed: code expected to contain /201/,795,0,50,50,15949,0,75
+1499240803950,15415,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-47,text,false,Test failed: code expected to contain /201/,795,0,50,50,15415,0,68
+1499240804030,15335,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-45,text,false,Test failed: code expected to contain /201/,795,0,50,50,15335,0,71
+1499240804132,15233,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-20,text,false,Test failed: code expected to contain /201/,795,0,50,50,15233,0,70
+1499240804603,14763,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-11,text,false,Test failed: code expected to contain /201/,795,0,50,50,14763,0,68
+1499240803953,15413,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-6,text,false,Test failed: code expected to contain /201/,795,0,50,50,15413,0,67
+1499240803964,15402,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-21,text,false,Test failed: code expected to contain /201/,795,0,50,50,15402,0,68
+1499240803930,15436,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-31,text,false,Test failed: code expected to contain /201/,795,0,50,50,15436,0,74
+1499240803925,15442,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-41,text,false,Test failed: code expected to contain /201/,795,0,50,50,15442,0,68
+1499240804072,15293,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-48,text,false,Test failed: code expected to contain /201/,795,0,50,50,15293,0,67
+1499240804199,15173,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-36,text,false,Test failed: code expected to contain /201/,795,0,50,50,15173,0,75
+1499240813686,5688,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-32,text,false,Test failed: code expected to contain /201/,795,0,50,50,5688,0,67
+1499240803241,16147,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-17,text,false,Test failed: code expected to contain /201/,795,0,50,50,16147,0,68
+1499240813694,5695,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-38,text,false,Test failed: code expected to contain /201/,795,0,50,50,5695,0,86
+1499240813686,5725,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-29,text,false,Test failed: code expected to contain /201/,795,0,50,50,5725,0,70
+1499240813692,5719,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-27,text,false,Test failed: code expected to contain /201/,795,0,50,50,5719,0,87
+1499240819366,252,OS Process Sampler,0,OK,Thread Group 1-11,text,true,,234,0,50,50,0,0,0
+1499240819367,277,OS Process Sampler,0,OK,Thread Group 1-41,text,true,,234,0,50,50,0,0,0
+1499240819367,283,OS Process Sampler,0,OK,Thread Group 1-21,text,true,,234,0,50,50,0,0,0
+1499240819366,288,OS Process Sampler,0,OK,Thread Group 1-6,text,true,,234,0,50,50,0,0,0
+1499240819367,289,OS Process Sampler,0,OK,Thread Group 1-48,text,true,,234,0,50,50,0,0,0
+1499240819364,297,OS Process Sampler,0,OK,Thread Group 1-8,text,true,,234,0,50,50,0,0,0
+1499240819366,294,OS Process Sampler,0,OK,Thread Group 1-20,text,true,,234,0,50,50,0,0,0
+1499240819366,318,OS Process Sampler,0,OK,Thread Group 1-47,text,true,,234,0,50,50,0,0,0
+1499240819366,333,OS Process Sampler,0,OK,Thread Group 1-45,text,true,,234,0,50,50,0,0,0
+1499240819367,332,OS Process Sampler,0,OK,Thread Group 1-31,text,true,,234,0,50,50,0,0,0
+1499240819375,338,OS Process Sampler,0,OK,Thread Group 1-32,text,true,,234,0,50,50,0,0,0
+1499240819389,334,OS Process Sampler,0,OK,Thread Group 1-17,text,true,,234,0,50,50,0,0,0
+1499240819373,356,OS Process Sampler,0,OK,Thread Group 1-36,text,true,,234,0,50,50,0,0,0
+1499240819412,317,OS Process Sampler,0,OK,Thread Group 1-27,text,true,,234,0,50,50,0,0,0
+1499240819390,342,OS Process Sampler,0,OK,Thread Group 1-38,text,true,,234,0,50,50,0,0,0
+1499240819412,342,OS Process Sampler,0,OK,Thread Group 1-29,text,true,,234,0,50,50,0,0,0
+1499240811709,9654,/api/profile,200,OK,Thread Group 1-5,text,true,,875,573,50,50,9654,0,68
+1499240804200,17669,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-9,text,false,Test failed: code expected to contain /201/,795,0,50,50,17669,0,84
+1499240803963,17923,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-2,text,false,Test failed: code expected to contain /201/,795,0,50,50,17923,0,78
+1499240802144,19745,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-22,text,false,Test failed: code expected to contain /201/,795,0,50,50,19745,0,70
+1499240804606,17284,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-16,text,false,Test failed: code expected to contain /201/,795,0,50,50,17284,0,85
+1499240804072,17817,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-49,text,false,Test failed: code expected to contain /201/,795,0,50,50,17817,0,68
+1499240803960,17931,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-44,text,false,Test failed: code expected to contain /201/,795,0,50,50,17931,0,68
+1499240803953,17938,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-26,text,false,Test failed: code expected to contain /201/,795,0,50,50,17938,0,68
+1499240803953,17951,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-19,text,false,Test failed: code expected to contain /201/,795,0,50,50,17951,0,67
+1499240802024,19880,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-4,text,false,Test failed: code expected to contain /201/,795,0,50,50,19880,0,72
+1499240802024,19892,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-14,text,false,Test failed: code expected to contain /201/,795,0,50,50,19892,0,72
+1499240802025,19896,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-30,text,false,Test failed: code expected to contain /201/,795,0,50,50,19896,0,70
+1499240802833,19088,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-15,text,false,Test failed: code expected to contain /201/,795,0,50,50,19088,0,72
+1499240802025,19896,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-28,text,false,Test failed: code expected to contain /201/,795,0,50,50,19896,0,70
+1499240802024,19897,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-37,text,false,Test failed: code expected to contain /201/,795,0,50,50,19897,0,71
+1499240821871,290,OS Process Sampler,0,OK,Thread Group 1-9,text,true,,234,0,50,50,0,0,0
+1499240821922,258,OS Process Sampler,0,OK,Thread Group 1-37,text,true,,234,0,50,50,0,0,0
+1499240821887,293,OS Process Sampler,0,OK,Thread Group 1-2,text,true,,234,0,50,50,0,0,0
+1499240821891,298,OS Process Sampler,0,OK,Thread Group 1-49,text,true,,234,0,50,50,0,0,0
+1499240821921,271,OS Process Sampler,0,OK,Thread Group 1-15,text,true,,234,0,50,50,0,0,0
+1499240821917,275,OS Process Sampler,0,OK,Thread Group 1-14,text,true,,234,0,50,50,0,0,0
+1499240821891,301,OS Process Sampler,0,OK,Thread Group 1-44,text,true,,234,0,50,50,0,0,0
+1499240821905,291,OS Process Sampler,0,OK,Thread Group 1-4,text,true,,234,0,50,50,0,0,0
+1499240821921,275,OS Process Sampler,0,OK,Thread Group 1-28,text,true,,234,0,50,50,0,0,0
+1499240821890,306,OS Process Sampler,0,OK,Thread Group 1-22,text,true,,234,0,50,50,0,0,0
+1499240821891,308,OS Process Sampler,0,OK,Thread Group 1-16,text,true,,234,0,50,50,0,0,0
+1499240821892,309,OS Process Sampler,0,OK,Thread Group 1-26,text,true,,234,0,50,50,0,0,0
+1499240821921,281,OS Process Sampler,0,OK,Thread Group 1-30,text,true,,234,0,50,50,0,0,0
+1499240821905,300,OS Process Sampler,0,OK,Thread Group 1-19,text,true,,234,0,50,50,0,0,0
+1499240811618,14195,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-23,text,false,Test failed: code expected to contain /201/,795,0,50,50,14195,0,99
+1499240811616,14198,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-18,text,false,Test failed: code expected to contain /201/,795,0,50,50,14198,0,101
+1499240825815,49,OS Process Sampler,0,OK,Thread Group 1-18,text,true,,234,0,50,50,0,0,0
+1499240825814,51,OS Process Sampler,0,OK,Thread Group 1-23,text,true,,234,0,50,50,0,0,0
+1499240811602,15907,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-7,text,false,Test failed: code expected to contain /201/,795,0,50,50,15907,0,115
+1499240827510,61,OS Process Sampler,0,OK,Thread Group 1-7,text,true,,234,0,50,50,0,0,0
+1499240811606,17412,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-39,text,false,Test failed: code expected to contain /201/,795,0,50,50,17412,0,111
+1499240829018,46,OS Process Sampler,0,OK,Thread Group 1-39,text,true,,234,0,50,50,0,0,0
+1499240808509,23634,/api/profile,200,OK,Thread Group 1-40,text,true,,875,573,50,50,23634,0,80
+1499240808512,23641,/api/profile,200,OK,Thread Group 1-35,text,true,,875,573,50,50,23641,0,80
+1499240819657,12722,/api/profile,200,OK,Thread Group 1-48,text,true,,875,573,50,50,12722,0,69
+1499240819655,14094,/api/profile,200,OK,Thread Group 1-6,text,true,,875,573,50,50,14094,0,69
+1499240819685,14115,/api/profile,200,OK,Thread Group 1-47,text,true,,875,573,50,50,14115,0,76
+1499240819661,15409,/api/profile,200,OK,Thread Group 1-8,text,true,,875,573,50,50,15409,0,76
+1499240819645,15435,/api/profile,200,OK,Thread Group 1-41,text,true,,875,573,50,50,15435,0,71
+1499240819618,16168,/api/profile,200,OK,Thread Group 1-11,text,true,,875,573,50,50,16167,0,70
+1499240819661,16128,/api/profile,200,OK,Thread Group 1-20,text,true,,875,573,50,50,16128,0,76
+1499240819652,16138,/api/profile,200,OK,Thread Group 1-21,text,true,,875,573,50,50,16138,0,68
+1499240803960,31953,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-46,text,false,Test failed: code expected to contain /201/,795,0,50,50,31953,0,68
+1499240813974,21940,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-33,text,false,Test failed: code expected to contain /201/,795,0,50,50,21940,0,1068
+1499240813973,21946,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-24,text,false,Test failed: code expected to contain /201/,795,0,50,50,21946,0,81
+1499240814475,21452,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-43,text,false,Test failed: code expected to contain /201/,795,0,50,50,21452,0,68
+1499240813975,21944,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-34,text,false,Test failed: code expected to contain /201/,795,0,50,50,21944,0,80
+1499240835914,123,OS Process Sampler,0,OK,Thread Group 1-46,text,true,,234,0,50,50,0,0,0
+1499240835928,137,OS Process Sampler,0,OK,Thread Group 1-34,text,true,,234,0,50,50,0,0,0
+1499240835914,159,OS Process Sampler,0,OK,Thread Group 1-33,text,true,,234,0,50,50,0,0,0
+1499240835927,156,OS Process Sampler,0,OK,Thread Group 1-24,text,true,,234,0,50,50,0,0,0
+1499240835927,171,OS Process Sampler,0,OK,Thread Group 1-43,text,true,,234,0,50,50,0,0,0
+1499240822192,14105,/api/profile,200,OK,Thread Group 1-15,text,true,,875,573,50,50,14105,0,74
+1499240822181,14486,/api/profile,200,OK,Thread Group 1-2,text,true,,874,573,50,50,14486,0,69
+1499240813892,22917,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-13,text,false,Test failed: code expected to contain /201/,795,0,50,50,22917,0,74
+1499240813968,22859,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-42,text,false,Test failed: code expected to contain /201/,795,0,50,50,22859,0,78
+1499240813968,22859,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-10,text,false,Test failed: code expected to contain /201/,795,0,50,50,22859,0,79
+1499240813972,22875,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-25,text,false,Test failed: code expected to contain /201/,795,0,50,50,22875,0,80
+1499240813980,22883,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-1,text,false,Test failed: code expected to contain /201/,795,0,50,50,22883,0,78
+1499240836810,205,OS Process Sampler,0,OK,Thread Group 1-13,text,true,,234,0,50,50,0,0,0
+1499240836848,182,OS Process Sampler,0,OK,Thread Group 1-25,text,true,,234,0,50,50,0,0,0
+1499240836827,206,OS Process Sampler,0,OK,Thread Group 1-42,text,true,,234,0,50,50,0,0,0
+1499240836827,211,OS Process Sampler,0,OK,Thread Group 1-10,text,true,,234,0,50,50,0,0,0
+1499240836863,186,OS Process Sampler,0,OK,Thread Group 1-1,text,true,,234,0,50,50,0,0,0
+1499240827572,9485,/api/profile,200,OK,Thread Group 1-7,text,true,,875,573,50,50,9485,0,67
+1499240822200,15298,/api/profile,200,OK,Thread Group 1-16,text,true,,875,573,50,50,15298,0,81
+1499240822181,15333,/api/profile,200,OK,Thread Group 1-37,text,true,,875,573,50,50,15332,0,68
+1499240822193,15336,/api/profile,200,OK,Thread Group 1-44,text,true,,875,573,50,50,15336,0,73
+1499240825865,11813,/api/profile,200,OK,Thread Group 1-23,text,true,,874,573,50,50,11813,0,68
+1499240822197,15480,/api/profile,200,OK,Thread Group 1-22,text,true,,875,573,50,50,15480,0,85
+1499240822197,15520,/api/profile,200,OK,Thread Group 1-4,text,true,,875,573,50,50,15520,0,89
+1499240822192,15531,/api/profile,200,OK,Thread Group 1-14,text,true,,875,573,50,50,15530,0,94
+1499240822202,15516,/api/profile,200,OK,Thread Group 1-26,text,true,,875,573,50,50,15516,0,79
+1499240825865,12751,/api/profile,200,OK,Thread Group 1-18,text,true,,875,573,50,50,12751,0,67
+1499240822202,16416,/api/profile,200,OK,Thread Group 1-30,text,true,,874,573,50,50,16416,0,84
+1499240811619,27374,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-50,text,false,Test failed: code expected to contain /201/,795,0,50,50,27374,0,98
+1499240811607,27386,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-12,text,false,Test failed: code expected to contain /201/,795,0,50,50,27386,0,110
+1499240821421,17577,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-5,,true,,351,601,50,50,0,0,72
+1499240811612,27386,/api/account,Non HTTP response code: java.lang.IllegalArgumentException,Non HTTP response message: Missing location header in redirect for POST https://api.foundation.worldremit.com/api/account HTTP/1.1,Thread Group 1-3,text,false,Test failed: code expected to contain /201/,795,0,50,50,27386,0,105
+1499240838994,107,OS Process Sampler,0,OK,Thread Group 1-50,text,true,,234,0,50,50,0,0,0
+1499240838994,113,OS Process Sampler,0,OK,Thread Group 1-12,text,true,,234,0,50,50,0,0,0
+1499240838998,113,OS Process Sampler,0,OK,Thread Group 1-3,text,true,,234,0,50,50,0,0,0
+1499240829065,11917,/api/profile,200,OK,Thread Group 1-39,text,true,,874,573,50,50,11917,0,69
+1499240819724,24623,/api/profile,200,OK,Thread Group 1-17,text,true,,875,573,50,50,24623,0,71
+1499240819700,24678,/api/profile,200,OK,Thread Group 1-45,text,true,,875,573,50,50,24678,0,68
+1499240819700,24769,/api/profile,200,OK,Thread Group 1-31,text,true,,875,573,50,50,24769,0,68
+1499240819714,24749,/api/profile,200,OK,Thread Group 1-32,text,true,,874,573,50,50,24748,0,71
+1499240819733,24743,/api/profile,200,OK,Thread Group 1-38,text,true,,875,573,50,50,24742,0,66
+1499240819730,24779,/api/profile,200,OK,Thread Group 1-36,text,true,,875,573,50,50,24779,0,68
+1499240819730,25288,/api/profile,200,OK,Thread Group 1-27,text,true,,875,573,50,50,25288,0,68
+1499240819755,25292,/api/profile,200,OK,Thread Group 1-29,text,true,,875,573,50,50,25292,0,69
+1499240833809,14649,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-47,,true,,351,601,50,50,0,0,71
+1499240838649,11357,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-18,,true,,351,601,50,50,0,0,124
+1499240833758,16248,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-6,,true,,351,601,50,50,0,0,68
+1499240835079,15243,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-8,,true,,351,601,50,50,0,0,72
+1499240835808,14518,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-21,,true,,351,601,50,50,0,0,76
+1499240835796,14530,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-11,,true,,351,601,50,50,0,0,88
+1499240835090,15245,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-41,,true,,351,601,50,50,0,0,66
+1499240837739,12601,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-14,,true,,351,601,50,50,0,0,73
+1499240840987,9353,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-39,,true,,351,601,50,50,0,0,75
+1499240835799,14545,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-20,,true,,351,601,50,50,0,0,74
+1499240838654,11690,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-30,,true,,351,601,50,50,0,0,108
+1499240837525,12878,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-37,,true,,351,601,50,50,0,0,105
+1499240837739,12664,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-26,,true,,351,601,50,50,0,0,93
+1499240837729,12678,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-4,,true,,351,601,50,50,0,0,103
+1499240837697,12711,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-22,,true,,351,601,50,50,0,0,68
+1499240837546,12862,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-44,,true,,351,601,50,50,0,0,99
+1499240838999,12581,/api/transactions,204,No Content,Thread Group 1-5,,true,,351,578,50,50,0,0,79
+1499240837688,13892,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-23,,true,,351,601,50,50,0,0,69
+1499240837038,18635,/api/profile,200,OK,Thread Group 1-10,text,true,,875,573,50,50,18635,0,75
+1499240836099,20021,/api/profile,200,OK,Thread Group 1-43,text,true,,875,573,50,50,20021,0,77
+1499240837051,19069,/api/profile,200,OK,Thread Group 1-1,text,true,,875,573,50,50,19069,0,78
+1499240836073,20047,/api/profile,200,OK,Thread Group 1-33,text,true,,875,573,50,50,20047,0,70
+1499240822206,33968,/api/profile,200,OK,Thread Group 1-19,text,true,,874,573,50,50,33968,0,80
+1499240836083,20093,/api/profile,200,OK,Thread Group 1-24,text,true,,875,573,50,50,20093,0,74
+1499240837030,19161,/api/profile,200,OK,Thread Group 1-25,text,true,,875,573,50,50,19161,0,68
+1499240836038,20140,/api/profile,200,OK,Thread Group 1-46,text,true,,875,573,50,50,20140,0,69
+1499240822190,33999,/api/profile,200,OK,Thread Group 1-49,text,true,,876,573,50,50,33999,0,95
+1499240822197,33996,/api/profile,200,OK,Thread Group 1-28,text,true,,876,573,50,50,33995,0,88
+1499240836066,20108,/api/profile,200,OK,Thread Group 1-34,text,true,,875,573,50,50,20108,0,78
+1499240837016,20006,/api/profile,200,OK,Thread Group 1-13,text,true,,874,573,50,50,20006,0,82
+1499240837034,20056,/api/profile,200,OK,Thread Group 1-42,text,true,,875,573,50,50,20056,0,79
+1499240822162,35352,/api/profile,200,OK,Thread Group 1-9,text,true,,875,573,50,50,35352,0,68
+1499240837507,21390,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-16,,true,,351,601,50,50,0,0,92
+1499240832157,26774,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-40,,true,,351,601,50,50,0,0,69
+1499240845055,13876,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-29,,true,,351,601,50,50,0,0,78
+1499240832388,26544,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-48,,true,,351,601,50,50,0,0,83
+1499240836307,22625,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-15,,true,,351,601,50,50,0,0,71
+1499240837066,21866,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-7,,true,,351,601,50,50,0,0,78
+1499240844351,14587,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-17,,true,,351,601,50,50,0,0,89
+1499240832167,26771,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-35,,true,,351,601,50,50,0,0,75
+1499240844485,14457,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-38,,true,,351,601,50,50,0,0,78
+1499240845026,13918,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-27,,true,,351,601,50,50,0,0,69
+1499240836680,22264,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-2,,true,,351,601,50,50,0,0,68
+1499240844474,14903,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-31,,true,,351,601,50,50,0,0,73
+1499240844518,14860,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-36,,true,,351,601,50,50,0,0,114
+1499240844475,14903,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-32,,true,,351,601,50,50,0,0,88
+1499240844387,14991,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-45,,true,,351,601,50,50,0,0,81
+1499240850341,13420,/api/transactions,204,No Content,Thread Group 1-14,,true,,351,578,50,50,0,0,93
+1499240850408,13353,/api/transactions,204,No Content,Thread Group 1-44,,true,,351,578,50,50,0,0,133
+1499240850007,13767,/api/transactions,204,No Content,Thread Group 1-6,,true,,351,578,50,50,0,0,69
+1499240850344,13437,/api/transactions,204,No Content,Thread Group 1-30,,true,,351,578,50,50,0,0,90
+1499240850403,13378,/api/transactions,204,No Content,Thread Group 1-26,,true,,351,578,50,50,0,0,105
+1499240850021,13761,/api/transactions,204,No Content,Thread Group 1-18,,true,,351,578,50,50,0,0,67
+1499240850335,13453,/api/transactions,204,No Content,Thread Group 1-41,,true,,351,578,50,50,0,0,173
+1499240850345,13443,/api/transactions,204,No Content,Thread Group 1-20,,true,,351,578,50,50,0,0,163
+1499240850341,13447,/api/transactions,204,No Content,Thread Group 1-39,,true,,351,578,50,50,0,0,167
+1499240850326,13462,/api/transactions,204,No Content,Thread Group 1-11,,true,,351,578,50,50,0,0,182
+1499240850326,13465,/api/transactions,204,No Content,Thread Group 1-21,,true,,351,578,50,50,0,0,103
+1499240850403,13390,/api/transactions,204,No Content,Thread Group 1-37,,true,,351,578,50,50,0,0,102
+1499240850323,13470,/api/transactions,204,No Content,Thread Group 1-8,,true,,351,578,50,50,0,0,118
+1499240850408,13385,/api/transactions,204,No Content,Thread Group 1-22,,true,,351,578,50,50,0,0,98
+1499240850408,13385,/api/transactions,204,No Content,Thread Group 1-4,,true,,351,578,50,50,0,0,98
+1499240855678,10578,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-10,,true,,351,601,50,50,0,0,79
+1499240856216,10047,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-49,,true,,351,601,50,50,0,0,78
+1499240856219,10046,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-28,,true,,351,601,50,50,0,0,73
+1499240856185,10179,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-24,,true,,351,601,50,50,0,0,83
+1499240856202,10162,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-25,,true,,351,601,50,50,0,0,74
+1499240856130,10234,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-33,,true,,351,601,50,50,0,0,102
+1499240856129,10235,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-1,,true,,351,601,50,50,0,0,103
+1499240856223,10142,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-34,,true,,351,601,50,50,0,0,71
+1499240856129,10250,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-43,,true,,351,601,50,50,0,0,85
+1499240856201,10178,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-46,,true,,351,601,50,50,0,0,69
+1499240856183,10717,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-19,,true,,351,601,50,50,0,0,77
+1499240863774,3478,/api/recipients,204,No Content,Thread Group 1-6,,true,,355,576,50,50,0,0,70
+1499240839102,28288,/api/profile,200,OK,Thread Group 1-50,text,true,,875,573,50,50,28288,0,93
+1499240839108,30286,/api/profile,200,OK,Thread Group 1-12,text,true,,875,573,50,50,30286,0,86
+1499240857098,12378,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-42,,true,,351,601,50,50,0,0,67
+1499240857031,12445,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-13,,true,,351,601,50,50,0,0,69
+1499240848458,22391,/api/transactions,204,No Content,Thread Group 1-47,,true,,351,578,50,50,0,0,98
+1499240839112,31786,/api/profile,200,OK,Thread Group 1-3,text,true,,875,573,50,50,31785,0,83
+1499240851580,19567,/api/recipients,204,No Content,Thread Group 1-5,,true,,355,576,50,50,0,0,68
+1499240867395,4635,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-50,,true,,351,601,50,50,0,0,67
+1499240851580,20558,/api/transactions,204,No Content,Thread Group 1-23,,true,,351,578,50,50,0,0,68
+1499240859378,13038,/api/transactions,204,No Content,Thread Group 1-32,,true,,351,578,50,50,0,0,67
+1499240858938,13479,/api/transactions,204,No Content,Thread Group 1-17,,true,,351,578,50,50,0,0,91
+1499240863793,8625,/api/recipients,204,No Content,Thread Group 1-22,,true,,355,576,50,50,0,0,80
+1499240858898,13520,/api/transactions,204,No Content,Thread Group 1-16,,true,,351,578,50,50,0,0,94
+1499240858932,13486,/api/transactions,204,No Content,Thread Group 1-7,,true,,351,578,50,50,0,0,97
+1499240859378,13041,/api/transactions,204,No Content,Thread Group 1-45,,true,,351,578,50,50,0,0,67
+1499240858932,13488,/api/transactions,204,No Content,Thread Group 1-29,,true,,351,578,50,50,0,0,322
+1499240858933,13488,/api/transactions,204,No Content,Thread Group 1-48,,true,,351,578,50,50,0,0,96
+1499240858944,13493,/api/transactions,204,No Content,Thread Group 1-27,,true,,351,578,50,50,0,0,88
+1499240863788,8649,/api/recipients,204,No Content,Thread Group 1-20,,true,,355,576,50,50,0,0,74
+1499240858943,13506,/api/transactions,204,No Content,Thread Group 1-38,,true,,351,578,50,50,0,0,92
+1499240867253,8356,/api/country/BG,200,OK,Thread Group 1-6,text,true,,3712,569,50,50,8355,0,68
+1499240872418,4465,/api/recipients,204,No Content,Thread Group 1-7,,true,,355,576,49,49,0,0,68
+1499240872451,4435,/api/recipients,204,No Content,Thread Group 1-38,,true,,355,576,49,49,0,0,68
+1499240866901,12064,/api/transactions,204,No Content,Thread Group 1-19,,true,,351,578,49,49,0,0,67
+1499240872030,7389,/api/transactions,204,No Content,Thread Group 1-50,,true,,351,578,49,49,0,0,85
+1499240872138,7319,/api/recipients,204,No Content,Thread Group 1-23,,true,,355,576,49,49,0,0,79
+1499240872418,7704,/api/recipients,204,No Content,Thread Group 1-16,,true,,355,576,49,49,0,0,68
+1499240872419,7718,/api/recipients,204,No Content,Thread Group 1-45,,true,,355,576,49,49,0,0,68
+1499240872421,7716,/api/recipients,204,No Content,Thread Group 1-48,,true,,355,576,49,49,0,0,67
+1499240872417,7953,/api/recipients,204,No Content,Thread Group 1-17,,true,,355,576,49,49,0,0,68
+1499240872420,8134,/api/recipients,204,No Content,Thread Group 1-29,,true,,355,576,49,49,0,0,68
+1499240872417,8137,/api/recipients,204,No Content,Thread Group 1-32,,true,,355,576,49,49,0,0,69
+1499240872438,8499,/api/country/BG,200,OK,Thread Group 1-20,text,true,,3712,569,49,49,8499,0,67
+1499240872418,8837,/api/country/BG,200,OK,Thread Group 1-22,text,true,,3712,569,48,48,8837,0,68
+1499240872437,8904,/api/recipients,204,No Content,Thread Group 1-27,,true,,355,576,47,47,0,0,69
+1499240858932,23094,/api/transactions,204,No Content,Thread Group 1-40,,true,,351,578,47,47,0,0,97
+1499240858932,23097,/api/transactions,204,No Content,Thread Group 1-15,,true,,351,578,47,47,0,0,86
+1499240866364,15669,/api/transactions,204,No Content,Thread Group 1-1,,true,,351,578,47,47,0,0,85
+1499240866380,15655,/api/transactions,204,No Content,Thread Group 1-43,,true,,351,578,47,47,0,0,70
+1499240866366,15675,/api/transactions,204,No Content,Thread Group 1-34,,true,,351,578,47,47,0,0,98
+1499240866380,15661,/api/transactions,204,No Content,Thread Group 1-46,,true,,351,578,47,47,0,0,84
+1499240866265,15777,/api/transactions,204,No Content,Thread Group 1-28,,true,,351,578,47,47,0,0,84
+1499240866364,15678,/api/transactions,204,No Content,Thread Group 1-24,,true,,351,578,47,47,0,0,100
+1499240870849,11195,/api/recipients,204,No Content,Thread Group 1-47,,true,,355,576,47,47,0,0,81
+1499240858938,23108,/api/transactions,204,No Content,Thread Group 1-35,,true,,351,578,47,47,0,0,316
+1499240863791,18257,/api/recipients,204,No Content,Thread Group 1-21,,true,,355,576,47,47,0,0,82
+1499240858944,23106,/api/transactions,204,No Content,Thread Group 1-2,,true,,351,578,47,47,0,0,313
+1499240863781,18270,/api/recipients,204,No Content,Thread Group 1-26,,true,,355,576,47,47,0,0,81
+1499240866364,15688,/api/transactions,204,No Content,Thread Group 1-33,,true,,351,578,47,47,0,0,101
+1499240857522,24531,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-9,,true,,351,601,47,47,0,0,85
+1499240863793,18263,/api/recipients,204,No Content,Thread Group 1-4,,true,,355,576,47,47,0,0,77
+1499240863781,18277,/api/recipients,204,No Content,Thread Group 1-30,,true,,355,576,47,47,0,0,79
+1499240879457,2754,/api/country/BG,200,OK,Thread Group 1-23,text,true,,3712,569,47,47,2754,0,79
+1499240880127,2084,/api/country/BG,200,OK,Thread Group 1-16,text,true,,3712,569,47,47,2084,0,68
+1499240880137,2075,/api/country/BG,200,OK,Thread Group 1-45,text,true,,3712,569,46,46,2075,0,67
+1499240880554,1660,/api/country/BG,200,OK,Thread Group 1-32,text,true,,3712,569,45,45,1659,0,84
+1499240879419,2856,/api/recipients,204,No Content,Thread Group 1-50,,true,,355,576,43,43,0,0,68
+1499240880137,2159,/api/country/BG,200,OK,Thread Group 1-48,text,true,,3712,569,43,43,2158,0,68
+1499240880554,1755,/api/country/BG,200,OK,Thread Group 1-29,text,true,,3712,569,42,42,1754,0,84
+1499240880370,1957,/api/country/BG,200,OK,Thread Group 1-17,text,true,,3712,569,41,41,1957,0,68
+1499240866364,19258,/api/transactions,204,No Content,Thread Group 1-25,,true,,351,578,40,40,0,0,85
+1499240866256,19367,/api/transactions,204,No Content,Thread Group 1-10,,true,,351,578,40,40,0,0,77
+1499240863788,21846,/api/recipients,204,No Content,Thread Group 1-41,,true,,355,576,40,40,0,0,85
+1499240863788,21846,/api/recipients,204,No Content,Thread Group 1-39,,true,,355,576,40,40,0,0,85
+1499240866263,19371,/api/transactions,204,No Content,Thread Group 1-49,,true,,351,578,40,40,0,0,70
+1499240863793,21856,/api/recipients,204,No Content,Thread Group 1-37,,true,,355,576,40,40,0,0,80
+1499240863782,21868,/api/recipients,204,No Content,Thread Group 1-18,,true,,355,576,40,40,0,0,77
+1499240863793,21858,/api/recipients,204,No Content,Thread Group 1-8,,true,,355,576,40,40,0,0,77
+1499240863788,21863,/api/recipients,204,No Content,Thread Group 1-11,,true,,355,576,40,40,0,0,82
+1499240869403,24616,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-12,,true,,351,601,40,40,0,0,73
+1499240869477,24547,/api/transactions,204,No Content,Thread Group 1-13,,true,,351,578,40,40,0,0,85
+1499240863761,30263,/api/recipients,204,No Content,Thread Group 1-44,,true,,355,576,40,40,0,0,84
+1499240870902,23124,/api/transactions/byrecipient/mostrecent,204,No Content,Thread Group 1-3,,true,,351,601,40,40,0,0,94
+1499240863761,30270,/api/recipients,204,No Content,Thread Group 1-14,,true,,355,576,40,40,0,0,84
+1499240869476,24557,/api/transactions,204,No Content,Thread Group 1-42,,true,,351,578,40,40,0,0,85
+1499240859379,34660,/api/transactions,204,No Content,Thread Group 1-36,,true,,351,578,40,40,0,0,66
+1499240859377,34664,/api/transactions,204,No Content,Thread Group 1-31,,true,,351,578,40,40,0,0,67
+1499240876887,19140,/api/country/BG,200,OK,Thread Group 1-38,text,true,,3712,569,40,40,19140,0,80
+1499240871147,24996,/api/country/BG,200,OK,Thread Group 1-5,text,true,,3712,569,39,39,24996,0,70
+1499240876884,22397,/api/country/BG,200,OK,Thread Group 1-7,text,true,,3712,569,38,38,22397,0,83
+1499240885651,13738,/api/country/BG,200,OK,Thread Group 1-8,text,true,,3712,569,37,37,13737,0,97
+1499240882275,17114,/api/country/BG,200,OK,Thread Group 1-50,text,true,,3712,569,36,36,17114,0,83
+1499240882056,17335,/api/country/BG,200,OK,Thread Group 1-4,text,true,,3712,569,35,35,17335,0,114
+1499240882030,17488,/api/recipients,204,No Content,Thread Group 1-15,,true,,355,576,34,34,0,0,83
+1499240882036,17483,/api/recipients,204,No Content,Thread Group 1-43,,true,,355,576,34,34,0,0,75
+1499240882053,17482,/api/recipients,204,No Content,Thread Group 1-33,,true,,355,576,34,34,0,0,106
+1499240885650,15890,/api/country/BG,200,OK,Thread Group 1-37,text,true,,3712,569,34,34,15890,0,98
+1499240882048,19508,/api/country/BG,200,OK,Thread Group 1-21,text,true,,3712,569,33,33,19507,0,82
+1499240882044,19512,/api/country/BG,200,OK,Thread Group 1-47,text,true,,3712,569,33,33,19512,0,86
+1499240885652,15904,/api/country/BG,200,OK,Thread Group 1-11,text,true,,3712,569,33,33,15903,0,82
+1499240882059,21047,/api/country/BG,200,OK,Thread Group 1-30,text,true,,3712,569,30,30,21047,0,103
+1499240885650,19061,/api/country/BG,200,OK,Thread Group 1-18,text,true,,3712,569,29,29,19060,0,84
+1499240885634,19078,/api/country/BG,200,OK,Thread Group 1-39,text,true,,3712,569,28,28,19077,0,85
+1499240882051,22661,/api/country/BG,200,OK,Thread Group 1-26,text,true,,3712,569,27,27,22661,0,108
+1499240885634,19351,/api/country/BG,200,OK,Thread Group 1-41,text,true,,3712,569,26,26,19351,0,80
+1499240882042,24789,/api/recipients,204,No Content,Thread Group 1-34,,true,,355,576,25,25,0,0,77
+1499240878965,27866,/api/recipients,204,No Content,Thread Group 1-19,,true,,355,576,25,25,0,0,70
+1499240882043,24789,/api/recipients,204,No Content,Thread Group 1-28,,true,,355,576,25,25,0,0,83
+1499240894041,12791,/api/recipients,204,No Content,Thread Group 1-31,,true,,355,576,25,25,0,0,79
+1499240894019,12814,/api/transactions,204,No Content,Thread Group 1-12,,true,,351,578,25,25,0,0,70
+1499240882053,24780,/api/transactions,204,No Content,Thread Group 1-9,,true,,351,578,25,25,0,0,117
+1499240882034,24800,/api/recipients,204,No Content,Thread Group 1-1,,true,,355,576,25,25,0,0,81
+1499240882042,24793,/api/recipients,204,No Content,Thread Group 1-24,,true,,355,576,25,25,0,0,74
+1499240882027,24809,/api/recipients,204,No Content,Thread Group 1-40,,true,,355,576,25,25,0,0,86
+1499240882047,24789,/api/recipients,204,No Content,Thread Group 1-35,,true,,355,576,25,25,0,0,71
+1499240885622,21215,/api/recipients,204,No Content,Thread Group 1-25,,true,,355,576,25,25,0,0,81
+1499240882043,24794,/api/recipients,204,No Content,Thread Group 1-46,,true,,355,576,25,25,0,0,74
+1499240894039,12799,/api/recipients,204,No Content,Thread Group 1-36,,true,,355,576,25,25,0,0,82
+1499240894033,12805,/api/recipients,204,No Content,Thread Group 1-42,,true,,355,576,25,25,0,0,73
+1499240882050,24789,/api/recipients,204,No Content,Thread Group 1-2,,true,,355,576,25,25,0,0,109
+1499240885634,21222,/api/recipients,204,No Content,Thread Group 1-49,,true,,355,576,25,25,0,0,86
+1499240894024,12844,/api/recipients,204,No Content,Thread Group 1-13,,true,,355,576,25,25,0,0,85
+1499240894032,15204,/api/country/BG,200,OK,Thread Group 1-14,text,true,,3712,569,25,25,15204,0,77
+1499240894024,15212,/api/country/BG,200,OK,Thread Group 1-44,text,true,,3712,569,25,25,15212,0,84
+1499240906834,3558,/api/country/BG,200,OK,Thread Group 1-1,text,true,,3712,569,23,23,3557,0,85
+1499240906839,3553,/api/country/BG,200,OK,Thread Group 1-2,text,true,,3712,569,23,23,3552,0,80
+1499240906838,3671,/api/country/BG,200,OK,Thread Group 1-36,text,true,,3712,569,21,21,3671,0,82
+1499240906832,3679,/api/country/BG,200,OK,Thread Group 1-28,text,true,,3712,569,20,20,3679,0,93
+1499240906831,3681,/api/country/BG,200,OK,Thread Group 1-19,text,true,,3712,569,19,19,3680,0,93
+1499240906869,3654,/api/country/BG,200,OK,Thread Group 1-13,text,true,,3712,569,18,18,3654,0,85
+1499240906837,3686,/api/country/BG,200,OK,Thread Group 1-25,text,true,,3712,569,18,18,3686,0,84
+1499240906856,3667,/api/country/BG,200,OK,Thread Group 1-49,text,true,,3712,569,18,18,3667,0,82
+1499240881341,29182,/api/country/BG,200,OK,Thread Group 1-27,text,true,,3694,569,18,18,29182,0,68
+1499240906837,4243,/api/country/BG,200,OK,Thread Group 1-46,text,true,,3712,569,14,14,4243,0,80
+1499240906835,4259,/api/country/BG,200,OK,Thread Group 1-24,text,true,,3712,569,13,13,4258,0,84
+1499240899535,12461,/api/country/BG,200,OK,Thread Group 1-33,text,true,,3712,569,12,12,12461,0,68
+1499240906836,5275,/api/country/BG,200,OK,Thread Group 1-40,text,true,,3712,569,11,11,5275,0,81
+1499240899519,12594,/api/country/BG,200,OK,Thread Group 1-15,text,true,,3712,569,10,10,12593,0,72
+1499240906831,5366,/api/country/BG,200,OK,Thread Group 1-34,text,true,,3712,569,9,9,5365,0,85
+1499240899519,12747,/api/country/BG,200,OK,Thread Group 1-43,text,true,,3712,569,8,8,12747,0,73
+1499240906838,5429,/api/country/BG,200,OK,Thread Group 1-42,text,true,,3712,569,7,7,5429,0,81
+1499240906837,5432,/api/country/BG,200,OK,Thread Group 1-35,text,true,,3712,569,6,6,5432,0,80
+1499240906832,5455,/api/country/BG,200,OK,Thread Group 1-31,text,true,,3712,569,5,5,5454,0,84
+1499240894027,18261,/api/transactions,204,No Content,Thread Group 1-3,,true,,351,578,4,4,0,0,81
+1499240906837,5481,/api/recipients,204,No Content,Thread Group 1-9,,true,,355,576,4,4,0,0,83
+1499240906833,5492,/api/recipients,204,No Content,Thread Group 1-12,,true,,355,576,4,4,0,0,84
+1499240885623,26820,/api/recipients,204,No Content,Thread Group 1-10,,true,,355,576,4,4,0,0,76
+1499240912442,1086,/api/country/BG,200,OK,Thread Group 1-10,text,true,,3712,569,4,4,1086,0,92
+1499240912287,1274,/api/recipients,204,No Content,Thread Group 1-3,,true,,355,576,3,3,0,0,93
+1499240912318,1260,/api/country/BG,200,OK,Thread Group 1-9,text,true,,3712,569,3,3,1259,0,79
+1499240912324,1374,/api/country/BG,200,OK,Thread Group 1-12,text,true,,3712,569,2,2,1374,0,76
+1499240913561,685,/api/country/BG,200,OK,Thread Group 1-3,text,true,,3712,569,1,1,684,0,84

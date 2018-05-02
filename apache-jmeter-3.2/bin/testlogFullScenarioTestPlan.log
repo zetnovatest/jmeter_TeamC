@@ -1,0 +1,212 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+12/10/2017 12:12,1225,Get Token,200,OK,Get Auth 1-1,text,true,,1193,286,1,1,1224,0,592
+12/10/2017 12:12,246,PA-5-1 InvalidRequest,400,Bad Request,[PA-5] Quote 2-1,text,true,,738,1070,1,1,246,0,198
+12/10/2017 12:12,39,PA-5-2 SameSend&ReceiveCountries,400,Bad Request,[PA-5] Quote 2-1,text,true,,594,1084,1,1,39,0,0
+12/10/2017 12:12,39,PA-5-3 Missing Receive Currency,400,Bad Request,[PA-5] Quote 2-1,text,true,,496,1098,1,1,39,0,0
+12/10/2017 12:12,39,PA-5-4 MissingPayoutMethod,400,Bad Request,[PA-5] Quote 2-1,text,true,,594,1098,1,1,39,0,0
+12/10/2017 12:12,7851,PA-5-5 ValidRequest,200,OK,[PA-5] Quote 2-1,text,true,,685,1101,1,1,7850,0,0
+12/10/2017 12:12,257,PA-5-6 MissingReceiveCountry,400,Bad Request,[PA-5] Quote 2-1,text,true,,598,1099,1,1,257,0,210
+12/10/2017 12:12,869,PA-5-7 MissingSendAmount,200,OK,[PA-5] Quote 2-1,text,true,,685,1101,1,1,869,0,0
+12/10/2017 12:12,40,PA-5-8 MissingSendCountry,400,Bad Request,[PA-5] Quote 2-1,text,true,,592,1099,1,1,40,0,0
+12/10/2017 12:12,39,PA-5-9 MissingSendReceiveAmount,400,Bad Request,[PA-5] Quote 2-1,text,true,,512,1100,1,1,39,0,0
+12/10/2017 12:12,798,PA-5-10 MultipleCurrenciesPLN,200,OK,[PA-5] Quote 2-1,text,true,,684,1101,1,1,798,0,0
+12/10/2017 12:12,1925,PA-5-11 MultipleCurrenciesEUR,200,OK,[PA-5] Quote 2-1,text,true,,679,1101,1,1,1925,0,188
+12/10/2017 12:12,718,PA-5-12 NotMatchingCurrencies,400,Bad Request,[PA-5] Quote 2-1,text,true,,580,1101,1,1,718,0,0
+12/10/2017 12:12,851,PA-5-13 CalculateReceiveAmount1,200,OK,[PA-5] Quote 2-1,text,true,,685,1101,1,1,851,0,188
+12/10/2017 12:12,1436,PA-5-14 CalculateReceiveAmount2,200,OK,[PA-5] Quote 2-1,text,true,,683,1101,1,1,1436,0,0
+12/10/2017 12:12,1075,PA-5-15 CalculateReceiveAmount3,200,OK,[PA-5] Quote 2-1,text,true,,686,1101,1,1,1075,0,183
+12/10/2017 12:12,578,PA-5-16 ValidateResponseBody,200,OK,[PA-5] Quote 2-1,text,true,,685,1101,1,1,578,0,0
+12/10/2017 12:12,859,PA-5-18 CalculateSendAmount,200,OK,[PA-5] Quote 2-1,text,true,,685,1102,1,1,859,0,0
+12/10/2017 12:12,1061,PA-5-19 CalculateSendAmount2,200,OK,[PA-5] Quote 2-1,text,true,,686,1103,1,1,1061,0,215
+12/10/2017 12:12,1185,PA-5-20 CalculateSendAmoun3,200,OK,[PA-5] Quote 2-1,text,true,,684,1104,1,1,1185,0,0
+12/10/2017 12:12,245,PA-5-21 SendReceiveAmountPresent,400,Bad Request,[PA-5] Quote 2-1,text,true,,630,1103,1,1,245,0,201
+12/10/2017 12:12,412,PA-5-22 InvalidCurrency,400,Bad Request,[PA-5] Quote 2-1,text,true,,580,1101,1,1,412,0,0
+12/10/2017 12:12,41,PA-5-23 InvalidPayoutMethod,400,Bad Request,[PA-5] Quote 2-1,text,true,,630,1102,1,1,41,0,0
+12/10/2017 12:12,39,PA-5-24 InvalidReceiveAmount,400,Bad Request,[PA-5] Quote 2-1,text,true,,613,1109,1,1,39,0,0
+12/10/2017 12:12,39,PA-5-25 InvalidReceiveCountry,400,Bad Request,[PA-5] Quote 2-1,text,true,,630,1102,1,1,39,0,0
+12/10/2017 12:12,39,PA-5-26 InvalidSendCountry,400,Bad Request,[PA-5] Quote 2-1,text,true,,624,1102,1,1,39,0,0
+12/10/2017 12:12,752,PA-5-27 PayoutMethodNotAllowed,400,Bad Request,[PA-5] Quote 2-1,text,true,,580,1101,1,1,752,0,0
+12/10/2017 12:12,898,PA-5-28 ExceedingMaximumReceiveAmount,400,Bad Request,[PA-5] Quote 2-1,text,true,,564,1106,1,1,898,0,0
+12/10/2017 12:12,1098,PA-5-29 ExceedingMaximumSendAmount,400,Bad Request,[PA-5] Quote 2-1,text,true,,580,1106,1,1,1098,0,195
+12/10/2017 12:12,42,PA-5-30 InvalidSendAmount,400,Bad Request,[PA-5] Quote 2-1,text,true,,707,1109,1,1,41,0,0
+12/10/2017 12:12,512,PA-8-1 [Recipient requirements endpoint] Validate response message [valid receiveCountryCode && payoutMethodCode],200,OK,[PA-8] Recipient requirements 3-1,text,true,,1091,1192,1,1,512,0,258
+12/10/2017 12:13,246,PA-8-2 [Recipient requirements endpoint] Validate response message [valid receiveCountryCode && Invalid payoutMethodCode],400,Bad Request,[PA-8] Recipient requirements 3-1,text,true,,510,1192,1,1,246,0,206
+12/10/2017 12:13,479,PA-8-3 [Recipient requirements endpoint] Validate response message [valid receiveCountryCode && Payout method BNK & payoutNetworkId],200,OK,[PA-8] Recipient requirements 3-1,text,true,,1091,1212,1,1,479,0,194
+12/10/2017 12:13,233,PA-8-4 [Recipient requirements endpoint] Validate response message [valid receiveCountryCode && Payout method ATP & payoutNetworkId],400,Bad Request,[PA-8] Recipient requirements 3-1,text,true,,510,1212,1,1,232,0,191
+12/10/2017 12:13,242,PA-8-5 [Recipient requirements endpoint] Validate response message [valid receiveCountryCode && unexisting payout methods) || No data for the valid Country and Payout method],400,Bad Request,[PA-8] Recipient requirements 3-1,text,true,,507,1206,1,1,242,0,192
+12/10/2017 12:13,239,PA-8-6 [Recipient requirements endpoint] Validate response message [valid receiveCountryCode && unexisting payout methods) || No data for the valid Country and Payout method],400,Bad Request,[PA-8] Recipient requirements 3-1,text,true,,512,1216,1,1,239,0,193
+12/10/2017 12:13,230,PA-8-7 [Recipient requirements endpoint] Validate response message [valid receiveCountryCode  && PayoutMethod != 3 letter code],400,Bad Request,[PA-8] Recipient requirements 3-1,text,true,,509,1211,1,1,230,0,192
+12/10/2017 12:13,243,PA-8-8 [Recipient requirements endpoint] Validate response message [valid receiveCountryCode  && PayoutMethod != 3 letter code],400,Bad Request,[PA-8] Recipient requirements 3-1,text,true,,509,1211,1,1,243,0,205
+12/10/2017 12:13,411,PA-8-9 [Recipient requirements endpoint] Validate response message [receiveCountryCode == 2 letter code && unexisting receiveCountryCode && valid payout method],400,Bad Request,[PA-8] Recipient requirements 3-1,text,true,,542,1212,1,1,410,0,200
+12/10/2017 12:13,434,PA-8-10 [Recipient requirements endpoint] response responce message [receiveCountryCode == 2 letter code && unexisting receiveCountryCode && valid payout method],400,Bad Request,[PA-8] Recipient requirements 3-1,text,true,,542,1212,1,1,434,0,198
+12/10/2017 12:13,239,PA-8-11 [Recipient requirements endpoint] Validate response message [receiveCountryCode != 2 letter code && valid payout method],400,Bad Request,[PA-8] Recipient requirements 3-1,text,true,,548,1191,1,1,239,0,200
+12/10/2017 12:13,235,PA-8-12 [Recipient requirements endpoint] Validate response message [receiveCountryCode != 2 letter code && valid payout method],400,Bad Request,[PA-8] Recipient requirements 3-1,text,true,,548,1194,1,1,235,0,189
+12/10/2017 12:13,245,PA-41-1 Validate response message (invalid senderID),400,Bad Request,[PA-41] Create Recipient 4-1,text,true,,490,1607,1,1,245,0,200
+12/10/2017 12:13,962,PA-41-2 Validate response message  (invalid countryCode),400,Bad Request,[PA-41] Create Recipient 4-1,text,true,,542,1606,1,1,961,0,203
+12/10/2017 12:13,312,PA-41-3 Validate response message  (invalid payoutMethod),400,Bad Request,[PA-41] Create Recipient 4-1,text,true,,510,1606,1,1,311,0,273
+12/10/2017 12:13,533,PA-41-4 Validate response message (invalid payoutNetworkId),400,Bad Request,[PA-41] Create Recipient 4-1,text,true,,557,1606,1,1,533,0,70
+12/10/2017 12:13,235,PA-41-5 Validate HTTP method (using GET instead of POST),405,Method Not Allowed,[PA-41] Create Recipient 4-1,text,true,,518,1605,1,1,235,0,190
+12/10/2017 12:13,3207,PA-41-6 Validate HTTP method (using DELETE instead of POST),405,Method Not Allowed,[PA-41] Create Recipient 4-1,text,true,,521,1608,1,1,3207,0,3169
+12/10/2017 12:13,244,PA-41-7 Validate HTTP method (using PUT instead of POST),405,Method Not Allowed,[PA-41] Create Recipient 4-1,text,true,,518,1605,1,1,244,0,204
+12/10/2017 12:13,247,PA-41-8 Validate HTTP method (using HEAD instead of POST),405,Method Not Allowed,[PA-41] Create Recipient 4-1,text,true,,446,1136,1,1,0,0,197
+12/10/2017 12:13,228,PA-41-9 Validate HTTP method (using TRACE instead of POST),405,Method Not Allowed,[PA-41] Create Recipient 4-1,text,true,,518,1605,1,1,227,0,190
+12/10/2017 12:13,245,PA-41-10 Validate response message (missing senderID),404,Not Found,[PA-41] Create Recipient 4-1,text,true,,654,1599,1,1,245,0,204
+12/10/2017 12:13,239,"PA-41-11 Validate response message  (missing payoutMethod, but provide payoutNetworkId)",404,Not Found,[PA-41] Create Recipient 4-1,text,true,,421,1611,1,1,239,0,197
+12/10/2017 12:13,883,PA-41-12 Validate response message (missing payoutNetworkId),201,Created,[PA-41] Create Recipient 4-1,,true,,490,1603,1,1,883,0,200
+12/10/2017 12:13,235,PA-41-13 Validate response message  (missing countryCode),400,Bad Request,[PA-41] Create Recipient 4-1,text,true,,548,1604,1,1,235,0,196
+12/10/2017 12:13,1565,PA-41-14 Validate response message (valid request),201,Created,[PA-41] Create Recipient 4-1,,true,,490,1984,1,1,1565,0,195
+12/10/2017 12:13,1546,PA-41-15 Validate response header (valid request),201,Created,[PA-41] Create Recipient 4-1,,true,,490,1984,1,1,1546,0,197
+12/10/2017 12:13,1491,PA-41-14 Validate response message (valid request) 2,201,Created,[PA-41] Create Recipient 4-1,,true,,490,1663,1,1,1491,0,220
+12/10/2017 12:13,948,PA-41-16 Validate response header (Mandatory fields),400,Bad Request,[PA-41] Create Recipient 4-1,text,true,,534,1919,1,1,948,0,196
+12/10/2017 12:13,8058,PA-41-17 Validate response header (Existing recipient),409,Conflict,[PA-41] Create Recipient 4-1,text,true,,569,1914,1,1,8058,0,211
+12/10/2017 12:13,6403,PA-10-1 ValidRequest BNK,201,Created,[PA-10] Post Transaction 5-1,text,true,,769,1309,1,1,6403,0,204
+12/10/2017 12:13,3333,PA-10-1 ValidRequest 2 MOB,201,Created,[PA-10] Post Transaction 5-1,text,true,,767,1310,1,1,3333,0,197
+12/10/2017 12:13,112,PA-10-2 Invalid request 1,404,Not Found,[PA-10] Post Transaction 5-1,text,true,,662,1331,1,1,112,0,71
+12/10/2017 12:13,248,PA-10-3 Invalid request 2,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,528,1330,1,1,247,0,206
+12/10/2017 12:13,249,PA-10-4 Missing senderId 1,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,658,1324,1,1,248,0,200
+12/10/2017 12:13,243,PA-10-5 Missing senderId 2,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,528,1305,1,1,243,0,199
+12/10/2017 12:13,234,PA-10-6 Not Existing senderId,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,657,1332,1,1,233,0,185
+12/10/2017 12:13,305,PA-10-7 Wrong format of  senderId,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,648,1329,1,1,305,0,188
+12/10/2017 12:13,109,PA-10-8 Missing recipientId 1,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,664,1315,1,1,108,0,70
+12/10/2017 12:13,241,PA-10-9 Missing recipientId 2,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,541,1294,1,1,241,0,195
+12/10/2017 12:13,273,PA-10-10 Not Existing recipientId,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,528,1322,1,1,273,0,219
+12/10/2017 12:13,235,PA-10-11 Wrong format of recipientId,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,655,1321,1,1,235,0,189
+12/10/2017 12:13,3260,PA-10-12 Missing sendAmount,201,Created,[PA-10] Post Transaction 5-1,text,true,,768,1327,1,1,3260,0,83
+12/10/2017 12:13,3422,PA-10-13 Missing receiveAmount,201,Created,[PA-10] Post Transaction 5-1,text,true,,769,1324,1,1,3421,0,108
+12/10/2017 12:13,904,PA-10-14 Present sendAmount and receiveAmount,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,512,1345,1,1,904,0,204
+12/10/2017 12:13,852,PA-10-15 Missing sendAmount and receiveAmount,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,512,1303,1,1,852,0,191
+12/10/2017 12:13,243,PA-10-16 Wrong format sendAmount,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,764,1324,1,1,243,0,204
+12/10/2017 12:13,237,PA-10-17 Wrong format receiveAmount,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,773,1327,1,1,237,0,189
+12/10/2017 12:13,2994,PA-10-18 ExceedingMaximumSendAmount,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,580,1325,1,1,2994,0,185
+12/10/2017 12:13,3243,PA-10-19 ExceedingMaximumReceiveAmount,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,564,1330,1,1,3243,0,193
+12/10/2017 12:13,268,PA-10-20 Missing payoutMethod,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,754,1342,1,1,268,0,197
+12/10/2017 12:13,241,PA-10-21 Missing payout method 2,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,606,1299,1,1,241,0,202
+12/10/2017 12:13,1086,PA-10-22 Not Existing/Wrong format of payoutMethod,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,494,1323,1,1,1086,0,231
+12/10/2017 12:13,228,PA-10-23 Missing receiveCurrency,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,612,1321,1,1,228,0,188
+12/10/2017 12:13,2905,PA-10-23 Not Existing/Wrong format of receiveCurrency 1,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,496,1324,1,1,2905,0,202
+12/10/2017 12:13,1254,PA-10-24 Not Existing/Wrong format of receiveCurrency 2,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,551,1323,1,1,1253,0,205
+12/10/2017 12:13,3043,PA-10-25 Not Matching receiveCurrency to Receive Country,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,496,1324,1,1,3042,0,196
+12/10/2017 12:14,2574,PA-10-28 Not Existing/ Not matching payoutNetworkId 1,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,503,1324,1,1,2573,0,197
+12/10/2017 12:14,2532,PA-10-29 Not Existing/ Not matching payoutNetworkId 2,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,503,1324,1,1,2532,0,182
+12/10/2017 12:14,239,PA-10-30 Wrong format of payoutNetworkId,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,779,1324,1,1,239,0,194
+12/10/2017 12:14,3798,PA-10-31 Validate TransactionID creation in Location header,201,Created,[PA-10] Post Transaction 5-1,text,true,,767,1323,1,1,3798,0,196
+12/10/2017 12:14,3163,PA-10-31 Validate TransactionID creation in Location header 2,201,Created,[PA-10] Post Transaction 5-1,text,true,,768,1323,1,1,3162,0,194
+12/10/2017 12:14,1489,PA-10-32 Get Transaction,200,OK,[PA-10] Post Transaction 5-1,text,true,,638,1019,1,1,1489,0,205
+12/10/2017 12:14,1238,PA-10-33 Not existing combination senderId / recipientId,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,493,1324,1,1,1238,0,0
+12/10/2017 12:14,2541,PA-10-34 Not existing combination senderId / recipientId and payoutMethod,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,620,1311,1,1,2541,0,222
+12/10/2017 12:14,2473,PA-10-35 Not existing combination senderId / recipientId / payoutMethod and payoutNetworkId,400,Bad Request,[PA-10] Post Transaction 5-1,text,true,,503,1309,1,1,2473,0,198
+12/10/2017 12:14,627,PA-11-1 ValidRequest,200,OK,[PA-11] Transaction Status 6-1,text,true,,442,1026,1,1,627,0,200
+12/10/2017 12:14,43,PA-11-2 Invalid request,404,Not Found,[PA-11] Transaction Status 6-1,text,true,,421,1025,1,1,43,0,0
+12/10/2017 12:14,202,PA-11-3 Invalid TransactionID,404,Not Found,[PA-11] Transaction Status 6-1,text,true,,492,1026,1,1,202,0,0
+12/10/2017 12:14,200,PA-11-4 Not Existing transactionId,404,Not Found,[PA-11] Transaction Status 6-1,text,true,,492,1026,1,1,200,0,0
+12/10/2017 12:14,310,PA-54-1 InvalidRequest,404,Not Found,[PA-54] Send Contries 7-1,text,true,,653,1010,1,1,310,0,221
+12/10/2017 12:14,236,PA-54-2 ValidRequest,200,OK,[PA-54] Send Contries 7-1,text,true,,2117,1011,1,1,236,0,0
+12/10/2017 12:14,234,PA-55-1 InvalidRequest,404,Not Found,[PA-55] Receive Contries 8-1,text,true,,421,1022,1,1,234,0,189
+12/10/2017 12:14,295,PA-55-2 ValidRequest,200,OK,[PA-55] Receive Contries 8-1,text,true,,4703,1031,1,1,295,0,0
+12/10/2017 12:14,44,PA-55-3 MissingSendCountry,404,Not Found,[PA-55] Receive Contries 8-1,text,true,,672,1029,1,1,44,0,0
+12/10/2017 12:14,50,PA-55-4 InvalidSendCountry,400,Bad Request,[PA-55] Receive Contries 8-1,text,true,,545,1032,1,1,50,0,0
+12/10/2017 12:14,259,PA-56-1 /v1/send/BE/receiveCountries/PH/payoutMethods,404,Not Found,[PA-56] Payout Methods 9-1,text,true,,421,1039,1,1,259,0,206
+12/10/2017 12:14,609,PA-56-2 /v1/sendCountries/BE/receiveCountries/PH/payoutMethods,200,OK,[PA-56] Payout Methods 9-1,text,true,,538,1048,1,1,609,0,0
+12/10/2017 12:14,542,PA-56-3 /v1/sendCountries/BG/receiveCountries/AU/payoutMethods,200,OK,[PA-56] Payout Methods 9-1,text,true,,455,1048,1,1,542,0,0
+12/10/2017 12:14,44,PA-56-4 /v1/sendCountries/BE/receiveCountries/BE/payoutMethods,400,Bad Request,[PA-56] Payout Methods 9-1,text,true,,561,1048,1,1,44,0,0
+12/10/2017 12:14,42,PA-56-5 /v1/sendCountries/BE/receiveCountries//payoutMethods,404,Not Found,[PA-56] Payout Methods 9-1,text,true,,421,1046,1,1,42,0,0
+12/10/2017 12:14,44,PA-56-6 /v1/sendCountries//receiveCountries/PH/payoutMethods,404,Not Found,[PA-56] Payout Methods 9-1,text,true,,421,1046,1,1,44,0,0
+12/10/2017 12:14,46,PA-56-7 /v1/sendCountries/BE/receiveCountries/PHP/payoutMethods,400,Bad Request,[PA-56] Payout Methods 9-1,text,true,,548,1049,1,1,46,0,0
+12/10/2017 12:14,55,PA-56-8 /v1/sendCountries/BEE/receiveCountries/PH/payoutMethods,400,Bad Request,[PA-56] Payout Methods 9-1,text,true,,545,1049,1,1,55,0,0
+12/10/2017 12:14,261,PA-57-1 /sendCountries/BE/receiveCountries/BE/payoutMethods/BNK/payoutnetworks,400,Bad Request,[PA-57] Payout Networks 10-1,text,true,,561,1067,1,1,261,0,206
+12/10/2017 12:14,46,PA-57-2 /sendCountries/BE/receive/PH/payoutMethods/BNK/payoutnetworks,404,Not Found,[PA-57] Payout Networks 10-1,text,true,,421,1058,1,1,46,0,0
+12/10/2017 12:14,54,PA-57-3 /sendCountries/BE/receiveCountries/PHP/payoutMethods/BNK/payoutnetworks,400,Bad Request,[PA-57] Payout Networks 10-1,text,true,,548,1068,1,1,54,0,0
+12/10/2017 12:14,858,PA-57-4 /sendCountries/BE/receiveCountries/PH/payoutMethods/BNK/payoutnetworks,200,OK,[PA-57] Payout Networks 10-1,text,true,,1293,1067,1,1,858,0,0
+12/10/2017 12:14,878,PA-57-5 /sendCountries/BE/receiveCountries/PH/payoutMethods/BNK/payoutnetworks,200,OK,[PA-57] Payout Networks 10-1,text,true,,1293,1067,1,1,878,0,0
+12/10/2017 12:14,110,PA-57-6 /sendCountries/BE/receiveCountries/PH/payoutMethods/ATP/payoutnetworks,400,Bad Request,[PA-57] Payout Networks 10-1,text,true,,510,1067,1,1,110,0,69
+12/10/2017 12:14,606,PA-57-7 /sendCountries/BE/receiveCountries/PH/payoutMethods/BNK/payoutnetworks,200,OK,[PA-57] Payout Networks 10-1,text,true,,1293,1067,1,1,605,0,0
+12/10/2017 12:14,632,PA-57-8 /sendCountries/BE/receiveCountries/PH/payoutMethods/BNK/payoutnetworks,200,OK,[PA-57] Payout Networks 10-1,text,true,,1293,1067,1,1,632,0,0
+12/10/2017 12:14,463,PA-57-9 /sendCountries/BE/receiveCountries/US/payoutMethods/BNK/payoutnetworks,200,OK,[PA-57] Payout Networks 10-1,text,true,,549,1067,1,1,463,0,0
+12/10/2017 12:14,830,PA-57-10 /sendCountries/BE/receiveCountries/GB/payoutMethods/BNK/payoutnetworks,200,OK,[PA-57] Payout Networks 10-1,text,true,,560,1067,1,1,830,0,0
+12/10/2017 12:14,708,PA-57-11 /sendCountries/BE/receiveCountries/PH/payoutMethods/BNK/payoutnetworks,200,OK,[PA-57] Payout Networks 10-1,text,true,,1293,1067,1,1,707,0,206
+12/10/2017 12:14,577,PA-57-12 /sendCountries/BE/receiveCountries/PH/payoutMethods/BNK/payoutnetworks,200,OK,[PA-57] Payout Networks 10-1,text,true,,1293,1067,1,1,577,0,0
+12/10/2017 12:14,40,PA-57-13 /sendCountries/BE/receiveCountries/PH/payoutMethods/ATP/payoutnetworks,400,Bad Request,[PA-57] Payout Networks 10-1,text,true,,510,1067,1,1,40,0,0
+12/10/2017 12:14,42,PA-57-14 /sendCountries/BE/receiveCountries/PH/payoutMethods/ATP/payoutnetworks,400,Bad Request,[PA-57] Payout Networks 10-1,text,true,,510,1067,1,1,42,0,0
+12/10/2017 12:14,505,PA-57-15 /sendCountries/BE/receiveCountries/PH/payoutMethods/CSH/payoutnetworks,200,OK,[PA-57] Payout Networks 10-1,text,true,,1172,1067,1,1,505,0,0
+12/10/2017 12:14,606,PA-57-16 /sendCountries/BE/receiveCountries/PH/payoutMethods/CSH/payoutnetworks,200,OK,[PA-57] Payout Networks 10-1,text,true,,1172,1067,1,1,606,0,0
+12/10/2017 12:14,702,PA-57-17 /sendCountries/BE/receiveCountries/PH/payoutMethods/CSH/payoutnetworks,200,OK,[PA-57] Payout Networks 10-1,text,true,,1172,1067,1,1,702,0,212
+12/10/2017 12:14,42,PA-57-18 /sendCountries/BE/receiveCountries/BE/payoutMethods/BNK/payoutnetworks,400,Bad Request,[PA-57] Payout Networks 10-1,text,true,,561,1067,1,1,42,0,0
+12/10/2017 12:14,40,PA-57-19 /sendCountries/BE/receiveCountries/PH/payoutMethods//payoutnetworks,404,Not Found,[PA-57] Payout Networks 10-1,text,true,,421,1064,1,1,40,0,0
+12/10/2017 12:14,43,PA-57-20 /sendCountries/BE/receiveCountries//payoutMethods/BNK/payoutnetworks,404,Not Found,[PA-57] Payout Networks 10-1,text,true,,421,1065,1,1,43,0,0
+12/10/2017 12:14,43,PA-57-21 /sendCountries//receiveCountries/PH/payoutMethods/BNK/payoutnetworks,404,Not Found,[PA-57] Payout Networks 10-1,text,true,,421,1065,1,1,42,0,0
+12/10/2017 12:14,647,PA-57-22 /sendCountries/BE/receiveCountries/PH/payoutMethods/MOB/payoutnetworks,200,OK,[PA-57] Payout Networks 10-1,text,true,,710,1067,1,1,647,0,0
+12/10/2017 12:14,478,PA-57-23 /sendCountries/BE/receiveCountries/PH/payoutMethods/MOB/payoutnetworks,200,OK,[PA-57] Payout Networks 10-1,text,true,,710,1067,1,1,478,0,0
+12/10/2017 12:14,698,PA-57-24 /sendCountries/BE/receiveCountries/PH/payoutMethods/MOB/payoutnetworks,200,OK,[PA-57] Payout Networks 10-1,text,true,,710,1067,1,1,698,0,0
+12/10/2017 12:14,239,PA-57-25 /sendCountries/BE/receiveCountries/PH/payoutMethods/BN/payoutnetworks,400,Bad Request,[PA-57] Payout Networks 10-1,text,true,,509,1066,1,1,239,0,197
+12/10/2017 12:14,45,PA-57-26 /sendCountries/BE/receiveCountries/PHP/payoutMethods/BNK/payoutnetworks,400,Bad Request,[PA-57] Payout Networks 10-1,text,true,,548,1068,1,1,45,0,0
+12/10/2017 12:14,53,PA-57-27 /sendCountries/BEE/receiveCountries/PH/payoutMethods/BNK/payoutnetworks,400,Bad Request,[PA-57] Payout Networks 10-1,text,true,,545,1068,1,1,53,0,0
+12/10/2017 12:14,1388,PA-71-1 Validate the response message (valid request),200,OK,[PA-71] Get recipient 11-1,text,true,,1341,967,1,1,1388,0,204
+12/10/2017 12:14,1280,PA-71-2 Validate the response body (valid request),200,OK,[PA-71] Get recipient 11-1,text,true,,1072,1032,1,1,1280,0,0
+12/10/2017 12:14,250,PA-71-3 Validate response message (invalid SenderId and invalidRecipientId),400,Bad Request,[PA-71] Get recipient 11-1,text,true,,490,967,1,1,250,0,204
+12/10/2017 12:14,0,PA-71-4 Validate the response message (invalid senderID and ValidRecipientId),Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in path at index 85: https://partnerapi01-wa.endava.staging.worldremit.com/v1/senders/9507777/recipients/${ValidRecipientId},[PA-71] Get recipient 11-1,text,true,Test failed: code expected to match /400/,1112,0,1,1,0,0,0
+12/10/2017 12:14,567,PA-71-5 Validate the response message (Valid senderID and InvalidRecipientId),404,Not Found,[PA-71] Get recipient 11-1,text,true,,509,969,1,1,567,0,0
+12/10/2017 12:14,38,PA-71-6 Validate the response message (invalid request without RecipientId),404,Not Found,[PA-71] Get recipient 11-1,text,true,,652,949,1,1,38,0,0
+12/10/2017 12:14,41,PA-71-7 Validate the response message (invalid request without SenderID),404,Not Found,[PA-71] Get recipient 11-1,text,true,,668,951,1,1,41,0,0
+12/10/2017 12:14,60,PA-71-8 Validate the response message (invalid request without version),404,Not Found,[PA-71] Get recipient 11-1,text,true,,421,964,1,1,60,0,0
+12/10/2017 12:14,52,"PA-71-9 Validate response message (invalid request, use letters in the ID)",400,Bad Request,[PA-71] Get recipient 11-1,text,true,,557,975,1,1,52,0,0
+12/10/2017 12:14,275,PA-119-1 Validate rensponse message - invalid URL,404,Not Found,[PA-119] Get Transaction 12-1,text,true,,671,1008,1,1,275,0,203
+12/10/2017 12:14,44,PA-119-2 Validate response message (invalid request),404,Not Found,[PA-119] Get Transaction 12-1,text,true,,3080,1016,1,1,44,0,0
+12/10/2017 12:14,42,PA-119-3 Validate response message (Security),404,Not Found,[PA-119] Get Transaction 12-1,text,true,,3079,1012,1,1,42,0,0
+12/10/2017 12:14,926,PA-119-4 Validate response message (valid request),200,OK,[PA-119] Get Transaction 12-1,text,true,,638,1009,1,1,926,0,0
+12/10/2017 12:14,307,PA-119-5 Validate response message (invalid request wrong id),400,Bad Request,[PA-119] Get Transaction 12-1,text,true,,494,1018,1,1,307,0,0
+12/10/2017 12:14,200,"PA-119-6 Validate response message (invalid request, use letters in the ID)",400,Bad Request,[PA-119] Get Transaction 12-1,text,true,,494,1014,1,1,200,0,0
+12/10/2017 12:14,1071,PA-119-7 Validate the response body (valid request),200,OK,[PA-119] Get Transaction 12-1,text,true,,638,954,1,1,1071,0,0
+12/10/2017 12:14,268,PA-245-1 T147645 GET /v1/senders/{senderId}/recipients/{recipientId} [Invalid Auhorization],401,Unauthorized,[PA-245] User management 13-1,,true,,421,1011,1,1,268,0,226
+12/10/2017 12:14,607,PA-245-2 T147646 GET /v1/senders/{senderId}/recipients/{recipientId} [Valid Auhorization],200,OK,[PA-245] User management 13-1,text,true,,1263,999,1,1,607,0,0
+12/10/2017 12:14,38,PA-245-3 T147655 GET /v1/senders/{senderId}/recipients/{recipientId} [Expired token],401,Unauthorized,[PA-245] User management 13-1,,true,,421,1011,1,1,38,0,0
+12/10/2017 12:14,37,PA-245-4 T147660 GET /v1/senders/{senderId}/recipients/{recipientId} [No Auhorization],401,Unauthorized,[PA-245] User management 13-1,,true,,421,237,1,1,37,0,0
+12/10/2017 12:14,39,PA-245-5 T147647 POST /v1/senders/{senderId}/recipients/{recipientId} [Invalid Auhorization],401,Unauthorized,[PA-245] User management 13-1,,true,,421,1711,1,1,39,0,0
+12/10/2017 12:14,1677,PA-245-6 T147648 POST /v1/senders/{senderId}/recipients/{recipientId} [Valid Auhorization],201,Created,[PA-245] User management 13-1,,true,,490,1852,1,1,1677,0,0
+12/10/2017 12:14,249,PA-245-7 T147656 POST /v1/senders/{senderId}/recipients/{recipientId} [Expired token],401,Unauthorized,[PA-245] User management 13-1,,true,,421,1711,1,1,249,0,207
+12/10/2017 12:14,37,PA-245-8 T147661 POST /v1/senders/{senderId}/recipients/{recipientId} [No Auhorization],401,Unauthorized,[PA-245] User management 13-1,,true,,421,937,1,1,37,0,0
+12/10/2017 12:14,47,PA-245-9 T147649 GET /v1/transactions/{reference} [Invalid Auhorization],401,Unauthorized,[PA-245] User management 13-1,,true,,421,998,1,1,47,0,0
+12/10/2017 12:14,1388,PA-245-10 T147650 GET /v1/transactions/{reference} [Valid Auhorization],200,OK,[PA-245] User management 13-1,text,true,,634,1005,1,1,1388,0,0
+12/10/2017 12:14,40,PA-245-11 T147657 GET /v1/transactions/{reference} [Expired token],401,Unauthorized,[PA-245] User management 13-1,,true,,421,998,1,1,40,0,0
+12/10/2017 12:14,37,PA-245-12 T147662 GET /v1/transactions/{reference} [No Authorization],401,Unauthorized,[PA-245] User management 13-1,,true,,421,224,1,1,37,0,0
+12/10/2017 12:14,44,PA-245-13 T147651 GET /v1/transactions/{reference}/status [Invalid Authorization],401,Unauthorized,[PA-245] User management 13-1,,true,,421,1005,1,1,44,0,0
+12/10/2017 12:14,353,PA-245-14 T147652 GET /v1/transactions/{reference}/status [Valid Authorization],200,OK,[PA-245] User management 13-1,text,true,,438,1012,1,1,353,0,0
+12/10/2017 12:14,253,PA-245-15 T147658 GET /v1/transactions/{reference}/status [Expired token] ,401,Unauthorized,[PA-245] User management 13-1,,true,,421,1005,1,1,253,0,208
+12/10/2017 12:14,46,PA-245-16 T147663 GET /v1/transactions/{reference}/status [No Authorization],401,Unauthorized,[PA-245] User management 13-1,,true,,421,231,1,1,46,0,0
+12/10/2017 12:14,679,PA-315-1 [Recipient Requirements] Validate the First Name field is mapped ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1091,1212,1,1,679,0,204
+12/10/2017 12:14,495,PA-315-2 [Recipient Requirements] Validate the Last Name field is mapped ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1091,1212,1,1,495,0,193
+12/10/2017 12:14,481,PA-315-3 [Recipient Requirements] Validate the Email field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1091,1212,1,1,481,0,204
+12/10/2017 12:14,482,PA-315-4 [Recipient Requirements] Validate the Mobile field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1091,1212,1,1,482,0,191
+12/10/2017 12:14,515,PA-315-5 [Recipient Requirements] Validate the Address Line 1 field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1091,1212,1,1,515,0,200
+12/10/2017 12:14,543,PA-315-6 [Recipient Requirements] Validate the Address Line 2 field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1091,1212,1,1,543,0,212
+12/10/2017 12:14,510,PA-315-7 [Recipient Requirements] Validate the Address Line 3 field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1142,1212,1,1,510,0,220
+12/10/2017 12:14,485,PA-315-8 [Recipient Requirements] Validate the Phone number field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1142,1212,1,1,485,0,184
+12/10/2017 12:14,498,PA-315-9 [Recipient Requirements] Validate the Postal Code field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1091,1212,1,1,498,0,196
+12/10/2017 12:14,475,PA-315-10 [Recipient Requirements] Validate the City field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1091,1212,1,1,475,0,196
+12/10/2017 12:14,478,PA-315-11 [Recipient Requirements] Validate the Bank name field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1091,1212,1,1,478,0,206
+12/10/2017 12:14,3512,PA-315-12 [Recipient Requirements] Validate the Bank code field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1091,1212,1,1,3511,0,3177
+12/10/2017 12:14,543,PA-315-13 [Recipient Requirements] Validate the Branch name field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1091,1212,1,1,543,0,203
+12/10/2017 12:14,721,PA-315-14 [Recipient Requirements] Validate the Branch code field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1091,1212,1,1,721,0,191
+12/10/2017 12:14,982,PA-315-15 [Recipient Requirements] Validate the Account number field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1091,1212,1,1,981,0,519
+12/10/2017 12:14,850,PA-315-16 [Recipient Requirements] Validate the Sending Reason field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1091,1212,1,1,850,0,190
+12/10/2017 12:14,515,PA-315-17 [Recipient Requirements] Validate the Mobile Account number field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1009,1212,1,1,514,0,170
+12/10/2017 12:14,518,PA-315-18 [Recipient Requirements] Validate the Mobile Account number field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1009,1212,1,1,517,0,83
+12/10/2017 12:15,707,PA-315-19 [Recipient Requirements] Validate the State/Region field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1191,1212,1,1,707,0,201
+12/10/2017 12:15,473,PA-315-20 [Recipient Requirements] Validate the Payment Reference field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1191,1212,1,1,473,0,181
+12/10/2017 12:15,512,PA-315-21 [Recipient Requirements] Validate the National Identifier field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1489,1212,1,1,511,0,194
+12/10/2017 12:15,482,PA-315-23 [Recipient Requirements] Validate the IBAN field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1046,1212,1,1,482,0,206
+12/10/2017 12:15,497,PA-315-24 [Recipient Requirements] Validate the SWIFT field is mapped  ,200,OK,[PA-315] Map Recipient requirements fields 14-1,text,true,,1046,1212,1,1,497,0,198
+12/10/2017 12:15,1547,PA-315-25 [Create Recipient] Validate that recipient is created using new fields mapping (PH-BNK)  ,201,Created,[PA-315] Map Recipient requirements fields 14-1,,true,,490,1912,1,1,1547,0,194
+12/10/2017 12:15,1527,PA-315-26 [Create Recipient] Validate that recipient is created using new fields mapping (PH-MOB)  ,201,Created,[PA-315] Map Recipient requirements fields 14-1,,true,,490,1618,1,1,1527,0,202
+12/10/2017 12:15,1478,PA-315-27 [Create Recipient] Validate that recipient is created using new fields mapping (US-BNK) ,201,Created,[PA-315] Map Recipient requirements fields 14-1,,true,,490,1982,1,1,1478,0,189
+12/10/2017 12:15,1375,PA-315-28 [Create Recipient] Validate that recipient is created using new fields mapping (ZA-BNK)  ,201,Created,[PA-315] Map Recipient requirements fields 14-1,,true,,490,1887,1,1,1375,0,198
+12/10/2017 12:15,1521,PA-315-29 [Create Recipient] Validate that recipient is created using new fields mapping (BR-BNK)  ,201,Created,[PA-315] Map Recipient requirements fields 14-1,,true,,490,2014,1,1,1521,0,181
+12/10/2017 12:15,1894,PA-315-30 [Create Recipient] Validate that recipient is created using new fields mapping (CO-BNK)  ,201,Created,[PA-315] Map Recipient requirements fields 14-1,,true,,490,1857,1,1,1894,0,264
+12/10/2017 12:15,1498,PA-315-31 [Create Recipient] Validate that recipient is created using new fields mapping (BE-BNK)  ,201,Created,[PA-315] Map Recipient requirements fields 14-1,,true,,490,1766,1,1,1498,0,197
+12/10/2017 12:15,975,PA-315-32 [Create Recipient] Validate that old fields result in error (PH-BNK)  ,400,Bad Request,[PA-315] Map Recipient requirements fields 14-1,text,true,,2794,1880,1,1,975,0,195
+12/10/2017 12:15,1032,PA-315-33 [Create Recipient] Validate that old fields result in error (US-BNK)  ,400,Bad Request,[PA-315] Map Recipient requirements fields 14-1,text,true,,2870,1933,1,1,1031,0,201
+12/10/2017 12:15,1019,PA-315-34 [Create Recipient] Validate that old fields result in error (PH-MOB)  ,400,Bad Request,[PA-315] Map Recipient requirements fields 14-1,text,true,,1755,1606,1,1,1019,0,197
+12/10/2017 12:15,986,PA-315-35 [Create Recipient] Validate that old fields result in error (US-BNK)  ,400,Bad Request,[PA-315] Map Recipient requirements fields 14-1,text,true,,2870,1932,1,1,985,0,203
+12/10/2017 12:15,1151,PA-315-36 [Create Recipient] Validate that old fields result in error (ZA-BNK)  ,400,Bad Request,[PA-315] Map Recipient requirements fields 14-1,text,true,,3015,1872,1,1,1151,0,200
+12/10/2017 12:15,947,PA-315-37 [Create Recipient] Validate that old fields result in error (BR-BNK)  ,400,Bad Request,[PA-315] Map Recipient requirements fields 14-1,text,true,,3075,1969,1,1,947,0,201
+12/10/2017 12:15,1312,PA-315-38 [Create Recipient] Validate that old fields result in error (CO-BNK)  ,400,Bad Request,[PA-315] Map Recipient requirements fields 14-1,text,true,,2602,1830,1,1,1312,0,190
+12/10/2017 12:15,1125,PA-315-39 [Create Recipient] Validate that old fields result in error (BE-BNK)  ,400,Bad Request,[PA-315] Map Recipient requirements fields 14-1,text,true,,2190,1753,1,1,1125,0,188
