@@ -3,9 +3,9 @@
 	<xsl:output method="xml" indent="yes" encoding="UTF-8"/>
 	<xsl:template match="/testResults">
 		<testsuites>
-			<xsl:attribute name="name">HTTP Randa_edition_player_</xsl:attribute>
+			<xsl:attribute name="name">HTTPRanda_edition_player_</xsl:attribute>
 			<testsuite>
-				<xsl:attribute name="name">HTTP Randa_edition_player_</xsl:attribute>
+				<xsl:attribute name="name">HTTPRanda_edition_player_</xsl:attribute>
 				<xsl:for-each select="*">
 					<testcase>
 						<xsl:attribute name="classname"><xsl:value-of select="@tn"/></xsl:attribute>
